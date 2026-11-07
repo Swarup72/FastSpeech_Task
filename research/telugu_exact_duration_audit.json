@@ -1,0 +1,62 @@
+{
+  "total_utterances": 8576,
+  "total_duration_hours": 36.712271359953824,
+  "total_duration_seconds": 132164.17689583378,
+  "speakers": {
+    "female": {
+      "utterances": 4043,
+      "duration_seconds": 86115.47400000018,
+      "duration_hours": 23.92096500000005,
+      "mean_duration_seconds": 21.299894632698535,
+      "sample_rate": 16000
+    },
+    "male": {
+      "utterances": 4533,
+      "duration_seconds": 46048.702895833296,
+      "duration_hours": 12.791306359953694,
+      "mean_duration_seconds": 10.158549061511868,
+      "sample_rate": 48000
+    }
+  },
+  "splits": {
+    "train": {
+      "utterances": 2330,
+      "female_utterances": 972,
+      "male_utterances": 1358,
+      "actual_duration_seconds": 19640.68141666666,
+      "actual_duration_hours": 5.4557448379629605,
+      "female_duration_hours": 2.4547700520833318,
+      "male_duration_hours": 3.0009747858796247,
+      "estimated_duration_hours": 4.99971197222222
+    },
+    "val": {
+      "utterances": 457,
+      "female_utterances": 192,
+      "male_utterances": 265,
+      "actual_duration_seconds": 3954.1904791666675,
+      "actual_duration_hours": 1.0983862442129633,
+      "female_duration_hours": 0.5012533159722219,
+      "male_duration_hours": 0.5971329282407408,
+      "estimated_duration_hours": 0.999932
+    },
+    "test": {
+      "utterances": 2366,
+      "female_utterances": 176,
+      "male_utterances": 2190,
+      "actual_duration_seconds": 19248.546625000028,
+      "actual_duration_hours": 5.3468185069444525,
+      "female_duration_hours": 0.44539156250000006,
+      "male_duration_hours": 4.901426944444454,
+      "estimated_duration_hours": 4.5484529444444375
+    },
+    "excluded": {
+      "utterances": 3423,
+      "female_utterances": 2703,
+      "male_utterances": 720,
+      "actual_duration_seconds": 89320.75837500003,
+      "actual_duration_hours": 24.81132177083334,
+      "female_duration_hours": 20.51955006944443,
+      "male_duration_hours": 4.291771701388886
+    }
+  }
+}

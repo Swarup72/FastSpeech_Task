@@ -1,0 +1,78 @@
+# ==============================================================================
+# FastSpeech 2 Project — Git Ignore Rules
+# Protects against committing multi-gigabyte feature caches, checkpoints & raw data
+# ==============================================================================
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+*.venv/
+
+# Python Bytecode and Caching
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Operating System Metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Sensitive Credentials & Local Overrides
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+token.json
+
+# Checkpoints and Large Model Weights (Exclude from Git; host via Git LFS or external cloud links)
+checkpoints/
+output/ckpt/
+*.pth
+*.pth.tar
+*.pt
+*.ckpt
+
+# Raw Datasets and Multi-Gigabyte Extracted Audio/Text
+# Note: Only the tiny inference-required normalization & speaker metadata JSONs
+# (< 3 KB total) are un-ignored below; all .npy feature arrays and manifests remain excluded.
+data/
+original_fastspeech2/preprocessed_data/
+preprocessed_data/*
+!preprocessed_data/Svarah/
+preprocessed_data/Svarah/*
+!preprocessed_data/Svarah/stats.json
+!preprocessed_data/Svarah/speakers.json
+!preprocessed_data/IndicTTS/
+preprocessed_data/IndicTTS/*
+!preprocessed_data/IndicTTS/stats.json
+!preprocessed_data/IndicTTS/speakers.json
+*.npy
+*.npz
+/Report/
+
+# Large Archives and Bundles
+*.zip
+*.tar.gz
+*.tar
+*.bak
+*.mock_bak
+*.log
+
+# Scratch Scripts & Staging Artifacts
+scratch/
+build/
+dist/
+*.egg-info/
+--output_path/

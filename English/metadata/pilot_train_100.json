@@ -1,0 +1,3002 @@
+[
+  {
+    "utterance_id": "281474976883831_f1642_chunk_0",
+    "audio_path": "281474976883831_f1642_chunk_0.wav",
+    "raw_text": "What's my Fin care is Small Finance Bank account balance?",
+    "normalized_text": "What's my Fin care is Small Finance Bank account balance?",
+    "duration": 3.2433,
+    "sample_rate": 16000,
+    "speaker_profile_id": 102,
+    "demo_key": "Male|45-60|Nepali|Meghalaya|Ri Bhoi|Post Graduate|Full Time|Education and Research",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "45-60",
+      "primary_language": "Nepali",
+      "native_place_state": "Meghalaya",
+      "native_place_district": "Ri Bhoi",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 91
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Nepali",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976883931_f769_chunk_0",
+    "audio_path": "281474976883931_f769_chunk_0.wav",
+    "raw_text": "Can you check if the Banaras Hindu University is an AICTE approved institute?",
+    "normalized_text": "Can you check if the Banaras Hindu University is an AICTE approved institute?",
+    "duration": 5.8477,
+    "sample_rate": 16000,
+    "speaker_profile_id": 13,
+    "demo_key": "Female|18-30|Malayalam|Kerala|Pathanamthitta|Post Graduate|Full Time|Technology and Services",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "18-30",
+      "primary_language": "Malayalam",
+      "native_place_state": "Kerala",
+      "native_place_district": "Pathanamthitta",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Technology and Services"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 202
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Malayalam",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976883943_f2231_chunk_15",
+    "audio_path": "281474976883943_f2231_chunk_15.wav",
+    "raw_text": "Determine the actions that will have the greatest impact then we",
+    "normalized_text": "Determine the actions that will have the greatest impact then we",
+    "duration": 4.685,
+    "sample_rate": 16000,
+    "speaker_profile_id": 13,
+    "demo_key": "Female|18-30|Malayalam|Kerala|Pathanamthitta|Post Graduate|Full Time|Technology and Services",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "18-30",
+      "primary_language": "Malayalam",
+      "native_place_state": "Kerala",
+      "native_place_district": "Pathanamthitta",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Technology and Services"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 297
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Malayalam",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976883948_f1921_chunk_6",
+    "audio_path": "281474976883948_f1921_chunk_6.wav",
+    "raw_text": "The main food of",
+    "normalized_text": "The main food of",
+    "duration": 1.5472,
+    "sample_rate": 16000,
+    "speaker_profile_id": 13,
+    "demo_key": "Female|18-30|Malayalam|Kerala|Pathanamthitta|Post Graduate|Full Time|Technology and Services",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "18-30",
+      "primary_language": "Malayalam",
+      "native_place_state": "Kerala",
+      "native_place_district": "Pathanamthitta",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Technology and Services"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 35
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Malayalam",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976883951_f2089_chunk_1",
+    "audio_path": "281474976883951_f2089_chunk_1.wav",
+    "raw_text": "Later, if we compare the English language to other languages such as Malayalam, Hindi, Tamil, etc",
+    "normalized_text": "Later, if we compare the English language to other languages such as Malayalam, Hindi, Tamil, etc",
+    "duration": 10.8982,
+    "sample_rate": 16000,
+    "speaker_profile_id": 13,
+    "demo_key": "Female|18-30|Malayalam|Kerala|Pathanamthitta|Post Graduate|Full Time|Technology and Services",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "18-30",
+      "primary_language": "Malayalam",
+      "native_place_state": "Kerala",
+      "native_place_district": "Pathanamthitta",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Technology and Services"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 226
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Malayalam",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976883956_f1029_chunk_0",
+    "audio_path": "281474976883956_f1029_chunk_0.wav",
+    "raw_text": "A few tributaries form marshy land in early dry season due to natural seepage",
+    "normalized_text": "A few tributaries form marshy land in early dry season due to natural seepage",
+    "duration": 5.5071,
+    "sample_rate": 16000,
+    "speaker_profile_id": 67,
+    "demo_key": "Male|18-30|Gujarati|Gujarat|Sabarkantha|Post Graduate|Full Time|Information and Media",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "18-30",
+      "primary_language": "Gujarati",
+      "native_place_state": "Gujarat",
+      "native_place_district": "Sabarkantha",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Information and Media"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 260
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Gujarati",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976883998_f2011_chunk_4",
+    "audio_path": "281474976883998_f2011_chunk_4.wav",
+    "raw_text": "And not much is left at the behest of the writer or author and grammar punctuation is very well structured and written and documented as well",
+    "normalized_text": "And not much is left at the behest of the writer or author and grammar punctuation is very well structured and written and documented as well",
+    "duration": 12.4731,
+    "sample_rate": 16000,
+    "speaker_profile_id": 67,
+    "demo_key": "Male|18-30|Gujarati|Gujarat|Sabarkantha|Post Graduate|Full Time|Information and Media",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "18-30",
+      "primary_language": "Gujarati",
+      "native_place_state": "Gujarat",
+      "native_place_district": "Sabarkantha",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Information and Media"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 51
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Gujarati",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976884079_f2150_chunk_4",
+    "audio_path": "281474976884079_f2150_chunk_4.wav",
+    "raw_text": "if your future",
+    "normalized_text": "if your future",
+    "duration": 1.3783,
+    "sample_rate": 16000,
+    "speaker_profile_id": 27,
+    "demo_key": "Female|30-45|Hindi|Goa|South Goa|Post Graduate|Full Time|Technology and Services",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "30-45",
+      "primary_language": "Hindi",
+      "native_place_state": "Goa",
+      "native_place_district": "South Goa",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Technology and Services"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 327
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Hindi",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976884089_f3114_chunk_5",
+    "audio_path": "281474976884089_f3114_chunk_5.wav",
+    "raw_text": "Although, I think recently a lot of media houses are coming up with a lot of regional languages as well",
+    "normalized_text": "Although, I think recently a lot of media houses are coming up with a lot of regional languages as well",
+    "duration": 11.0,
+    "sample_rate": 16000,
+    "speaker_profile_id": 27,
+    "demo_key": "Female|30-45|Hindi|Goa|South Goa|Post Graduate|Full Time|Technology and Services",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "30-45",
+      "primary_language": "Hindi",
+      "native_place_state": "Goa",
+      "native_place_district": "South Goa",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Technology and Services"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 369
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Hindi",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976884114_f2737_chunk_0",
+    "audio_path": "281474976884114_f2737_chunk_0.wav",
+    "raw_text": "Which are all the colleges offering UG level courses in academic year 2019 - 2020 and are approved by AICTE?",
+    "normalized_text": "Which are all the colleges offering UG level courses in academic year twenty nineteen to twenty twenty and are approved by AICTE?",
+    "duration": 8.971,
+    "sample_rate": 16000,
+    "speaker_profile_id": 14,
+    "demo_key": "Female|18-30|Marathi|Maharashtra|Ratnagiri|Graduate|Part Time|Social service",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "18-30",
+      "primary_language": "Marathi",
+      "native_place_state": "Maharashtra",
+      "native_place_district": "Ratnagiri",
+      "highest_qualification": "Graduate",
+      "job_category": "Part Time",
+      "occupation_domain": "Social service"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 380
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Marathi",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976884129_f3284_chunk_0",
+    "audio_path": "281474976884129_f3284_chunk_0.wav",
+    "raw_text": "One such lesser known offbeat and part destinations I would suggest is",
+    "normalized_text": "One such lesser known offbeat and part destinations I would suggest is",
+    "duration": 4.56,
+    "sample_rate": 16000,
+    "speaker_profile_id": 14,
+    "demo_key": "Female|18-30|Marathi|Maharashtra|Ratnagiri|Graduate|Part Time|Social service",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "18-30",
+      "primary_language": "Marathi",
+      "native_place_state": "Maharashtra",
+      "native_place_district": "Ratnagiri",
+      "highest_qualification": "Graduate",
+      "job_category": "Part Time",
+      "occupation_domain": "Social service"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 316
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Marathi",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976884131_f3182_chunk_7",
+    "audio_path": "281474976884131_f3182_chunk_7.wav",
+    "raw_text": "normal competitions what we have.",
+    "normalized_text": "normal competitions what we have.",
+    "duration": 2.5346,
+    "sample_rate": 16000,
+    "speaker_profile_id": 14,
+    "demo_key": "Female|18-30|Marathi|Maharashtra|Ratnagiri|Graduate|Part Time|Social service",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "18-30",
+      "primary_language": "Marathi",
+      "native_place_state": "Maharashtra",
+      "native_place_district": "Ratnagiri",
+      "highest_qualification": "Graduate",
+      "job_category": "Part Time",
+      "occupation_domain": "Social service"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 12
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Marathi",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976884134_f3181_chunk_8",
+    "audio_path": "281474976884134_f3181_chunk_8.wav",
+    "raw_text": "The rainfall we receive is moderate.",
+    "normalized_text": "The rainfall we receive is moderate.",
+    "duration": 4.04,
+    "sample_rate": 16000,
+    "speaker_profile_id": 14,
+    "demo_key": "Female|18-30|Marathi|Maharashtra|Ratnagiri|Graduate|Part Time|Social service",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "18-30",
+      "primary_language": "Marathi",
+      "native_place_state": "Maharashtra",
+      "native_place_district": "Ratnagiri",
+      "highest_qualification": "Graduate",
+      "job_category": "Part Time",
+      "occupation_domain": "Social service"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 231
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Marathi",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976884135_f3212_chunk_6",
+    "audio_path": "281474976884135_f3212_chunk_6.wav",
+    "raw_text": "to everybody.",
+    "normalized_text": "to everybody.",
+    "duration": 1.24,
+    "sample_rate": 16000,
+    "speaker_profile_id": 14,
+    "demo_key": "Female|18-30|Marathi|Maharashtra|Ratnagiri|Graduate|Part Time|Social service",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "18-30",
+      "primary_language": "Marathi",
+      "native_place_state": "Maharashtra",
+      "native_place_district": "Ratnagiri",
+      "highest_qualification": "Graduate",
+      "job_category": "Part Time",
+      "occupation_domain": "Social service"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 52
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Marathi",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976884190_f689_chunk_0",
+    "audio_path": "281474976884190_f689_chunk_0.wav",
+    "raw_text": "what is the weather like",
+    "normalized_text": "what is the weather like",
+    "duration": 1.2202,
+    "sample_rate": 16000,
+    "speaker_profile_id": 75,
+    "demo_key": "Male|18-30|Telugu|Andhra Pradesh|Prakasam|Under Graduate Student|Full Time|Technology and Services",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "18-30",
+      "primary_language": "Telugu",
+      "native_place_state": "Andhra Pradesh",
+      "native_place_district": "Prakasam",
+      "highest_qualification": "Under Graduate Student",
+      "job_category": "Full Time",
+      "occupation_domain": "Technology and Services"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 113
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Telugu",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976884267_f1694_chunk_0",
+    "audio_path": "281474976884267_f1694_chunk_0.wav",
+    "raw_text": "We differ from other countries in terms of food, in terms of dress",
+    "normalized_text": "We differ from other countries in terms of food, in terms of dress",
+    "duration": 4.7784,
+    "sample_rate": 16000,
+    "speaker_profile_id": 104,
+    "demo_key": "Male|45-60|Tamil|Tamil Nadu|Karur|Post Graduate|Full Time|Information and Media",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "45-60",
+      "primary_language": "Tamil",
+      "native_place_state": "Tamil Nadu",
+      "native_place_district": "Karur",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Information and Media"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 94
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Tamil",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976884273_f1982_chunk_0",
+    "audio_path": "281474976884273_f1982_chunk_0.wav",
+    "raw_text": "By the way",
+    "normalized_text": "By the way",
+    "duration": 1.2003,
+    "sample_rate": 16000,
+    "speaker_profile_id": 104,
+    "demo_key": "Male|45-60|Tamil|Tamil Nadu|Karur|Post Graduate|Full Time|Information and Media",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "45-60",
+      "primary_language": "Tamil",
+      "native_place_state": "Tamil Nadu",
+      "native_place_district": "Karur",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Information and Media"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 192
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Tamil",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976884470_f3243_chunk_4",
+    "audio_path": "281474976884470_f3243_chunk_4.wav",
+    "raw_text": "it goes, and it goes into the practicality of feeling one with everything that's around",
+    "normalized_text": "it goes, and it goes into the practicality of feeling one with everything that's around",
+    "duration": 7.8,
+    "sample_rate": 16000,
+    "speaker_profile_id": 101,
+    "demo_key": "Male|45-60|Malayalam|Kerala|Pathanamthitta|Graduate|Full Time|Government",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "45-60",
+      "primary_language": "Malayalam",
+      "native_place_state": "Kerala",
+      "native_place_district": "Pathanamthitta",
+      "highest_qualification": "Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Government"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 272
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Malayalam",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976884631_f2005_chunk_2",
+    "audio_path": "281474976884631_f2005_chunk_2.wav",
+    "raw_text": "Multi-specialty hospitals are being built in all urban centers, and there are many private hospitals and hospital chains which have their branches in many parts of the state",
+    "normalized_text": "Multi-specialty hospitals are being built in all urban centers, and there are many private hospitals and hospital chains which have their branches in many parts of the state",
+    "duration": 12.0513,
+    "sample_rate": 16000,
+    "speaker_profile_id": 9,
+    "demo_key": "Female|18-30|Kannada|Karnataka|Hassan|Post Graduate|Full Time|Technology and Services",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "18-30",
+      "primary_language": "Kannada",
+      "native_place_state": "Karnataka",
+      "native_place_district": "Hassan",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Technology and Services"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 349
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Kannada",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976884634_f2217_chunk_3",
+    "audio_path": "281474976884634_f2217_chunk_3.wav",
+    "raw_text": "Veeragase, Kamsale",
+    "normalized_text": "Veeragase, Kamsale",
+    "duration": 1.9202,
+    "sample_rate": 16000,
+    "speaker_profile_id": 9,
+    "demo_key": "Female|18-30|Kannada|Karnataka|Hassan|Post Graduate|Full Time|Technology and Services",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "18-30",
+      "primary_language": "Kannada",
+      "native_place_state": "Karnataka",
+      "native_place_district": "Hassan",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Technology and Services"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 367
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Kannada",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976884635_f3269_chunk_0",
+    "audio_path": "281474976884635_f3269_chunk_0.wav",
+    "raw_text": "Our district Hasana was the land of the great Hoysala dynasty who ruled over this region from 11th to 14th century CE.",
+    "normalized_text": "Our district Hasana was the land of the great Hoysala dynasty who ruled over this region from eleventh to fourteenth century C E.",
+    "duration": 8.7595,
+    "sample_rate": 16000,
+    "speaker_profile_id": 9,
+    "demo_key": "Female|18-30|Kannada|Karnataka|Hassan|Post Graduate|Full Time|Technology and Services",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "18-30",
+      "primary_language": "Kannada",
+      "native_place_state": "Karnataka",
+      "native_place_district": "Hassan",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Technology and Services"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 0
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Kannada",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976885077_f1480_chunk_0",
+    "audio_path": "281474976885077_f1480_chunk_0.wav",
+    "raw_text": "Can I invest in mutual funds through my Yono SBI",
+    "normalized_text": "Can I invest in mutual funds through my Yono S B I",
+    "duration": 3.0579,
+    "sample_rate": 16000,
+    "speaker_profile_id": 62,
+    "demo_key": "Male|18-30|Assamese|Assam|Kamrup Metropolitan|Post Graduate|Full Time|Education and Research",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "18-30",
+      "primary_language": "Assamese",
+      "native_place_state": "Assam",
+      "native_place_district": "Kamrup Metropolitan",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 288
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Assamese",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976885080_f1479_chunk_0",
+    "audio_path": "281474976885080_f1479_chunk_0.wav",
+    "raw_text": "Stop processing the payment for Amazon",
+    "normalized_text": "Stop processing the payment for Amazon",
+    "duration": 1.8951,
+    "sample_rate": 16000,
+    "speaker_profile_id": 62,
+    "demo_key": "Male|18-30|Assamese|Assam|Kamrup Metropolitan|Post Graduate|Full Time|Education and Research",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "18-30",
+      "primary_language": "Assamese",
+      "native_place_state": "Assam",
+      "native_place_district": "Kamrup Metropolitan",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 185
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Assamese",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976887698_f2175_chunk_1",
+    "audio_path": "281474976887698_f2175_chunk_1.wav",
+    "raw_text": "There was a movie called What's your Raashee which was based on that book.",
+    "normalized_text": "There was a movie called What's your Raashee which was based on that book.",
+    "duration": 5.4047,
+    "sample_rate": 16000,
+    "speaker_profile_id": 81,
+    "demo_key": "Male|30-45|Gujarati|Gujarat|Sabarkantha|Post Graduate|Part Time|Education and Research",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "30-45",
+      "primary_language": "Gujarati",
+      "native_place_state": "Gujarat",
+      "native_place_district": "Sabarkantha",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Part Time",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 169
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Gujarati",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976887704_f3204_chunk_6",
+    "audio_path": "281474976887704_f3204_chunk_6.wav",
+    "raw_text": "And I think in all the major cities of Gujarat,",
+    "normalized_text": "And I think in all the major cities of Gujarat,",
+    "duration": 6.575,
+    "sample_rate": 16000,
+    "speaker_profile_id": 81,
+    "demo_key": "Male|30-45|Gujarati|Gujarat|Sabarkantha|Post Graduate|Part Time|Education and Research",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "30-45",
+      "primary_language": "Gujarati",
+      "native_place_state": "Gujarat",
+      "native_place_district": "Sabarkantha",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Part Time",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 110
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Gujarati",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976887780_f2878_chunk_0",
+    "audio_path": "281474976887780_f2878_chunk_0.wav",
+    "raw_text": "Goan food may be divided into Goan Catholic and Goan Hindu cuisine with each showing very distinct tastes, characteristics, and cooking styles.",
+    "normalized_text": "Goan food may be divided into Goan Catholic and Goan Hindu cuisine with each showing very distinct tastes, characteristics, and cooking styles.",
+    "duration": 10.4549,
+    "sample_rate": 16000,
+    "speaker_profile_id": 58,
+    "demo_key": "Female|45-60|Telugu|Telangana|Hyderabad|Post Graduate|Full Time|Education and Research",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "45-60",
+      "primary_language": "Telugu",
+      "native_place_state": "Telangana",
+      "native_place_district": "Hyderabad",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 145
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Telugu",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976888182_f901_chunk_0",
+    "audio_path": "281474976888182_f901_chunk_0.wav",
+    "raw_text": "Set a reminder for my pending payment to contact Mahnoor",
+    "normalized_text": "Set a reminder for my pending payment to contact Mahnoor",
+    "duration": 4.1766,
+    "sample_rate": 16000,
+    "speaker_profile_id": 17,
+    "demo_key": "Female|18-30|Punjabi|Punjab|Patiala|Post Graduate|Full Time|Education and Research",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "18-30",
+      "primary_language": "Punjabi",
+      "native_place_state": "Punjab",
+      "native_place_district": "Patiala",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 304
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Punjabi",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976888201_f1854_chunk_3",
+    "audio_path": "281474976888201_f1854_chunk_3.wav",
+    "raw_text": "end of the year which are a source of great joy and fun, especially for the kids.",
+    "normalized_text": "end of the year which are a source of great joy and fun, especially for the kids.",
+    "duration": 4.8235,
+    "sample_rate": 16000,
+    "speaker_profile_id": 17,
+    "demo_key": "Female|18-30|Punjabi|Punjab|Patiala|Post Graduate|Full Time|Education and Research",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "18-30",
+      "primary_language": "Punjabi",
+      "native_place_state": "Punjab",
+      "native_place_district": "Patiala",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 71
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Punjabi",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976888205_f1855_chunk_1",
+    "audio_path": "281474976888205_f1855_chunk_1.wav",
+    "raw_text": "Most people here are engaged in businesses of various sorts, which contribute greatly to the overall economy of the district",
+    "normalized_text": "Most people here are engaged in businesses of various sorts, which contribute greatly to the overall economy of the district",
+    "duration": 7.2046,
+    "sample_rate": 16000,
+    "speaker_profile_id": 17,
+    "demo_key": "Female|18-30|Punjabi|Punjab|Patiala|Post Graduate|Full Time|Education and Research",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "18-30",
+      "primary_language": "Punjabi",
+      "native_place_state": "Punjab",
+      "native_place_district": "Patiala",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 200
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Punjabi",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976888630_f3289_chunk_6",
+    "audio_path": "281474976888630_f3289_chunk_6.wav",
+    "raw_text": "Among the poets, I remember William Wordsworth, T.S.",
+    "normalized_text": "Among the poets, I remember William Wordsworth, T. S.",
+    "duration": 5.48,
+    "sample_rate": 16000,
+    "speaker_profile_id": 99,
+    "demo_key": "Male|45-60|Kannada|Karnataka|Shimoga|Post Graduate|Other|Manufacturing",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "45-60",
+      "primary_language": "Kannada",
+      "native_place_state": "Karnataka",
+      "native_place_district": "Shimoga",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Other",
+      "occupation_domain": "Manufacturing"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 10
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Kannada",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976888866_f2195_chunk_11",
+    "audio_path": "281474976888866_f2195_chunk_11.wav",
+    "raw_text": "buy some yarns and knit them mufflers and beanies and socks",
+    "normalized_text": "buy some yarns and knit them mufflers and beanies and socks",
+    "duration": 5.4001,
+    "sample_rate": 16000,
+    "speaker_profile_id": 15,
+    "demo_key": "Female|18-30|Nepali|West Bengal|Darjeeling|Post Graduate|Other|Entertainment",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "18-30",
+      "primary_language": "Nepali",
+      "native_place_state": "West Bengal",
+      "native_place_district": "Darjeeling",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Other",
+      "occupation_domain": "Entertainment"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 183
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Nepali",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976888873_f2272_chunk_2",
+    "audio_path": "281474976888873_f2272_chunk_2.wav",
+    "raw_text": "and after that we celebrate Chaitra Dasai and after that we celebrate Dasai",
+    "normalized_text": "and after that we celebrate Chaitra Dasai and after that we celebrate Dasai",
+    "duration": 8.4253,
+    "sample_rate": 16000,
+    "speaker_profile_id": 15,
+    "demo_key": "Female|18-30|Nepali|West Bengal|Darjeeling|Post Graduate|Other|Entertainment",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "18-30",
+      "primary_language": "Nepali",
+      "native_place_state": "West Bengal",
+      "native_place_district": "Darjeeling",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Other",
+      "occupation_domain": "Entertainment"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 64
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Nepali",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976888891_f3059_chunk_0",
+    "audio_path": "281474976888891_f3059_chunk_0.wav",
+    "raw_text": "Will I be able to pay using UPI apps on Hotstar website?",
+    "normalized_text": "Will I be able to pay using U P I apps on Hotstar website?",
+    "duration": 3.8423,
+    "sample_rate": 16000,
+    "speaker_profile_id": 73,
+    "demo_key": "Male|18-30|Nepali|West Bengal|Kalimpong|Post Graduate|Part Time|Social service",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "18-30",
+      "primary_language": "Nepali",
+      "native_place_state": "West Bengal",
+      "native_place_district": "Kalimpong",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Part Time",
+      "occupation_domain": "Social service"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 16
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Nepali",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976888909_f3258_chunk_4",
+    "audio_path": "281474976888909_f3258_chunk_4.wav",
+    "raw_text": "who is physically challenged or disordered in real life but with the guts and a great contribution in the literature",
+    "normalized_text": "who is physically challenged or disordered in real life but with the guts and a great contribution in the literature",
+    "duration": 10.1342,
+    "sample_rate": 16000,
+    "speaker_profile_id": 73,
+    "demo_key": "Male|18-30|Nepali|West Bengal|Kalimpong|Post Graduate|Part Time|Social service",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "18-30",
+      "primary_language": "Nepali",
+      "native_place_state": "West Bengal",
+      "native_place_district": "Kalimpong",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Part Time",
+      "occupation_domain": "Social service"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 36
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Nepali",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976888909_f3258_chunk_7",
+    "audio_path": "281474976888909_f3258_chunk_7.wav",
+    "raw_text": "of her life, how she became a writer from a poor dump.",
+    "normalized_text": "of her life, how she became a writer from a poor dump.",
+    "duration": 7.4143,
+    "sample_rate": 16000,
+    "speaker_profile_id": 73,
+    "demo_key": "Male|18-30|Nepali|West Bengal|Kalimpong|Post Graduate|Part Time|Social service",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "18-30",
+      "primary_language": "Nepali",
+      "native_place_state": "West Bengal",
+      "native_place_district": "Kalimpong",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Part Time",
+      "occupation_domain": "Social service"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 150
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Nepali",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976888910_f3173_chunk_1",
+    "audio_path": "281474976888910_f3173_chunk_1.wav",
+    "raw_text": "see this track as my professionalism but I used to manage some time in writing as my",
+    "normalized_text": "see this track as my professionalism but I used to manage some time in writing as my",
+    "duration": 11.12,
+    "sample_rate": 16000,
+    "speaker_profile_id": 73,
+    "demo_key": "Male|18-30|Nepali|West Bengal|Kalimpong|Post Graduate|Part Time|Social service",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "18-30",
+      "primary_language": "Nepali",
+      "native_place_state": "West Bengal",
+      "native_place_district": "Kalimpong",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Part Time",
+      "occupation_domain": "Social service"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 14
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Nepali",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976888938_f2386_chunk_1",
+    "audio_path": "281474976888938_f2386_chunk_1.wav",
+    "raw_text": "to UPI id",
+    "normalized_text": "to U P I id",
+    "duration": 1.8738,
+    "sample_rate": 16000,
+    "speaker_profile_id": 10,
+    "demo_key": "Female|18-30|Konkani|Goa|South Goa|Post Graduate|Full Time|Government",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "18-30",
+      "primary_language": "Konkani",
+      "native_place_state": "Goa",
+      "native_place_district": "South Goa",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Government"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 269
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Konkani",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976888952_f1897_chunk_1",
+    "audio_path": "281474976888952_f1897_chunk_1.wav",
+    "raw_text": "literally feel how the people live in villages, how difficult their lives are, what all circumstances they go through, and I could sympathize with them.",
+    "normalized_text": "literally feel how the people live in villages, how difficult their lives are, what all circumstances they go through, and I could sympathize with them.",
+    "duration": 12.1042,
+    "sample_rate": 16000,
+    "speaker_profile_id": 10,
+    "demo_key": "Female|18-30|Konkani|Goa|South Goa|Post Graduate|Full Time|Government",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "18-30",
+      "primary_language": "Konkani",
+      "native_place_state": "Goa",
+      "native_place_district": "South Goa",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Government"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 20
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Konkani",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976888952_f3218_chunk_3",
+    "audio_path": "281474976888952_f3218_chunk_3.wav",
+    "raw_text": "how difficult their lives are, what all circumstances they go through,",
+    "normalized_text": "how difficult their lives are, what all circumstances they go through,",
+    "duration": 5.04,
+    "sample_rate": 16000,
+    "speaker_profile_id": 10,
+    "demo_key": "Female|18-30|Konkani|Goa|South Goa|Post Graduate|Full Time|Government",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "18-30",
+      "primary_language": "Konkani",
+      "native_place_state": "Goa",
+      "native_place_district": "South Goa",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Government"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 54
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Konkani",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976889240_f2362_chunk_0",
+    "audio_path": "281474976889240_f2362_chunk_0.wav",
+    "raw_text": "Got ill conditioned Colgate Mouthwash",
+    "normalized_text": "Got ill conditioned Colgate Mouthwash",
+    "duration": 3.7374,
+    "sample_rate": 16000,
+    "speaker_profile_id": 21,
+    "demo_key": "Female|18-30|Urdu|Maharashtra|Thane|Post Graduate|Full Time|Education and Research",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "18-30",
+      "primary_language": "Urdu",
+      "native_place_state": "Maharashtra",
+      "native_place_district": "Thane",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 187
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Urdu",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976889893_f2012_chunk_0",
+    "audio_path": "281474976889893_f2012_chunk_0.wav",
+    "raw_text": "Jammu, Samba, Kathua, Rajouri, Poonch",
+    "normalized_text": "Jammu, Samba, Kathua, Rajouri, Poonch",
+    "duration": 3.949,
+    "sample_rate": 16000,
+    "speaker_profile_id": 4,
+    "demo_key": "Female|18-30|Dogri|Jammu Kashmir|Jammu|Under Graduate Student|Other|Education and Research",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "18-30",
+      "primary_language": "Dogri",
+      "native_place_state": "Jammu Kashmir",
+      "native_place_district": "Jammu",
+      "highest_qualification": "Under Graduate Student",
+      "job_category": "Other",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 9
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Dogri",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976890909_f2938_chunk_0",
+    "audio_path": "281474976890909_f2938_chunk_0.wav",
+    "raw_text": "Dostana was a commercial success and grossed 871 million Indian Rupees Worldwide.",
+    "normalized_text": "Dostana was a commercial success and grossed eight hundred and seventy-one million Indian Rupees Worldwide.",
+    "duration": 8.5981,
+    "sample_rate": 16000,
+    "speaker_profile_id": 48,
+    "demo_key": "Female|45-60|Konkani|Goa|North Goa|Graduate|Other|Education and Research",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "45-60",
+      "primary_language": "Konkani",
+      "native_place_state": "Goa",
+      "native_place_district": "North Goa",
+      "highest_qualification": "Graduate",
+      "job_category": "Other",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 104
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Konkani",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976890950_f1901_chunk_0",
+    "audio_path": "281474976890950_f1901_chunk_0.wav",
+    "raw_text": "India has numerous spoken languages in every state",
+    "normalized_text": "India has numerous spoken languages in every state",
+    "duration": 4.1809,
+    "sample_rate": 16000,
+    "speaker_profile_id": 48,
+    "demo_key": "Female|45-60|Konkani|Goa|North Goa|Graduate|Other|Education and Research",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "45-60",
+      "primary_language": "Konkani",
+      "native_place_state": "Goa",
+      "native_place_district": "North Goa",
+      "highest_qualification": "Graduate",
+      "job_category": "Other",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 134
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Konkani",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976891569_f2358_chunk_0",
+    "audio_path": "281474976891569_f2358_chunk_0.wav",
+    "raw_text": "Verify the information of user",
+    "normalized_text": "Verify the information of user",
+    "duration": 2.3354,
+    "sample_rate": 16000,
+    "speaker_profile_id": 86,
+    "demo_key": "Male|30-45|Konkani|Goa|North Goa|Post Graduate|Full Time|Education and Research",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "30-45",
+      "primary_language": "Konkani",
+      "native_place_state": "Goa",
+      "native_place_district": "North Goa",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 379
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Konkani",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976892338_f2196_chunk_0",
+    "audio_path": "281474976892338_f2196_chunk_0.wav",
+    "raw_text": "Every region of Blink district has two to three government hospitals. These hospitals, they're loaded off their area",
+    "normalized_text": "Every region of Blink district has two to three government hospitals. These hospitals, they're loaded off their area",
+    "duration": 8.3634,
+    "sample_rate": 16000,
+    "speaker_profile_id": 80,
+    "demo_key": "Male|30-45|Dogri|Jammu Kashmir|Jammu|Graduate|Full Time|Technology and Services",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "30-45",
+      "primary_language": "Dogri",
+      "native_place_state": "Jammu Kashmir",
+      "native_place_district": "Jammu",
+      "highest_qualification": "Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Technology and Services"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 310
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Dogri",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976893301_f2100_chunk_1",
+    "audio_path": "281474976893301_f2100_chunk_1.wav",
+    "raw_text": "it is something which gives you warmth and the flavours are very different from the kind of food we as North Indians eat.",
+    "normalized_text": "it is something which gives you warmth and the flavours are very different from the kind of food we as North Indians eat.",
+    "duration": 13.5412,
+    "sample_rate": 16000,
+    "speaker_profile_id": 46,
+    "demo_key": "Female|45-60|Hindi|West Bengal|Kolkata|Post Graduate|Full Time|Education and Research",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "45-60",
+      "primary_language": "Hindi",
+      "native_place_state": "West Bengal",
+      "native_place_district": "Kolkata",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 21
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Hindi",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976893669_f356_chunk_0",
+    "audio_path": "281474976893669_f356_chunk_0.wav",
+    "raw_text": "please remove the alarm that is set for weekdays at nine",
+    "normalized_text": "please remove the alarm that is set for weekdays at nine",
+    "duration": 4.3806,
+    "sample_rate": 16000,
+    "speaker_profile_id": 65,
+    "demo_key": "Male|18-30|Bodo|Assam|Kokrajhar|Post Graduate|Part Time|Education and Research",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "18-30",
+      "primary_language": "Bodo",
+      "native_place_state": "Assam",
+      "native_place_district": "Kokrajhar",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Part Time",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 141
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Bodo",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976893687_f2554_chunk_1",
+    "audio_path": "281474976893687_f2554_chunk_1.wav",
+    "raw_text": "can you list all such centres in state Himachal Pradesh",
+    "normalized_text": "can you list all such centres in state Himachal Pradesh",
+    "duration": 4.1424,
+    "sample_rate": 16000,
+    "speaker_profile_id": 65,
+    "demo_key": "Male|18-30|Bodo|Assam|Kokrajhar|Post Graduate|Part Time|Education and Research",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "18-30",
+      "primary_language": "Bodo",
+      "native_place_state": "Assam",
+      "native_place_district": "Kokrajhar",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Part Time",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 377
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Bodo",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976893787_f3214_chunk_1",
+    "audio_path": "281474976893787_f3214_chunk_1.wav",
+    "raw_text": "Education, Health, Care, Poverty, Reduction, Women's Empowerment",
+    "normalized_text": "Education, Health, Care, Poverty, Reduction, Women's Empowerment",
+    "duration": 7.0,
+    "sample_rate": 16000,
+    "speaker_profile_id": 92,
+    "demo_key": "Male|30-45|Punjabi|Punjab|Mansa|Post Graduate|Full Time|Government",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "30-45",
+      "primary_language": "Punjabi",
+      "native_place_state": "Punjab",
+      "native_place_district": "Mansa",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Government"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 30
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Punjabi",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976893915_f2228_chunk_9",
+    "audio_path": "281474976893915_f2228_chunk_9.wav",
+    "raw_text": "Though it was celebrated by the Bodos in a traditional way",
+    "normalized_text": "Though it was celebrated by the Bodos in a traditional way",
+    "duration": 4.5318,
+    "sample_rate": 16000,
+    "speaker_profile_id": 79,
+    "demo_key": "Male|30-45|Bodo|Assam|Kokrajhar|Post Graduate|Other|Education and Research",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "30-45",
+      "primary_language": "Bodo",
+      "native_place_state": "Assam",
+      "native_place_district": "Kokrajhar",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Other",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 398
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Bodo",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976894265_f3140_chunk_0",
+    "audio_path": "281474976894265_f3140_chunk_0.wav",
+    "raw_text": "My favorite genre to write in is poetry or verse.",
+    "normalized_text": "My favorite genre to write in is poetry or verse.",
+    "duration": 3.6,
+    "sample_rate": 16000,
+    "speaker_profile_id": 29,
+    "demo_key": "Female|30-45|Kashmiri|Jammu Kashmir|Srinagar|Doctoral (PhD) or higher level|Other|Education and Research",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "30-45",
+      "primary_language": "Kashmiri",
+      "native_place_state": "Jammu Kashmir",
+      "native_place_district": "Srinagar",
+      "highest_qualification": "Doctoral (PhD) or higher level",
+      "job_category": "Other",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 129
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Kashmiri",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976894265_f3140_chunk_2",
+    "audio_path": "281474976894265_f3140_chunk_2.wav",
+    "raw_text": "Through poetry, I can put my thoughts on a display more creatively.",
+    "normalized_text": "Through poetry, I can put my thoughts on a display more creatively.",
+    "duration": 5.0868,
+    "sample_rate": 16000,
+    "speaker_profile_id": 29,
+    "demo_key": "Female|30-45|Kashmiri|Jammu Kashmir|Srinagar|Doctoral (PhD) or higher level|Other|Education and Research",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "30-45",
+      "primary_language": "Kashmiri",
+      "native_place_state": "Jammu Kashmir",
+      "native_place_district": "Srinagar",
+      "highest_qualification": "Doctoral (PhD) or higher level",
+      "job_category": "Other",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 34
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Kashmiri",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976894270_f2003_chunk_6",
+    "audio_path": "281474976894270_f2003_chunk_6.wav",
+    "raw_text": "The intricate yet beautiful floral motifs on paper mashi products are in",
+    "normalized_text": "The intricate yet beautiful floral motifs on paper mashi products are in",
+    "duration": 6.7961,
+    "sample_rate": 16000,
+    "speaker_profile_id": 29,
+    "demo_key": "Female|30-45|Kashmiri|Jammu Kashmir|Srinagar|Doctoral (PhD) or higher level|Other|Education and Research",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "30-45",
+      "primary_language": "Kashmiri",
+      "native_place_state": "Jammu Kashmir",
+      "native_place_district": "Srinagar",
+      "highest_qualification": "Doctoral (PhD) or higher level",
+      "job_category": "Other",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 62
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Kashmiri",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976894271_f3141_chunk_7",
+    "audio_path": "281474976894271_f3141_chunk_7.wav",
+    "raw_text": "is filled with this a lot of scenic beauty",
+    "normalized_text": "is filled with this a lot of scenic beauty",
+    "duration": 3.84,
+    "sample_rate": 16000,
+    "speaker_profile_id": 29,
+    "demo_key": "Female|30-45|Kashmiri|Jammu Kashmir|Srinagar|Doctoral (PhD) or higher level|Other|Education and Research",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "30-45",
+      "primary_language": "Kashmiri",
+      "native_place_state": "Jammu Kashmir",
+      "native_place_district": "Srinagar",
+      "highest_qualification": "Doctoral (PhD) or higher level",
+      "job_category": "Other",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 255
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Kashmiri",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976894272_f2209_chunk_7",
+    "audio_path": "281474976894272_f2209_chunk_7.wav",
+    "raw_text": "in achieving these goals, but the government is trying hard to provide good living conditions to all the citizens.",
+    "normalized_text": "in achieving these goals, but the government is trying hard to provide good living conditions to all the citizens.",
+    "duration": 6.845,
+    "sample_rate": 16000,
+    "speaker_profile_id": 29,
+    "demo_key": "Female|30-45|Kashmiri|Jammu Kashmir|Srinagar|Doctoral (PhD) or higher level|Other|Education and Research",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "30-45",
+      "primary_language": "Kashmiri",
+      "native_place_state": "Jammu Kashmir",
+      "native_place_district": "Srinagar",
+      "highest_qualification": "Doctoral (PhD) or higher level",
+      "job_category": "Other",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 309
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Kashmiri",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976894274_f2214_chunk_12",
+    "audio_path": "281474976894274_f2214_chunk_12.wav",
+    "raw_text": "In the university, I learned the technicalities of language since I am a linguistics student.",
+    "normalized_text": "In the university, I learned the technicalities of language since I am a linguistics student.",
+    "duration": 6.55,
+    "sample_rate": 16000,
+    "speaker_profile_id": 29,
+    "demo_key": "Female|30-45|Kashmiri|Jammu Kashmir|Srinagar|Doctoral (PhD) or higher level|Other|Education and Research",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "30-45",
+      "primary_language": "Kashmiri",
+      "native_place_state": "Jammu Kashmir",
+      "native_place_district": "Srinagar",
+      "highest_qualification": "Doctoral (PhD) or higher level",
+      "job_category": "Other",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 44
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Kashmiri",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976894892_f328_chunk_0",
+    "audio_path": "281474976894892_f328_chunk_0.wav",
+    "raw_text": "what type of learning system do you use",
+    "normalized_text": "what type of learning system do you use",
+    "duration": 2.4331,
+    "sample_rate": 16000,
+    "speaker_profile_id": 32,
+    "demo_key": "Female|30-45|Malayalam|Kerala|Pathanamthitta|Post Graduate|Other|Financial Services (Banking and Insurance)",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "30-45",
+      "primary_language": "Malayalam",
+      "native_place_state": "Kerala",
+      "native_place_district": "Pathanamthitta",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Other",
+      "occupation_domain": "Financial Services (Banking and Insurance)"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 99
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Malayalam",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976895142_f1774_chunk_0",
+    "audio_path": "281474976895142_f1774_chunk_0.wav",
+    "raw_text": "English language uses various tools in literature, poetry and other forms of artistic expression.",
+    "normalized_text": "English language uses various tools in literature, poetry and other forms of artistic expression.",
+    "duration": 10.3512,
+    "sample_rate": 16000,
+    "speaker_profile_id": 1,
+    "demo_key": "Female|18-30|Bengali|West Bengal|South 24 Parganas|Post Graduate|Full Time|Information and Media",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "18-30",
+      "primary_language": "Bengali",
+      "native_place_state": "West Bengal",
+      "native_place_district": "South 24 Parganas",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Information and Media"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 391
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Bengali",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976895912_f1722_chunk_0",
+    "audio_path": "281474976895912_f1722_chunk_0.wav",
+    "raw_text": "As you sow, so shall you reap.",
+    "normalized_text": "As you sow, so shall you reap.",
+    "duration": 2.8976,
+    "sample_rate": 16000,
+    "speaker_profile_id": 98,
+    "demo_key": "Male|45-60|Gujarati|Gujarat|Amreli|Post Graduate|Part Time|Education and Research",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "45-60",
+      "primary_language": "Gujarati",
+      "native_place_state": "Gujarat",
+      "native_place_district": "Amreli",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Part Time",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 281
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Gujarati",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976896655_f2403_chunk_0",
+    "audio_path": "281474976896655_f2403_chunk_0.wav",
+    "raw_text": "You are 2 hours late than the delivery time for my products Pantene Bamboo Shampoo and 24 Mantra Chana Dal",
+    "normalized_text": "You are two hours late than the delivery time for my products Pantene Bamboo Shampoo and twenty-four Mantra Chana Dal",
+    "duration": 9.2244,
+    "sample_rate": 16000,
+    "speaker_profile_id": 55,
+    "demo_key": "Female|45-60|Telugu|Andhra Pradesh|Krishna|Graduate|Part Time|Technology and Services",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "45-60",
+      "primary_language": "Telugu",
+      "native_place_state": "Andhra Pradesh",
+      "native_place_district": "Krishna",
+      "highest_qualification": "Graduate",
+      "job_category": "Part Time",
+      "occupation_domain": "Technology and Services"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 55
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Telugu",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976896698_f1923_chunk_0",
+    "audio_path": "281474976896698_f1923_chunk_0.wav",
+    "raw_text": "How has your practice of yoga changed or evolved over time?",
+    "normalized_text": "How has your practice of yoga changed or evolved over time?",
+    "duration": 5.0339,
+    "sample_rate": 16000,
+    "speaker_profile_id": 55,
+    "demo_key": "Female|45-60|Telugu|Andhra Pradesh|Krishna|Graduate|Part Time|Technology and Services",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "45-60",
+      "primary_language": "Telugu",
+      "native_place_state": "Andhra Pradesh",
+      "native_place_district": "Krishna",
+      "highest_qualification": "Graduate",
+      "job_category": "Part Time",
+      "occupation_domain": "Technology and Services"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 227
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Telugu",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976896703_f1880_chunk_0",
+    "audio_path": "281474976896703_f1880_chunk_0.wav",
+    "raw_text": "How does the art and craft sector in your state engage with or respond to global or international trends or influences? The art and craft of our state",
+    "normalized_text": "How does the art and craft sector in your state engage with or respond to global or international trends or influences? The art and craft of our state",
+    "duration": 12.3809,
+    "sample_rate": 16000,
+    "speaker_profile_id": 55,
+    "demo_key": "Female|45-60|Telugu|Andhra Pradesh|Krishna|Graduate|Part Time|Technology and Services",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "45-60",
+      "primary_language": "Telugu",
+      "native_place_state": "Andhra Pradesh",
+      "native_place_district": "Krishna",
+      "highest_qualification": "Graduate",
+      "job_category": "Part Time",
+      "occupation_domain": "Technology and Services"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 174
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Telugu",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976896704_f1716_chunk_3",
+    "audio_path": "281474976896704_f1716_chunk_3.wav",
+    "raw_text": "trains,",
+    "normalized_text": "trains,",
+    "duration": 1.0957,
+    "sample_rate": 16000,
+    "speaker_profile_id": 55,
+    "demo_key": "Female|45-60|Telugu|Andhra Pradesh|Krishna|Graduate|Part Time|Technology and Services",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "45-60",
+      "primary_language": "Telugu",
+      "native_place_state": "Andhra Pradesh",
+      "native_place_district": "Krishna",
+      "highest_qualification": "Graduate",
+      "job_category": "Part Time",
+      "occupation_domain": "Technology and Services"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 32
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Telugu",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976896992_f1780_chunk_0",
+    "audio_path": "281474976896992_f1780_chunk_0.wav",
+    "raw_text": "Technology has severely impacted the field of photography",
+    "normalized_text": "Technology has severely impacted the field of photography",
+    "duration": 3.0621,
+    "sample_rate": 16000,
+    "speaker_profile_id": 78,
+    "demo_key": "Male|30-45|Bengali|West Bengal|Kolkata|Graduate|Freelance|Entertainment",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "30-45",
+      "primary_language": "Bengali",
+      "native_place_state": "West Bengal",
+      "native_place_district": "Kolkata",
+      "highest_qualification": "Graduate",
+      "job_category": "Freelance",
+      "occupation_domain": "Entertainment"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 126
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Bengali",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976896994_f1674_chunk_0",
+    "audio_path": "281474976896994_f1674_chunk_0.wav",
+    "raw_text": "Making a schedule and sticking to it is what will keep motivation going",
+    "normalized_text": "Making a schedule and sticking to it is what will keep motivation going",
+    "duration": 5.3639,
+    "sample_rate": 16000,
+    "speaker_profile_id": 78,
+    "demo_key": "Male|30-45|Bengali|West Bengal|Kolkata|Graduate|Freelance|Entertainment",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "30-45",
+      "primary_language": "Bengali",
+      "native_place_state": "West Bengal",
+      "native_place_district": "Kolkata",
+      "highest_qualification": "Graduate",
+      "job_category": "Freelance",
+      "occupation_domain": "Entertainment"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 352
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Bengali",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976897067_f582_chunk_0",
+    "audio_path": "281474976897067_f582_chunk_0.wav",
+    "raw_text": "where should i go for Mexican food in my area.",
+    "normalized_text": "where should i go for Mexican food in my area.",
+    "duration": 2.9653,
+    "sample_rate": 16000,
+    "speaker_profile_id": 68,
+    "demo_key": "Male|18-30|Hindi|Maharashtra|Pune|Under Graduate Student|Freelance|Financial Services (Banking and Insurance)",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "18-30",
+      "primary_language": "Hindi",
+      "native_place_state": "Maharashtra",
+      "native_place_district": "Pune",
+      "highest_qualification": "Under Graduate Student",
+      "job_category": "Freelance",
+      "occupation_domain": "Financial Services (Banking and Insurance)"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 243
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Hindi",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976897075_f2542_chunk_1",
+    "audio_path": "281474976897075_f2542_chunk_1.wav",
+    "raw_text": "to pay my FASTag bill?",
+    "normalized_text": "to pay my FASTag bill?",
+    "duration": 1.598,
+    "sample_rate": 16000,
+    "speaker_profile_id": 68,
+    "demo_key": "Male|18-30|Hindi|Maharashtra|Pune|Under Graduate Student|Freelance|Financial Services (Banking and Insurance)",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "18-30",
+      "primary_language": "Hindi",
+      "native_place_state": "Maharashtra",
+      "native_place_district": "Pune",
+      "highest_qualification": "Under Graduate Student",
+      "job_category": "Freelance",
+      "occupation_domain": "Financial Services (Banking and Insurance)"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 157
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Hindi",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976897394_f1833_chunk_11",
+    "audio_path": "281474976897394_f1833_chunk_11.wav",
+    "raw_text": "and most of the modern generation",
+    "normalized_text": "and most of the modern generation",
+    "duration": 3.3999,
+    "sample_rate": 16000,
+    "speaker_profile_id": 74,
+    "demo_key": "Male|18-30|Odia|Odisha|Sundergarh|Post Graduate|Full Time|Education and Research",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "18-30",
+      "primary_language": "Odia",
+      "native_place_state": "Odisha",
+      "native_place_district": "Sundergarh",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 264
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Odia",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976897395_f3303_chunk_0",
+    "audio_path": "281474976897395_f3303_chunk_0.wav",
+    "raw_text": "Odisha has the northernmost parts of the eastern Ghats in Koraputs like Devamali hill which is the highest point in Odisha",
+    "normalized_text": "Odisha has the northernmost parts of the eastern Ghats in Koraputs like Devamali hill which is the highest point in Odisha",
+    "duration": 8.12,
+    "sample_rate": 16000,
+    "speaker_profile_id": 74,
+    "demo_key": "Male|18-30|Odia|Odisha|Sundergarh|Post Graduate|Full Time|Education and Research",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "18-30",
+      "primary_language": "Odia",
+      "native_place_state": "Odisha",
+      "native_place_district": "Sundergarh",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 341
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Odia",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976897395_f3303_chunk_3",
+    "audio_path": "281474976897395_f3303_chunk_3.wav",
+    "raw_text": "So there are a lot of beaches throughout the eastern coastline of Odisha.",
+    "normalized_text": "So there are a lot of beaches throughout the eastern coastline of Odisha.",
+    "duration": 6.56,
+    "sample_rate": 16000,
+    "speaker_profile_id": 74,
+    "demo_key": "Male|18-30|Odia|Odisha|Sundergarh|Post Graduate|Full Time|Education and Research",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "18-30",
+      "primary_language": "Odia",
+      "native_place_state": "Odisha",
+      "native_place_district": "Sundergarh",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 63
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Odia",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976897399_f2215_chunk_10",
+    "audio_path": "281474976897399_f2215_chunk_10.wav",
+    "raw_text": "and",
+    "normalized_text": "and",
+    "duration": 1.3246,
+    "sample_rate": 16000,
+    "speaker_profile_id": 74,
+    "demo_key": "Male|18-30|Odia|Odisha|Sundergarh|Post Graduate|Full Time|Education and Research",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "18-30",
+      "primary_language": "Odia",
+      "native_place_state": "Odisha",
+      "native_place_district": "Sundergarh",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 78
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Odia",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976897459_f2145_chunk_1",
+    "audio_path": "281474976897459_f2145_chunk_1.wav",
+    "raw_text": "There are many big rivers",
+    "normalized_text": "There are many big rivers",
+    "duration": 1.7332,
+    "sample_rate": 16000,
+    "speaker_profile_id": 96,
+    "demo_key": "Male|45-60|Bodo|Assam|Udalguri|Doctoral (PhD) or higher level|Freelance|Education and Research",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "45-60",
+      "primary_language": "Bodo",
+      "native_place_state": "Assam",
+      "native_place_district": "Udalguri",
+      "highest_qualification": "Doctoral (PhD) or higher level",
+      "job_category": "Freelance",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 6
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Bodo",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976897459_f2145_chunk_6",
+    "audio_path": "281474976897459_f2145_chunk_6.wav",
+    "raw_text": "The world famous national parks called",
+    "normalized_text": "The world famous national parks called",
+    "duration": 4.933,
+    "sample_rate": 16000,
+    "speaker_profile_id": 96,
+    "demo_key": "Male|45-60|Bodo|Assam|Udalguri|Doctoral (PhD) or higher level|Freelance|Education and Research",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "45-60",
+      "primary_language": "Bodo",
+      "native_place_state": "Assam",
+      "native_place_district": "Udalguri",
+      "highest_qualification": "Doctoral (PhD) or higher level",
+      "job_category": "Freelance",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 303
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Bodo",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976897475_f711_chunk_0",
+    "audio_path": "281474976897475_f711_chunk_0.wav",
+    "raw_text": "what's the recipe for pasta sauce",
+    "normalized_text": "what's the recipe for pasta sauce",
+    "duration": 3.1046,
+    "sample_rate": 16000,
+    "speaker_profile_id": 93,
+    "demo_key": "Male|30-45|Sindhi|Rajasthan|Ajmer|Post Graduate|Part Time|Government",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "30-45",
+      "primary_language": "Sindhi",
+      "native_place_state": "Rajasthan",
+      "native_place_district": "Ajmer",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Part Time",
+      "occupation_domain": "Government"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 114
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Sindhi",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976897525_f1693_chunk_0",
+    "audio_path": "281474976897525_f1693_chunk_0.wav",
+    "raw_text": "As India is a country full of diversities",
+    "normalized_text": "As India is a country full of diversities",
+    "duration": 6.2015,
+    "sample_rate": 16000,
+    "speaker_profile_id": 93,
+    "demo_key": "Male|30-45|Sindhi|Rajasthan|Ajmer|Post Graduate|Part Time|Government",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "30-45",
+      "primary_language": "Sindhi",
+      "native_place_state": "Rajasthan",
+      "native_place_district": "Ajmer",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Part Time",
+      "occupation_domain": "Government"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 181
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Sindhi",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976897528_f2162_chunk_1",
+    "audio_path": "281474976897528_f2162_chunk_1.wav",
+    "raw_text": "to write literature, poetry and the other form of it",
+    "normalized_text": "to write literature, poetry and the other form of it",
+    "duration": 3.8709,
+    "sample_rate": 16000,
+    "speaker_profile_id": 93,
+    "demo_key": "Male|30-45|Sindhi|Rajasthan|Ajmer|Post Graduate|Part Time|Government",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "30-45",
+      "primary_language": "Sindhi",
+      "native_place_state": "Rajasthan",
+      "native_place_district": "Ajmer",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Part Time",
+      "occupation_domain": "Government"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 252
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Sindhi",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976897535_f2230_chunk_6",
+    "audio_path": "281474976897535_f2230_chunk_6.wav",
+    "raw_text": "like the physical practice of yoga",
+    "normalized_text": "like the physical practice of yoga",
+    "duration": 2.9011,
+    "sample_rate": 16000,
+    "speaker_profile_id": 93,
+    "demo_key": "Male|30-45|Sindhi|Rajasthan|Ajmer|Post Graduate|Part Time|Government",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "30-45",
+      "primary_language": "Sindhi",
+      "native_place_state": "Rajasthan",
+      "native_place_district": "Ajmer",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Part Time",
+      "occupation_domain": "Government"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 74
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Sindhi",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976897535_f2230_chunk_9",
+    "audio_path": "281474976897535_f2230_chunk_9.wav",
+    "raw_text": "in yoga helps to stabilize our body",
+    "normalized_text": "in yoga helps to stabilize our body",
+    "duration": 4.8685,
+    "sample_rate": 16000,
+    "speaker_profile_id": 93,
+    "demo_key": "Male|30-45|Sindhi|Rajasthan|Ajmer|Post Graduate|Part Time|Government",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "30-45",
+      "primary_language": "Sindhi",
+      "native_place_state": "Rajasthan",
+      "native_place_district": "Ajmer",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Part Time",
+      "occupation_domain": "Government"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 265
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Sindhi",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976897558_f1287_chunk_0",
+    "audio_path": "281474976897558_f1287_chunk_0.wav",
+    "raw_text": "Can you list all the vaccination centres where First Dose of COVAXIN is available for age groups 15-17 years",
+    "normalized_text": "Can you list all the vaccination centres where First Dose of Covaxin is available for age groups fifteen to seventeen years",
+    "duration": 9.697,
+    "sample_rate": 16000,
+    "speaker_profile_id": 7,
+    "demo_key": "Female|18-30|Hindi|Rajasthan|Ajmer|Under Graduate Student|Other|Education and Research",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "18-30",
+      "primary_language": "Hindi",
+      "native_place_state": "Rajasthan",
+      "native_place_district": "Ajmer",
+      "highest_qualification": "Under Graduate Student",
+      "job_category": "Other",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 40
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Hindi",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976897686_f760_chunk_0",
+    "audio_path": "281474976897686_f760_chunk_0.wav",
+    "raw_text": "Which is the nearest vacccination center in district Yamunanagar",
+    "normalized_text": "Which is the nearest vacccination center in district Yamunanagar",
+    "duration": 4.1009,
+    "sample_rate": 16000,
+    "speaker_profile_id": 113,
+    "demo_key": "Male|60+|Odia|Odisha|Sundergarh|Graduate|Freelance|Education and Research",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "60+",
+      "primary_language": "Odia",
+      "native_place_state": "Odisha",
+      "native_place_district": "Sundergarh",
+      "highest_qualification": "Graduate",
+      "job_category": "Freelance",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 354
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Odia",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976898577_f1235_chunk_0",
+    "audio_path": "281474976898577_f1235_chunk_0.wav",
+    "raw_text": "Book a HP gas cylinder using my registered contact number 79083174897",
+    "normalized_text": "Book a H P gas cylinder using my registered contact number seven nine zero eight three one seven four eight nine seven",
+    "duration": 6.8309,
+    "sample_rate": 16000,
+    "speaker_profile_id": 108,
+    "demo_key": "Male|60+|Bengali|West Bengal|South 24 Parganas|Post Graduate|Other|Financial Services (Banking and Insurance)",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "60+",
+      "primary_language": "Bengali",
+      "native_place_state": "West Bengal",
+      "native_place_district": "South 24 Parganas",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Other",
+      "occupation_domain": "Financial Services (Banking and Insurance)"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 46
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Bengali",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976898622_f1735_chunk_1",
+    "audio_path": "281474976898622_f1735_chunk_1.wav",
+    "raw_text": "mainly government, schools, colleges and universities",
+    "normalized_text": "mainly government, schools, colleges and universities",
+    "duration": 3.6814,
+    "sample_rate": 16000,
+    "speaker_profile_id": 108,
+    "demo_key": "Male|60+|Bengali|West Bengal|South 24 Parganas|Post Graduate|Other|Financial Services (Banking and Insurance)",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "60+",
+      "primary_language": "Bengali",
+      "native_place_state": "West Bengal",
+      "native_place_district": "South 24 Parganas",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Other",
+      "occupation_domain": "Financial Services (Banking and Insurance)"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 274
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Bengali",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976898625_f1744_chunk_1",
+    "audio_path": "281474976898625_f1744_chunk_1.wav",
+    "raw_text": "English is the preferred medium, but",
+    "normalized_text": "English is the preferred medium, but",
+    "duration": 2.3661,
+    "sample_rate": 16000,
+    "speaker_profile_id": 108,
+    "demo_key": "Male|60+|Bengali|West Bengal|South 24 Parganas|Post Graduate|Other|Financial Services (Banking and Insurance)",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "60+",
+      "primary_language": "Bengali",
+      "native_place_state": "West Bengal",
+      "native_place_district": "South 24 Parganas",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Other",
+      "occupation_domain": "Financial Services (Banking and Insurance)"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 267
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Bengali",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976899793_f1792_chunk_3",
+    "audio_path": "281474976899793_f1792_chunk_3.wav",
+    "raw_text": "It makes our life so easy and I don't need to make a note on paper and pen so I can make the presentations. It makes it more easy.",
+    "normalized_text": "It makes our life so easy and I don't need to make a note on paper and pen so I can make the presentations. It makes it more easy.",
+    "duration": 10.6914,
+    "sample_rate": 16000,
+    "speaker_profile_id": 36,
+    "demo_key": "Female|30-45|Odia|Odisha|Cuttack|Graduate|Other|Healthcare (Medical &amp; Pharma)",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "30-45",
+      "primary_language": "Odia",
+      "native_place_state": "Odisha",
+      "native_place_district": "Cuttack",
+      "highest_qualification": "Graduate",
+      "job_category": "Other",
+      "occupation_domain": "Healthcare (Medical &amp; Pharma)"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 139
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Odia",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976899963_f1895_chunk_1",
+    "audio_path": "281474976899963_f1895_chunk_1.wav",
+    "raw_text": "gajar halwa I did not know anything about it so I started watching videos on YouTube and then I",
+    "normalized_text": "gajar halwa I did not know anything about it so I started watching videos on YouTube and then I",
+    "duration": 9.0321,
+    "sample_rate": 16000,
+    "speaker_profile_id": 88,
+    "demo_key": "Male|30-45|Maithili|Bihar|Samastipur|Doctoral (PhD) or higher level|Full Time|Education and Research",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "30-45",
+      "primary_language": "Maithili",
+      "native_place_state": "Bihar",
+      "native_place_district": "Samastipur",
+      "highest_qualification": "Doctoral (PhD) or higher level",
+      "job_category": "Full Time",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 180
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Maithili",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976899965_f1881_chunk_4",
+    "audio_path": "281474976899965_f1881_chunk_4.wav",
+    "raw_text": "assured of its quality because you will not use pesticides or manures that are harmful for human body.",
+    "normalized_text": "assured of its quality because you will not use pesticides or manures that are harmful for human body.",
+    "duration": 9.5331,
+    "sample_rate": 16000,
+    "speaker_profile_id": 88,
+    "demo_key": "Male|30-45|Maithili|Bihar|Samastipur|Doctoral (PhD) or higher level|Full Time|Education and Research",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "30-45",
+      "primary_language": "Maithili",
+      "native_place_state": "Bihar",
+      "native_place_district": "Samastipur",
+      "highest_qualification": "Doctoral (PhD) or higher level",
+      "job_category": "Full Time",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 364
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Maithili",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976900335_f1966_chunk_1",
+    "audio_path": "281474976900335_f1966_chunk_1.wav",
+    "raw_text": "so that the plants can be saved during the winter",
+    "normalized_text": "so that the plants can be saved during the winter",
+    "duration": 3.0999,
+    "sample_rate": 16000,
+    "speaker_profile_id": 100,
+    "demo_key": "Male|45-60|Kashmiri|Jammu Kashmir|Srinagar|Doctoral (PhD) or higher level|Full Time|Education and Research",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "45-60",
+      "primary_language": "Kashmiri",
+      "native_place_state": "Jammu Kashmir",
+      "native_place_district": "Srinagar",
+      "highest_qualification": "Doctoral (PhD) or higher level",
+      "job_category": "Full Time",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 282
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Kashmiri",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976900596_f3268_chunk_15",
+    "audio_path": "281474976900596_f3268_chunk_15.wav",
+    "raw_text": "It further notes that environmental protection is an integral part of sustainable development and cannot be considered separately.",
+    "normalized_text": "It further notes that environmental protection is an integral part of sustainable development and cannot be considered separately.",
+    "duration": 10.2,
+    "sample_rate": 16000,
+    "speaker_profile_id": 95,
+    "demo_key": "Male|30-45|Urdu|Gujarat|Ahmedabad|Graduate|Full Time|Technology and Services",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "30-45",
+      "primary_language": "Urdu",
+      "native_place_state": "Gujarat",
+      "native_place_district": "Ahmedabad",
+      "highest_qualification": "Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Technology and Services"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 198
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Urdu",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976900603_f2255_chunk_56",
+    "audio_path": "281474976900603_f2255_chunk_56.wav",
+    "raw_text": "that would become centres of intense nationalist activities",
+    "normalized_text": "that would become centres of intense nationalist activities",
+    "duration": 3.8601,
+    "sample_rate": 16000,
+    "speaker_profile_id": 95,
+    "demo_key": "Male|30-45|Urdu|Gujarat|Ahmedabad|Graduate|Full Time|Technology and Services",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "30-45",
+      "primary_language": "Urdu",
+      "native_place_state": "Gujarat",
+      "native_place_district": "Ahmedabad",
+      "highest_qualification": "Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Technology and Services"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 143
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Urdu",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976900619_f2509_chunk_0",
+    "audio_path": "281474976900619_f2509_chunk_0.wav",
+    "raw_text": "when is the last time i contacted John Smith",
+    "normalized_text": "when is the last time i contacted John Smith",
+    "duration": 3.9466,
+    "sample_rate": 16000,
+    "speaker_profile_id": 95,
+    "demo_key": "Male|30-45|Urdu|Gujarat|Ahmedabad|Graduate|Full Time|Technology and Services",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "30-45",
+      "primary_language": "Urdu",
+      "native_place_state": "Gujarat",
+      "native_place_district": "Ahmedabad",
+      "highest_qualification": "Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Technology and Services"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 324
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Urdu",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976900628_f2510_chunk_0",
+    "audio_path": "281474976900628_f2510_chunk_0.wav",
+    "raw_text": "A Dravidian language related to Telugu,",
+    "normalized_text": "A Dravidian language related to Telugu,",
+    "duration": 2.9571,
+    "sample_rate": 16000,
+    "speaker_profile_id": 95,
+    "demo_key": "Male|30-45|Urdu|Gujarat|Ahmedabad|Graduate|Full Time|Technology and Services",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "30-45",
+      "primary_language": "Urdu",
+      "native_place_state": "Gujarat",
+      "native_place_district": "Ahmedabad",
+      "highest_qualification": "Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Technology and Services"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 320
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Urdu",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976901104_f2909_chunk_0",
+    "audio_path": "281474976901104_f2909_chunk_0.wav",
+    "raw_text": "Nipah virus belongs to  the",
+    "normalized_text": "Nipah virus belongs to the",
+    "duration": 2.7211,
+    "sample_rate": 16000,
+    "speaker_profile_id": 49,
+    "demo_key": "Female|45-60|Maithili|Bihar|Darbhanga|Graduate|Full Time|Education and Research",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "45-60",
+      "primary_language": "Maithili",
+      "native_place_state": "Bihar",
+      "native_place_district": "Darbhanga",
+      "highest_qualification": "Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 3
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Maithili",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976902188_f2127_chunk_7",
+    "audio_path": "281474976902188_f2127_chunk_7.wav",
+    "raw_text": "the colleges of art literature",
+    "normalized_text": "the colleges of art literature",
+    "duration": 2.8998,
+    "sample_rate": 16000,
+    "speaker_profile_id": 59,
+    "demo_key": "Female|45-60|Urdu|Maharashtra|Satara|Post Graduate|Full Time|Education and Research",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "45-60",
+      "primary_language": "Urdu",
+      "native_place_state": "Maharashtra",
+      "native_place_district": "Satara",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 48
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Urdu",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976902198_f1512_chunk_0",
+    "audio_path": "281474976902198_f1512_chunk_0.wav",
+    "raw_text": "In March 2009, he joined Praja Rajyam Party, founded by Chiranjeevi.",
+    "normalized_text": "In March twenty zero nine, he joined Praja Rajyam Party, founded by Chiranjeevi.",
+    "duration": 5.3902,
+    "sample_rate": 16000,
+    "speaker_profile_id": 111,
+    "demo_key": "Male|60+|Maithili|Bihar|Madhubani|Doctoral (PhD) or higher level|Freelance|Government",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "60+",
+      "primary_language": "Maithili",
+      "native_place_state": "Bihar",
+      "native_place_district": "Madhubani",
+      "highest_qualification": "Doctoral (PhD) or higher level",
+      "job_category": "Freelance",
+      "occupation_domain": "Government"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 351
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Maithili",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976902216_f1189_chunk_0",
+    "audio_path": "281474976902216_f1189_chunk_0.wav",
+    "raw_text": "Is there any vaccination center nearby my location having CORBEVAX vaccine?",
+    "normalized_text": "Is there any vaccination center nearby my location having CORBEVAX vaccine?",
+    "duration": 6.9582,
+    "sample_rate": 16000,
+    "speaker_profile_id": 111,
+    "demo_key": "Male|60+|Maithili|Bihar|Madhubani|Doctoral (PhD) or higher level|Freelance|Government",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "60+",
+      "primary_language": "Maithili",
+      "native_place_state": "Bihar",
+      "native_place_district": "Madhubani",
+      "highest_qualification": "Doctoral (PhD) or higher level",
+      "job_category": "Freelance",
+      "occupation_domain": "Government"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 344
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Maithili",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976906733_f2443_chunk_1",
+    "audio_path": "281474976906733_f2443_chunk_1.wav",
+    "raw_text": "and ask deeply personal questions or anything relating to finance.",
+    "normalized_text": "and ask deeply personal questions or anything relating to finance.",
+    "duration": 4.3511,
+    "sample_rate": 16000,
+    "speaker_profile_id": 63,
+    "demo_key": "Male|18-30|Assamese|Assam|Lakhimpur|Post Graduate|Full Time|Technology and Services",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "18-30",
+      "primary_language": "Assamese",
+      "native_place_state": "Assam",
+      "native_place_district": "Lakhimpur",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Technology and Services"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 165
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Assamese",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976906796_f3304_chunk_0",
+    "audio_path": "281474976906796_f3304_chunk_0.wav",
+    "raw_text": "How has the English language influenced your culture and identity?",
+    "normalized_text": "How has the English language influenced your culture and identity?",
+    "duration": 4.92,
+    "sample_rate": 16000,
+    "speaker_profile_id": 63,
+    "demo_key": "Male|18-30|Assamese|Assam|Lakhimpur|Post Graduate|Full Time|Technology and Services",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "18-30",
+      "primary_language": "Assamese",
+      "native_place_state": "Assam",
+      "native_place_district": "Lakhimpur",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Full Time",
+      "occupation_domain": "Technology and Services"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 230
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Assamese",
+    "gender": "Male"
+  },
+  {
+    "utterance_id": "281474976909238_f2866_chunk_0",
+    "audio_path": "281474976909238_f2866_chunk_0.wav",
+    "raw_text": "Can I check my pension amount with my PRAN number",
+    "normalized_text": "Can I check my pension amount with my P R A N number",
+    "duration": 5.3853,
+    "sample_rate": 16000,
+    "speaker_profile_id": 52,
+    "demo_key": "Female|45-60|Punjabi|Punjab|Fatehgarh Sahib|Post Graduate|Other|Education and Research",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "45-60",
+      "primary_language": "Punjabi",
+      "native_place_state": "Punjab",
+      "native_place_district": "Fatehgarh Sahib",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Other",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 133
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Punjabi",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976925454_f2430_chunk_2",
+    "audio_path": "281474976925454_f2430_chunk_2.wav",
+    "raw_text": "today morning were of bad quality.",
+    "normalized_text": "today morning were of bad quality.",
+    "duration": 3.091,
+    "sample_rate": 16000,
+    "speaker_profile_id": 8,
+    "demo_key": "Female|18-30|Kannada|Karnataka|Gulbarga|Senior Secondary Level at School (10+2)|Other|Education and Research",
+    "demographics": {
+      "gender": "Female",
+      "age-group": "18-30",
+      "primary_language": "Kannada",
+      "native_place_state": "Karnataka",
+      "native_place_district": "Gulbarga",
+      "highest_qualification": "Senior Secondary Level at School (10+2)",
+      "job_category": "Other",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 241
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Kannada",
+    "gender": "Female"
+  },
+  {
+    "utterance_id": "281474976934135_f2921_chunk_0",
+    "audio_path": "281474976934135_f2921_chunk_0.wav",
+    "raw_text": "The items Pediasure Balanced Nutritional Powder",
+    "normalized_text": "The items Pediasure Balanced Nutritional Powder",
+    "duration": 4.881,
+    "sample_rate": 16000,
+    "speaker_profile_id": 107,
+    "demo_key": "Male|60+|Assamese|Assam|Biswanath|Post Graduate|Other|Education and Research",
+    "demographics": {
+      "gender": "Male",
+      "age-group": "60+",
+      "primary_language": "Assamese",
+      "native_place_state": "Assam",
+      "native_place_district": "Biswanath",
+      "highest_qualification": "Post Graduate",
+      "job_category": "Other",
+      "occupation_domain": "Education and Research"
+    },
+    "source": {
+      "dataset": "ai4bharat/Svarah",
+      "shard": "test-00000-of-00003.parquet",
+      "row_in_shard": 221
+    },
+    "status": "valid",
+    "rejection_reason": null,
+    "split": "train",
+    "primary_language": "Assamese",
+    "gender": "Male"
+  }
+]

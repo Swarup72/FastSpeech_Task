@@ -1,0 +1,44 @@
+{
+  "random_seed": 42,
+  "total_source_utterances": 8576,
+  "clean_pool_utterances": 5153,
+  "excluded_utterances": 3423,
+  "exclusions_by_reason": {
+    "cross_gender_duplicate_title": 198,
+    "too_long_super_15s": 3199,
+    "intra_gender_duplicate_transcript": 5,
+    "too_short_sub_1s": 21
+  },
+  "splits": {
+    "train": {
+      "total_utterances": 2330,
+      "total_duration_hours": 4.999712586390232,
+      "female_utterances": 972,
+      "female_duration_hours": 2.499968434343436,
+      "male_utterances": 1358,
+      "male_duration_hours": 2.499744152046783
+    },
+    "val": {
+      "total_utterances": 457,
+      "total_duration_hours": 0.9999318846358312,
+      "female_utterances": 192,
+      "female_duration_hours": 0.49996843434343413,
+      "male_utterances": 265,
+      "male_duration_hours": 0.49996345029239764
+    },
+    "test": {
+      "total_utterances": 2366,
+      "total_duration_hours": 4.548453282828285,
+      "female_utterances": 176,
+      "female_duration_hours": 0.45991161616161624,
+      "male_utterances": 2190,
+      "male_duration_hours": 4.08854166666667
+    }
+  },
+  "leakage_verification": {
+    "train_val_overlap": 0,
+    "train_test_overlap": 0,
+    "val_test_overlap": 0,
+    "is_leakage_safe": true
+  }
+}

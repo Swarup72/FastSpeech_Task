@@ -1,0 +1,50 @@
+{
+  "generated_at_utc": "2026-11-05T21:53:20Z",
+  "training_completed_normally": true,
+  "status": "COMPLETED",
+  "total_epochs": 100,
+  "total_optimizer_steps": 20000,
+  "total_training_duration_sec": 5011.67,
+  "total_training_duration_hms": "01:23:32",
+  "final_learning_rate": 0.0004419417382415922,
+  "final_training_loss": {
+    "total": 1.0536518096923828,
+    "mel": 0.3809172511100769,
+    "postnet_mel": 0.38033241033554077,
+    "pitch": 0.19625341892242432,
+    "energy": 0.0804111436009407,
+    "duration": 0.015737608075141907
+  },
+  "final_validation_loss": {
+    "total": 2.3689019938549363,
+    "mel": 0.6745921926326063,
+    "postnet_mel": 0.6743423658681204,
+    "pitch": 0.45959197020674325,
+    "energy": 0.28497852492763337,
+    "duration": 0.27539697343326475
+  },
+  "best_validation_loss": 2.348900315273239,
+  "best_validation_step": 19000,
+  "checkpoints": {
+    "checkpoint_dir": "/content/drive/MyDrive/FastSpeech2_Training/checkpoints/Svarah_profile_stratified_v1",
+    "latest_checkpoint": "/content/drive/MyDrive/FastSpeech2_Training/checkpoints/Svarah_profile_stratified_v1/checkpoint_latest.pth.tar",
+    "best_checkpoint": "/content/drive/MyDrive/FastSpeech2_Training/checkpoints/Svarah_profile_stratified_v1/checkpoint_best.pth.tar",
+    "retained_periodic_checkpoints": [
+      "/content/drive/MyDrive/FastSpeech2_Training/checkpoints/Svarah_profile_stratified_v1/checkpoint_16000.pth.tar",
+      "/content/drive/MyDrive/FastSpeech2_Training/checkpoints/Svarah_profile_stratified_v1/checkpoint_17000.pth.tar",
+      "/content/drive/MyDrive/FastSpeech2_Training/checkpoints/Svarah_profile_stratified_v1/checkpoint_18000.pth.tar",
+      "/content/drive/MyDrive/FastSpeech2_Training/checkpoints/Svarah_profile_stratified_v1/checkpoint_19000.pth.tar",
+      "/content/drive/MyDrive/FastSpeech2_Training/checkpoints/Svarah_profile_stratified_v1/checkpoint_20000.pth.tar"
+    ]
+  },
+  "loss_graphs": {
+    "dashboard": "/content/drive/MyDrive/FastSpeech2_Training/logs/Svarah_profile_stratified_v1/plots/loss_curves_dashboard.png",
+    "graph1_train_total_loss": "/content/drive/MyDrive/FastSpeech2_Training/logs/Svarah_profile_stratified_v1/plots/graph1_train_total_loss.png",
+    "graph2_val_total_loss": "/content/drive/MyDrive/FastSpeech2_Training/logs/Svarah_profile_stratified_v1/plots/graph2_val_total_loss.png",
+    "graph3_train_components": "/content/drive/MyDrive/FastSpeech2_Training/logs/Svarah_profile_stratified_v1/plots/graph3_train_loss_components.png",
+    "graph4_val_components": "/content/drive/MyDrive/FastSpeech2_Training/logs/Svarah_profile_stratified_v1/plots/graph4_val_loss_components.png",
+    "graph5_learning_rate": "/content/drive/MyDrive/FastSpeech2_Training/logs/Svarah_profile_stratified_v1/plots/graph5_learning_rate.png"
+  },
+  "warnings_count": 0,
+  "warnings": []
+}

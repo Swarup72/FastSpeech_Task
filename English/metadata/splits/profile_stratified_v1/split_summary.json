@@ -1,0 +1,44 @@
+{
+  "split_version": "profile_stratified_v1",
+  "seed": 20261105,
+  "total_preprocessed_utterances": 3872,
+  "active_speaker_profiles": 88,
+  "train": {
+    "utterances": 3208,
+    "duration_hours": 4.5023,
+    "total_mel_frames": 1396077,
+    "total_phones": 158660,
+    "distinct_speaker_profiles": 88,
+    "distinct_user_prefixes": 1316,
+    "distinct_recording_ids": 1444,
+    "female_utterances": 1589,
+    "male_utterances": 1619,
+    "female_pct": 49.53,
+    "male_pct": 50.47,
+    "mean_pitch_z": -0.0166,
+    "sha256": "1fcd48ec9957153318f4a8626fa2e8a3d16ff37841b75fcde877edfa3c4a6116"
+  },
+  "val": {
+    "utterances": 664,
+    "duration_hours": 0.9784,
+    "total_mel_frames": 303371,
+    "total_phones": 33996,
+    "distinct_speaker_profiles": 88,
+    "seen_speaker_profiles_in_train": 88,
+    "seen_speaker_profiles_pct": 100.0,
+    "distinct_user_prefixes": 155,
+    "distinct_recording_ids": 171,
+    "female_utterances": 332,
+    "male_utterances": 332,
+    "female_pct": 50.0,
+    "male_pct": 50.0,
+    "mean_pitch_z": -0.0549,
+    "sha256": "aa969d5b9b069bf1b4288c4f1b60f800f7fc7de7d511938ff379207cc658aab2"
+  },
+  "pitch_mse_baseline_comparison": {
+    "original_unseen_val_pitch_mse_predicting_train_spk_mean": 1.2468,
+    "new_stratified_val_pitch_mse_predicting_zero": 1.1394,
+    "new_stratified_val_pitch_mse_predicting_train_spk_mean": 0.4582,
+    "relative_mse_floor_reduction_pct": 63.25
+  }
+}

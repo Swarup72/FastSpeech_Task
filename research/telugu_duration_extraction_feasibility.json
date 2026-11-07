@@ -1,0 +1,129 @@
+{
+  "utterances_evaluated": 50,
+  "oov_tokens": [],
+  "max_discrepancy_before": 1,
+  "mean_discrepancy_before": 0.4,
+  "max_discrepancy_after": 0,
+  "sample_results": [
+    {
+      "id": "train_telugufemale_00165",
+      "total_tokens": 115,
+      "speech_tokens": 99,
+      "pause_tokens": 16,
+      "sum_durations": 963,
+      "expected_trimmed_mel_len": 963,
+      "full_audio_mel_len": 1045,
+      "min_dur": 1,
+      "max_dur": 43,
+      "discrepancy_before": 0
+    },
+    {
+      "id": "train_telugufemale_00191",
+      "total_tokens": 16,
+      "speech_tokens": 12,
+      "pause_tokens": 4,
+      "sum_durations": 106,
+      "expected_trimmed_mel_len": 106,
+      "full_audio_mel_len": 188,
+      "min_dur": 1,
+      "max_dur": 21,
+      "discrepancy_before": 1
+    },
+    {
+      "id": "train_telugufemale_00501",
+      "total_tokens": 132,
+      "speech_tokens": 110,
+      "pause_tokens": 22,
+      "sum_durations": 1044,
+      "expected_trimmed_mel_len": 1044,
+      "full_audio_mel_len": 1197,
+      "min_dur": 1,
+      "max_dur": 68,
+      "discrepancy_before": 0
+    },
+    {
+      "id": "train_telugufemale_00986",
+      "total_tokens": 105,
+      "speech_tokens": 87,
+      "pause_tokens": 18,
+      "sum_durations": 782,
+      "expected_trimmed_mel_len": 782,
+      "full_audio_mel_len": 889,
+      "min_dur": 1,
+      "max_dur": 49,
+      "discrepancy_before": 1
+    },
+    {
+      "id": "train_telugufemale_01535",
+      "total_tokens": 100,
+      "speech_tokens": 88,
+      "pause_tokens": 12,
+      "sum_durations": 749,
+      "expected_trimmed_mel_len": 749,
+      "full_audio_mel_len": 973,
+      "min_dur": 1,
+      "max_dur": 48,
+      "discrepancy_before": -1
+    },
+    {
+      "id": "train_telugufemale_01629",
+      "total_tokens": 38,
+      "speech_tokens": 34,
+      "pause_tokens": 4,
+      "sum_durations": 368,
+      "expected_trimmed_mel_len": 368,
+      "full_audio_mel_len": 525,
+      "min_dur": 2,
+      "max_dur": 44,
+      "discrepancy_before": 0
+    },
+    {
+      "id": "train_telugufemale_01665",
+      "total_tokens": 56,
+      "speech_tokens": 50,
+      "pause_tokens": 6,
+      "sum_durations": 497,
+      "expected_trimmed_mel_len": 497,
+      "full_audio_mel_len": 537,
+      "min_dur": 2,
+      "max_dur": 54,
+      "discrepancy_before": 0
+    },
+    {
+      "id": "train_telugufemale_02007",
+      "total_tokens": 64,
+      "speech_tokens": 52,
+      "pause_tokens": 12,
+      "sum_durations": 553,
+      "expected_trimmed_mel_len": 553,
+      "full_audio_mel_len": 650,
+      "min_dur": 1,
+      "max_dur": 46,
+      "discrepancy_before": 0
+    },
+    {
+      "id": "train_telugufemale_02039",
+      "total_tokens": 39,
+      "speech_tokens": 32,
+      "pause_tokens": 7,
+      "sum_durations": 334,
+      "expected_trimmed_mel_len": 334,
+      "full_audio_mel_len": 410,
+      "min_dur": 1,
+      "max_dur": 46,
+      "discrepancy_before": 1
+    },
+    {
+      "id": "train_telugufemale_02040",
+      "total_tokens": 93,
+      "speech_tokens": 77,
+      "pause_tokens": 16,
+      "sum_durations": 710,
+      "expected_trimmed_mel_len": 710,
+      "full_audio_mel_len": 827,
+      "min_dur": 1,
+      "max_dur": 53,
+      "discrepancy_before": 0
+    }
+  ]
+}

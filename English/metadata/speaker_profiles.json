@@ -1,0 +1,1624 @@
+{
+  "metadata": {
+    "dataset": "ai4bharat/Svarah",
+    "description": "Deterministic mapping from demographic profile strings to contiguous integer IDs.",
+    "n_profiles": 115,
+    "id_range": [
+      0,
+      114
+    ],
+    "limitation_statement": "These IDs represent distinct demographic profile combinations and serve as proxy conditioning identities. They are NOT verified individual biometric speaker identities. Multiple distinct human speakers may share identical demographic profiles."
+  },
+  "profiles": [
+    {
+      "speaker_profile_id": 0,
+      "profile_key": "Female|18-30|Assamese|Assam|Nalbari|Post Graduate|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "18-30",
+        "primary_language": "Assamese",
+        "native_place_state": "Assam",
+        "native_place_district": "Nalbari",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 1,
+      "profile_key": "Female|18-30|Bengali|West Bengal|South 24 Parganas|Post Graduate|Full Time|Information and Media",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "18-30",
+        "primary_language": "Bengali",
+        "native_place_state": "West Bengal",
+        "native_place_district": "South 24 Parganas",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Information and Media"
+      }
+    },
+    {
+      "speaker_profile_id": 2,
+      "profile_key": "Female|18-30|Bodo|Assam|Kokrajhar|Post Graduate|Other|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "18-30",
+        "primary_language": "Bodo",
+        "native_place_state": "Assam",
+        "native_place_district": "Kokrajhar",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Other",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 3,
+      "profile_key": "Female|18-30|Dogri|Jammu Kashmir|Jammu|Graduate|Other|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "18-30",
+        "primary_language": "Dogri",
+        "native_place_state": "Jammu Kashmir",
+        "native_place_district": "Jammu",
+        "highest_qualification": "Graduate",
+        "job_category": "Other",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 4,
+      "profile_key": "Female|18-30|Dogri|Jammu Kashmir|Jammu|Under Graduate Student|Other|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "18-30",
+        "primary_language": "Dogri",
+        "native_place_state": "Jammu Kashmir",
+        "native_place_district": "Jammu",
+        "highest_qualification": "Under Graduate Student",
+        "job_category": "Other",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 5,
+      "profile_key": "Female|18-30|Gujarati|Gujarat|Amreli|Graduate|Other|Entertainment",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "18-30",
+        "primary_language": "Gujarati",
+        "native_place_state": "Gujarat",
+        "native_place_district": "Amreli",
+        "highest_qualification": "Graduate",
+        "job_category": "Other",
+        "occupation_domain": "Entertainment"
+      }
+    },
+    {
+      "speaker_profile_id": 6,
+      "profile_key": "Female|18-30|Hindi|Madhya Pradesh|Khandwa|Graduate|Full Time|Technology and Services",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "18-30",
+        "primary_language": "Hindi",
+        "native_place_state": "Madhya Pradesh",
+        "native_place_district": "Khandwa",
+        "highest_qualification": "Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Technology and Services"
+      }
+    },
+    {
+      "speaker_profile_id": 7,
+      "profile_key": "Female|18-30|Hindi|Rajasthan|Ajmer|Under Graduate Student|Other|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "18-30",
+        "primary_language": "Hindi",
+        "native_place_state": "Rajasthan",
+        "native_place_district": "Ajmer",
+        "highest_qualification": "Under Graduate Student",
+        "job_category": "Other",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 8,
+      "profile_key": "Female|18-30|Kannada|Karnataka|Gulbarga|Senior Secondary Level at School (10+2)|Other|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "18-30",
+        "primary_language": "Kannada",
+        "native_place_state": "Karnataka",
+        "native_place_district": "Gulbarga",
+        "highest_qualification": "Senior Secondary Level at School (10+2)",
+        "job_category": "Other",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 9,
+      "profile_key": "Female|18-30|Kannada|Karnataka|Hassan|Post Graduate|Full Time|Technology and Services",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "18-30",
+        "primary_language": "Kannada",
+        "native_place_state": "Karnataka",
+        "native_place_district": "Hassan",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Technology and Services"
+      }
+    },
+    {
+      "speaker_profile_id": 10,
+      "profile_key": "Female|18-30|Konkani|Goa|South Goa|Post Graduate|Full Time|Government",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "18-30",
+        "primary_language": "Konkani",
+        "native_place_state": "Goa",
+        "native_place_district": "South Goa",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Government"
+      }
+    },
+    {
+      "speaker_profile_id": 11,
+      "profile_key": "Female|18-30|Maithili|Bihar|Darbhanga|Post Graduate|Part Time|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "18-30",
+        "primary_language": "Maithili",
+        "native_place_state": "Bihar",
+        "native_place_district": "Darbhanga",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Part Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 12,
+      "profile_key": "Female|18-30|Malayalam|Kerala|Pathanamthitta|Post Graduate|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "18-30",
+        "primary_language": "Malayalam",
+        "native_place_state": "Kerala",
+        "native_place_district": "Pathanamthitta",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 13,
+      "profile_key": "Female|18-30|Malayalam|Kerala|Pathanamthitta|Post Graduate|Full Time|Technology and Services",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "18-30",
+        "primary_language": "Malayalam",
+        "native_place_state": "Kerala",
+        "native_place_district": "Pathanamthitta",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Technology and Services"
+      }
+    },
+    {
+      "speaker_profile_id": 14,
+      "profile_key": "Female|18-30|Marathi|Maharashtra|Ratnagiri|Graduate|Part Time|Social service",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "18-30",
+        "primary_language": "Marathi",
+        "native_place_state": "Maharashtra",
+        "native_place_district": "Ratnagiri",
+        "highest_qualification": "Graduate",
+        "job_category": "Part Time",
+        "occupation_domain": "Social service"
+      }
+    },
+    {
+      "speaker_profile_id": 15,
+      "profile_key": "Female|18-30|Nepali|West Bengal|Darjeeling|Post Graduate|Other|Entertainment",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "18-30",
+        "primary_language": "Nepali",
+        "native_place_state": "West Bengal",
+        "native_place_district": "Darjeeling",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Other",
+        "occupation_domain": "Entertainment"
+      }
+    },
+    {
+      "speaker_profile_id": 16,
+      "profile_key": "Female|18-30|Odia|Odisha|Khordha|Post Graduate|Full Time|Transportation and Logistics",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "18-30",
+        "primary_language": "Odia",
+        "native_place_state": "Odisha",
+        "native_place_district": "Khordha",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Transportation and Logistics"
+      }
+    },
+    {
+      "speaker_profile_id": 17,
+      "profile_key": "Female|18-30|Punjabi|Punjab|Patiala|Post Graduate|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "18-30",
+        "primary_language": "Punjabi",
+        "native_place_state": "Punjab",
+        "native_place_district": "Patiala",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 18,
+      "profile_key": "Female|18-30|Tamil|Karnataka|Bangalore Urban|Post Graduate|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "18-30",
+        "primary_language": "Tamil",
+        "native_place_state": "Karnataka",
+        "native_place_district": "Bangalore Urban",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 19,
+      "profile_key": "Female|18-30|Tamil|Kerala|Thiruvananthapuram|Under Graduate Student|Full Time|Technology and Services",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "18-30",
+        "primary_language": "Tamil",
+        "native_place_state": "Kerala",
+        "native_place_district": "Thiruvananthapuram",
+        "highest_qualification": "Under Graduate Student",
+        "job_category": "Full Time",
+        "occupation_domain": "Technology and Services"
+      }
+    },
+    {
+      "speaker_profile_id": 20,
+      "profile_key": "Female|18-30|Tamil|Tamil Nadu|Virudhunagar|Post Graduate|Full Time|Technology and Services",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "18-30",
+        "primary_language": "Tamil",
+        "native_place_state": "Tamil Nadu",
+        "native_place_district": "Virudhunagar",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Technology and Services"
+      }
+    },
+    {
+      "speaker_profile_id": 21,
+      "profile_key": "Female|18-30|Urdu|Maharashtra|Thane|Post Graduate|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "18-30",
+        "primary_language": "Urdu",
+        "native_place_state": "Maharashtra",
+        "native_place_district": "Thane",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 22,
+      "profile_key": "Female|30-45|Assamese|Assam|Biswanath|Doctoral (PhD) or higher level|Full Time|Information and Media",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "30-45",
+        "primary_language": "Assamese",
+        "native_place_state": "Assam",
+        "native_place_district": "Biswanath",
+        "highest_qualification": "Doctoral (PhD) or higher level",
+        "job_category": "Full Time",
+        "occupation_domain": "Information and Media"
+      }
+    },
+    {
+      "speaker_profile_id": 23,
+      "profile_key": "Female|30-45|Bengali|West Bengal|Kolkata|Post Graduate|Part Time|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "30-45",
+        "primary_language": "Bengali",
+        "native_place_state": "West Bengal",
+        "native_place_district": "Kolkata",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Part Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 24,
+      "profile_key": "Female|30-45|Bodo|Assam|Kokrajhar|Post Graduate|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "30-45",
+        "primary_language": "Bodo",
+        "native_place_state": "Assam",
+        "native_place_district": "Kokrajhar",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 25,
+      "profile_key": "Female|30-45|Dogri|Jammu Kashmir|Jammu|Doctoral (PhD) or higher level|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "30-45",
+        "primary_language": "Dogri",
+        "native_place_state": "Jammu Kashmir",
+        "native_place_district": "Jammu",
+        "highest_qualification": "Doctoral (PhD) or higher level",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 26,
+      "profile_key": "Female|30-45|Gujarati|Gujarat|Amreli|Post Graduate|Freelance|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "30-45",
+        "primary_language": "Gujarati",
+        "native_place_state": "Gujarat",
+        "native_place_district": "Amreli",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Freelance",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 27,
+      "profile_key": "Female|30-45|Hindi|Goa|South Goa|Post Graduate|Full Time|Technology and Services",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "30-45",
+        "primary_language": "Hindi",
+        "native_place_state": "Goa",
+        "native_place_district": "South Goa",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Technology and Services"
+      }
+    },
+    {
+      "speaker_profile_id": 28,
+      "profile_key": "Female|30-45|Kannada|Karnataka|Gulbarga|Post Graduate|Full Time|Technology and Services",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "30-45",
+        "primary_language": "Kannada",
+        "native_place_state": "Karnataka",
+        "native_place_district": "Gulbarga",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Technology and Services"
+      }
+    },
+    {
+      "speaker_profile_id": 29,
+      "profile_key": "Female|30-45|Kashmiri|Jammu Kashmir|Srinagar|Doctoral (PhD) or higher level|Other|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "30-45",
+        "primary_language": "Kashmiri",
+        "native_place_state": "Jammu Kashmir",
+        "native_place_district": "Srinagar",
+        "highest_qualification": "Doctoral (PhD) or higher level",
+        "job_category": "Other",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 30,
+      "profile_key": "Female|30-45|Konkani|Goa|North Goa|Post Graduate|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "30-45",
+        "primary_language": "Konkani",
+        "native_place_state": "Goa",
+        "native_place_district": "North Goa",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 31,
+      "profile_key": "Female|30-45|Maithili|Bihar|Darbhanga|Post Graduate|Freelance|Information and Media",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "30-45",
+        "primary_language": "Maithili",
+        "native_place_state": "Bihar",
+        "native_place_district": "Darbhanga",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Freelance",
+        "occupation_domain": "Information and Media"
+      }
+    },
+    {
+      "speaker_profile_id": 32,
+      "profile_key": "Female|30-45|Malayalam|Kerala|Pathanamthitta|Post Graduate|Other|Financial Services (Banking and Insurance)",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "30-45",
+        "primary_language": "Malayalam",
+        "native_place_state": "Kerala",
+        "native_place_district": "Pathanamthitta",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Other",
+        "occupation_domain": "Financial Services (Banking and Insurance)"
+      }
+    },
+    {
+      "speaker_profile_id": 33,
+      "profile_key": "Female|30-45|Marathi|Maharashtra|Pune|Post Graduate|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "30-45",
+        "primary_language": "Marathi",
+        "native_place_state": "Maharashtra",
+        "native_place_district": "Pune",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 34,
+      "profile_key": "Female|30-45|Nepali|West Bengal|Kalimpong|Post Graduate|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "30-45",
+        "primary_language": "Nepali",
+        "native_place_state": "West Bengal",
+        "native_place_district": "Kalimpong",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 35,
+      "profile_key": "Female|30-45|Nepali|West Bengal|Kalimpong|Post Graduate|Other|Social service",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "30-45",
+        "primary_language": "Nepali",
+        "native_place_state": "West Bengal",
+        "native_place_district": "Kalimpong",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Other",
+        "occupation_domain": "Social service"
+      }
+    },
+    {
+      "speaker_profile_id": 36,
+      "profile_key": "Female|30-45|Odia|Odisha|Cuttack|Graduate|Other|Healthcare (Medical &amp; Pharma)",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "30-45",
+        "primary_language": "Odia",
+        "native_place_state": "Odisha",
+        "native_place_district": "Cuttack",
+        "highest_qualification": "Graduate",
+        "job_category": "Other",
+        "occupation_domain": "Healthcare (Medical &amp; Pharma)"
+      }
+    },
+    {
+      "speaker_profile_id": 37,
+      "profile_key": "Female|30-45|Punjabi|Punjab|Patiala|Post Graduate|Part Time|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "30-45",
+        "primary_language": "Punjabi",
+        "native_place_state": "Punjab",
+        "native_place_district": "Patiala",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Part Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 38,
+      "profile_key": "Female|30-45|Sindhi|Gujarat|Ahmedabad|Post Graduate|Full Time|Information and Media",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "30-45",
+        "primary_language": "Sindhi",
+        "native_place_state": "Gujarat",
+        "native_place_district": "Ahmedabad",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Information and Media"
+      }
+    },
+    {
+      "speaker_profile_id": 39,
+      "profile_key": "Female|30-45|Tamil|Tamil Nadu|Chennai|Graduate|Freelance|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "30-45",
+        "primary_language": "Tamil",
+        "native_place_state": "Tamil Nadu",
+        "native_place_district": "Chennai",
+        "highest_qualification": "Graduate",
+        "job_category": "Freelance",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 40,
+      "profile_key": "Female|30-45|Tamil|Tamil Nadu|Chennai|Post Graduate|Part Time|Information and Media",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "30-45",
+        "primary_language": "Tamil",
+        "native_place_state": "Tamil Nadu",
+        "native_place_district": "Chennai",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Part Time",
+        "occupation_domain": "Information and Media"
+      }
+    },
+    {
+      "speaker_profile_id": 41,
+      "profile_key": "Female|30-45|Tamil|Tamil Nadu|Chennai|Post Graduate|Part Time|Technology and Services",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "30-45",
+        "primary_language": "Tamil",
+        "native_place_state": "Tamil Nadu",
+        "native_place_district": "Chennai",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Part Time",
+        "occupation_domain": "Technology and Services"
+      }
+    },
+    {
+      "speaker_profile_id": 42,
+      "profile_key": "Female|30-45|Telugu|Andhra Pradesh|West Godavari|Post Graduate|Full Time|Information and Media",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "30-45",
+        "primary_language": "Telugu",
+        "native_place_state": "Andhra Pradesh",
+        "native_place_district": "West Godavari",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Information and Media"
+      }
+    },
+    {
+      "speaker_profile_id": 43,
+      "profile_key": "Female|30-45|Urdu|Karnataka|Bangalore Urban|Post Graduate|Part Time|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "30-45",
+        "primary_language": "Urdu",
+        "native_place_state": "Karnataka",
+        "native_place_district": "Bangalore Urban",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Part Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 44,
+      "profile_key": "Female|45-60|Bengali|West Bengal|South 24 Parganas|Graduate|Other|Financial Services (Banking and Insurance)",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "45-60",
+        "primary_language": "Bengali",
+        "native_place_state": "West Bengal",
+        "native_place_district": "South 24 Parganas",
+        "highest_qualification": "Graduate",
+        "job_category": "Other",
+        "occupation_domain": "Financial Services (Banking and Insurance)"
+      }
+    },
+    {
+      "speaker_profile_id": 45,
+      "profile_key": "Female|45-60|Dogri|Jammu Kashmir|Jammu|Doctoral (PhD) or higher level|Other|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "45-60",
+        "primary_language": "Dogri",
+        "native_place_state": "Jammu Kashmir",
+        "native_place_district": "Jammu",
+        "highest_qualification": "Doctoral (PhD) or higher level",
+        "job_category": "Other",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 46,
+      "profile_key": "Female|45-60|Hindi|West Bengal|Kolkata|Post Graduate|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "45-60",
+        "primary_language": "Hindi",
+        "native_place_state": "West Bengal",
+        "native_place_district": "Kolkata",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 47,
+      "profile_key": "Female|45-60|Kannada|Karnataka|Bangalore Urban|Post Graduate|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "45-60",
+        "primary_language": "Kannada",
+        "native_place_state": "Karnataka",
+        "native_place_district": "Bangalore Urban",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 48,
+      "profile_key": "Female|45-60|Konkani|Goa|North Goa|Graduate|Other|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "45-60",
+        "primary_language": "Konkani",
+        "native_place_state": "Goa",
+        "native_place_district": "North Goa",
+        "highest_qualification": "Graduate",
+        "job_category": "Other",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 49,
+      "profile_key": "Female|45-60|Maithili|Bihar|Darbhanga|Graduate|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "45-60",
+        "primary_language": "Maithili",
+        "native_place_state": "Bihar",
+        "native_place_district": "Darbhanga",
+        "highest_qualification": "Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 50,
+      "profile_key": "Female|45-60|Marathi|Maharashtra|Kolhapur|Post Graduate|Full Time|Technology and Services",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "45-60",
+        "primary_language": "Marathi",
+        "native_place_state": "Maharashtra",
+        "native_place_district": "Kolhapur",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Technology and Services"
+      }
+    },
+    {
+      "speaker_profile_id": 51,
+      "profile_key": "Female|45-60|Nepali|Assam|Kamrup|Graduate|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "45-60",
+        "primary_language": "Nepali",
+        "native_place_state": "Assam",
+        "native_place_district": "Kamrup",
+        "highest_qualification": "Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 52,
+      "profile_key": "Female|45-60|Punjabi|Punjab|Fatehgarh Sahib|Post Graduate|Other|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "45-60",
+        "primary_language": "Punjabi",
+        "native_place_state": "Punjab",
+        "native_place_district": "Fatehgarh Sahib",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Other",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 53,
+      "profile_key": "Female|45-60|Tamil|Tamil Nadu|Chennai|Post Graduate|Full Time|Technology and Services",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "45-60",
+        "primary_language": "Tamil",
+        "native_place_state": "Tamil Nadu",
+        "native_place_district": "Chennai",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Technology and Services"
+      }
+    },
+    {
+      "speaker_profile_id": 54,
+      "profile_key": "Female|45-60|Telugu|Andhra Pradesh|Guntur|Post Graduate|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "45-60",
+        "primary_language": "Telugu",
+        "native_place_state": "Andhra Pradesh",
+        "native_place_district": "Guntur",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 55,
+      "profile_key": "Female|45-60|Telugu|Andhra Pradesh|Krishna|Graduate|Part Time|Technology and Services",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "45-60",
+        "primary_language": "Telugu",
+        "native_place_state": "Andhra Pradesh",
+        "native_place_district": "Krishna",
+        "highest_qualification": "Graduate",
+        "job_category": "Part Time",
+        "occupation_domain": "Technology and Services"
+      }
+    },
+    {
+      "speaker_profile_id": 56,
+      "profile_key": "Female|45-60|Telugu|Andhra Pradesh|Kurnool|Post Graduate|Full Time|Technology and Services",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "45-60",
+        "primary_language": "Telugu",
+        "native_place_state": "Andhra Pradesh",
+        "native_place_district": "Kurnool",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Technology and Services"
+      }
+    },
+    {
+      "speaker_profile_id": 57,
+      "profile_key": "Female|45-60|Telugu|Odisha|Sambalpur|Graduate|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "45-60",
+        "primary_language": "Telugu",
+        "native_place_state": "Odisha",
+        "native_place_district": "Sambalpur",
+        "highest_qualification": "Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 58,
+      "profile_key": "Female|45-60|Telugu|Telangana|Hyderabad|Post Graduate|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "45-60",
+        "primary_language": "Telugu",
+        "native_place_state": "Telangana",
+        "native_place_district": "Hyderabad",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 59,
+      "profile_key": "Female|45-60|Urdu|Maharashtra|Satara|Post Graduate|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "45-60",
+        "primary_language": "Urdu",
+        "native_place_state": "Maharashtra",
+        "native_place_district": "Satara",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 60,
+      "profile_key": "Female|60+|Odia|Odisha|Angul|Post Graduate|Full Time|Social service",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "60+",
+        "primary_language": "Odia",
+        "native_place_state": "Odisha",
+        "native_place_district": "Angul",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Social service"
+      }
+    },
+    {
+      "speaker_profile_id": 61,
+      "profile_key": "Female|60+|Tamil|Madhya Pradesh|Ujjain|Post Graduate|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Female",
+        "age-group": "60+",
+        "primary_language": "Tamil",
+        "native_place_state": "Madhya Pradesh",
+        "native_place_district": "Ujjain",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 62,
+      "profile_key": "Male|18-30|Assamese|Assam|Kamrup Metropolitan|Post Graduate|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "18-30",
+        "primary_language": "Assamese",
+        "native_place_state": "Assam",
+        "native_place_district": "Kamrup Metropolitan",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 63,
+      "profile_key": "Male|18-30|Assamese|Assam|Lakhimpur|Post Graduate|Full Time|Technology and Services",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "18-30",
+        "primary_language": "Assamese",
+        "native_place_state": "Assam",
+        "native_place_district": "Lakhimpur",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Technology and Services"
+      }
+    },
+    {
+      "speaker_profile_id": 64,
+      "profile_key": "Male|18-30|Bengali|West Bengal|Kolkata|Doctoral (PhD) or higher level|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "18-30",
+        "primary_language": "Bengali",
+        "native_place_state": "West Bengal",
+        "native_place_district": "Kolkata",
+        "highest_qualification": "Doctoral (PhD) or higher level",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 65,
+      "profile_key": "Male|18-30|Bodo|Assam|Kokrajhar|Post Graduate|Part Time|Education and Research",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "18-30",
+        "primary_language": "Bodo",
+        "native_place_state": "Assam",
+        "native_place_district": "Kokrajhar",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Part Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 66,
+      "profile_key": "Male|18-30|Dogri|Jammu Kashmir|Jammu|Senior Secondary Level at School (10+2)|Full Time|Technology and Services",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "18-30",
+        "primary_language": "Dogri",
+        "native_place_state": "Jammu Kashmir",
+        "native_place_district": "Jammu",
+        "highest_qualification": "Senior Secondary Level at School (10+2)",
+        "job_category": "Full Time",
+        "occupation_domain": "Technology and Services"
+      }
+    },
+    {
+      "speaker_profile_id": 67,
+      "profile_key": "Male|18-30|Gujarati|Gujarat|Sabarkantha|Post Graduate|Full Time|Information and Media",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "18-30",
+        "primary_language": "Gujarati",
+        "native_place_state": "Gujarat",
+        "native_place_district": "Sabarkantha",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Information and Media"
+      }
+    },
+    {
+      "speaker_profile_id": 68,
+      "profile_key": "Male|18-30|Hindi|Maharashtra|Pune|Under Graduate Student|Freelance|Financial Services (Banking and Insurance)",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "18-30",
+        "primary_language": "Hindi",
+        "native_place_state": "Maharashtra",
+        "native_place_district": "Pune",
+        "highest_qualification": "Under Graduate Student",
+        "job_category": "Freelance",
+        "occupation_domain": "Financial Services (Banking and Insurance)"
+      }
+    },
+    {
+      "speaker_profile_id": 69,
+      "profile_key": "Male|18-30|Kannada|Karnataka|Bangalore Urban|Graduate|Part Time|Information and Media",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "18-30",
+        "primary_language": "Kannada",
+        "native_place_state": "Karnataka",
+        "native_place_district": "Bangalore Urban",
+        "highest_qualification": "Graduate",
+        "job_category": "Part Time",
+        "occupation_domain": "Information and Media"
+      }
+    },
+    {
+      "speaker_profile_id": 70,
+      "profile_key": "Male|18-30|Kashmiri|Jammu Kashmir|Srinagar|Post Graduate|Other|Education and Research",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "18-30",
+        "primary_language": "Kashmiri",
+        "native_place_state": "Jammu Kashmir",
+        "native_place_district": "Srinagar",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Other",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 71,
+      "profile_key": "Male|18-30|Konkani|Goa|South Goa|Post Graduate|Full Time|Technology and Services",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "18-30",
+        "primary_language": "Konkani",
+        "native_place_state": "Goa",
+        "native_place_district": "South Goa",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Technology and Services"
+      }
+    },
+    {
+      "speaker_profile_id": 72,
+      "profile_key": "Male|18-30|Malayalam|Kerala|Malappuram|Graduate|Full Time|Technology and Services",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "18-30",
+        "primary_language": "Malayalam",
+        "native_place_state": "Kerala",
+        "native_place_district": "Malappuram",
+        "highest_qualification": "Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Technology and Services"
+      }
+    },
+    {
+      "speaker_profile_id": 73,
+      "profile_key": "Male|18-30|Nepali|West Bengal|Kalimpong|Post Graduate|Part Time|Social service",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "18-30",
+        "primary_language": "Nepali",
+        "native_place_state": "West Bengal",
+        "native_place_district": "Kalimpong",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Part Time",
+        "occupation_domain": "Social service"
+      }
+    },
+    {
+      "speaker_profile_id": 74,
+      "profile_key": "Male|18-30|Odia|Odisha|Sundergarh|Post Graduate|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "18-30",
+        "primary_language": "Odia",
+        "native_place_state": "Odisha",
+        "native_place_district": "Sundergarh",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 75,
+      "profile_key": "Male|18-30|Telugu|Andhra Pradesh|Prakasam|Under Graduate Student|Full Time|Technology and Services",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "18-30",
+        "primary_language": "Telugu",
+        "native_place_state": "Andhra Pradesh",
+        "native_place_district": "Prakasam",
+        "highest_qualification": "Under Graduate Student",
+        "job_category": "Full Time",
+        "occupation_domain": "Technology and Services"
+      }
+    },
+    {
+      "speaker_profile_id": 76,
+      "profile_key": "Male|18-30|Urdu|Bihar|Gaya|Graduate|Full Time|Technology and Services",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "18-30",
+        "primary_language": "Urdu",
+        "native_place_state": "Bihar",
+        "native_place_district": "Gaya",
+        "highest_qualification": "Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Technology and Services"
+      }
+    },
+    {
+      "speaker_profile_id": 77,
+      "profile_key": "Male|30-45|Assamese|Assam|Nagaon|Post Graduate|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "30-45",
+        "primary_language": "Assamese",
+        "native_place_state": "Assam",
+        "native_place_district": "Nagaon",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 78,
+      "profile_key": "Male|30-45|Bengali|West Bengal|Kolkata|Graduate|Freelance|Entertainment",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "30-45",
+        "primary_language": "Bengali",
+        "native_place_state": "West Bengal",
+        "native_place_district": "Kolkata",
+        "highest_qualification": "Graduate",
+        "job_category": "Freelance",
+        "occupation_domain": "Entertainment"
+      }
+    },
+    {
+      "speaker_profile_id": 79,
+      "profile_key": "Male|30-45|Bodo|Assam|Kokrajhar|Post Graduate|Other|Education and Research",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "30-45",
+        "primary_language": "Bodo",
+        "native_place_state": "Assam",
+        "native_place_district": "Kokrajhar",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Other",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 80,
+      "profile_key": "Male|30-45|Dogri|Jammu Kashmir|Jammu|Graduate|Full Time|Technology and Services",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "30-45",
+        "primary_language": "Dogri",
+        "native_place_state": "Jammu Kashmir",
+        "native_place_district": "Jammu",
+        "highest_qualification": "Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Technology and Services"
+      }
+    },
+    {
+      "speaker_profile_id": 81,
+      "profile_key": "Male|30-45|Gujarati|Gujarat|Sabarkantha|Post Graduate|Part Time|Education and Research",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "30-45",
+        "primary_language": "Gujarati",
+        "native_place_state": "Gujarat",
+        "native_place_district": "Sabarkantha",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Part Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 82,
+      "profile_key": "Male|30-45|Hindi|Gujarat|Vadodara|Post Graduate|Full Time|Information and Media",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "30-45",
+        "primary_language": "Hindi",
+        "native_place_state": "Gujarat",
+        "native_place_district": "Vadodara",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Information and Media"
+      }
+    },
+    {
+      "speaker_profile_id": 83,
+      "profile_key": "Male|30-45|Kannada|Karnataka|Bangalore Urban|Post Graduate|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "30-45",
+        "primary_language": "Kannada",
+        "native_place_state": "Karnataka",
+        "native_place_district": "Bangalore Urban",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 84,
+      "profile_key": "Male|30-45|Kannada|Karnataka|Shimoga|Post Graduate|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "30-45",
+        "primary_language": "Kannada",
+        "native_place_state": "Karnataka",
+        "native_place_district": "Shimoga",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 85,
+      "profile_key": "Male|30-45|Kashmiri|Jammu Kashmir|Anantnag|Doctoral (PhD) or higher level|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "30-45",
+        "primary_language": "Kashmiri",
+        "native_place_state": "Jammu Kashmir",
+        "native_place_district": "Anantnag",
+        "highest_qualification": "Doctoral (PhD) or higher level",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 86,
+      "profile_key": "Male|30-45|Konkani|Goa|North Goa|Post Graduate|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "30-45",
+        "primary_language": "Konkani",
+        "native_place_state": "Goa",
+        "native_place_district": "North Goa",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 87,
+      "profile_key": "Male|30-45|Maithili|Bihar|Darbhanga|Post Graduate|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "30-45",
+        "primary_language": "Maithili",
+        "native_place_state": "Bihar",
+        "native_place_district": "Darbhanga",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 88,
+      "profile_key": "Male|30-45|Maithili|Bihar|Samastipur|Doctoral (PhD) or higher level|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "30-45",
+        "primary_language": "Maithili",
+        "native_place_state": "Bihar",
+        "native_place_district": "Samastipur",
+        "highest_qualification": "Doctoral (PhD) or higher level",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 89,
+      "profile_key": "Male|30-45|Maithili|Bihar|Sitamarhi|Graduate|Part Time|Education and Research",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "30-45",
+        "primary_language": "Maithili",
+        "native_place_state": "Bihar",
+        "native_place_district": "Sitamarhi",
+        "highest_qualification": "Graduate",
+        "job_category": "Part Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 90,
+      "profile_key": "Male|30-45|Malayalam|Kerala|Palakkad|Post Graduate|Full Time|Technology and Services",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "30-45",
+        "primary_language": "Malayalam",
+        "native_place_state": "Kerala",
+        "native_place_district": "Palakkad",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Technology and Services"
+      }
+    },
+    {
+      "speaker_profile_id": 91,
+      "profile_key": "Male|30-45|Marathi|Maharashtra|Raigad|Post Graduate|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "30-45",
+        "primary_language": "Marathi",
+        "native_place_state": "Maharashtra",
+        "native_place_district": "Raigad",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 92,
+      "profile_key": "Male|30-45|Punjabi|Punjab|Mansa|Post Graduate|Full Time|Government",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "30-45",
+        "primary_language": "Punjabi",
+        "native_place_state": "Punjab",
+        "native_place_district": "Mansa",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Government"
+      }
+    },
+    {
+      "speaker_profile_id": 93,
+      "profile_key": "Male|30-45|Sindhi|Rajasthan|Ajmer|Post Graduate|Part Time|Government",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "30-45",
+        "primary_language": "Sindhi",
+        "native_place_state": "Rajasthan",
+        "native_place_district": "Ajmer",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Part Time",
+        "occupation_domain": "Government"
+      }
+    },
+    {
+      "speaker_profile_id": 94,
+      "profile_key": "Male|30-45|Tamil|Karnataka|Bangalore Rural|Doctoral (PhD) or higher level|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "30-45",
+        "primary_language": "Tamil",
+        "native_place_state": "Karnataka",
+        "native_place_district": "Bangalore Rural",
+        "highest_qualification": "Doctoral (PhD) or higher level",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 95,
+      "profile_key": "Male|30-45|Urdu|Gujarat|Ahmedabad|Graduate|Full Time|Technology and Services",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "30-45",
+        "primary_language": "Urdu",
+        "native_place_state": "Gujarat",
+        "native_place_district": "Ahmedabad",
+        "highest_qualification": "Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Technology and Services"
+      }
+    },
+    {
+      "speaker_profile_id": 96,
+      "profile_key": "Male|45-60|Bodo|Assam|Udalguri|Doctoral (PhD) or higher level|Freelance|Education and Research",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "45-60",
+        "primary_language": "Bodo",
+        "native_place_state": "Assam",
+        "native_place_district": "Udalguri",
+        "highest_qualification": "Doctoral (PhD) or higher level",
+        "job_category": "Freelance",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 97,
+      "profile_key": "Male|45-60|Dogri|Jammu Kashmir|Jammu|Graduate|Full Time|Retail",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "45-60",
+        "primary_language": "Dogri",
+        "native_place_state": "Jammu Kashmir",
+        "native_place_district": "Jammu",
+        "highest_qualification": "Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Retail"
+      }
+    },
+    {
+      "speaker_profile_id": 98,
+      "profile_key": "Male|45-60|Gujarati|Gujarat|Amreli|Post Graduate|Part Time|Education and Research",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "45-60",
+        "primary_language": "Gujarati",
+        "native_place_state": "Gujarat",
+        "native_place_district": "Amreli",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Part Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 99,
+      "profile_key": "Male|45-60|Kannada|Karnataka|Shimoga|Post Graduate|Other|Manufacturing",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "45-60",
+        "primary_language": "Kannada",
+        "native_place_state": "Karnataka",
+        "native_place_district": "Shimoga",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Other",
+        "occupation_domain": "Manufacturing"
+      }
+    },
+    {
+      "speaker_profile_id": 100,
+      "profile_key": "Male|45-60|Kashmiri|Jammu Kashmir|Srinagar|Doctoral (PhD) or higher level|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "45-60",
+        "primary_language": "Kashmiri",
+        "native_place_state": "Jammu Kashmir",
+        "native_place_district": "Srinagar",
+        "highest_qualification": "Doctoral (PhD) or higher level",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 101,
+      "profile_key": "Male|45-60|Malayalam|Kerala|Pathanamthitta|Graduate|Full Time|Government",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "45-60",
+        "primary_language": "Malayalam",
+        "native_place_state": "Kerala",
+        "native_place_district": "Pathanamthitta",
+        "highest_qualification": "Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Government"
+      }
+    },
+    {
+      "speaker_profile_id": 102,
+      "profile_key": "Male|45-60|Nepali|Meghalaya|Ri Bhoi|Post Graduate|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "45-60",
+        "primary_language": "Nepali",
+        "native_place_state": "Meghalaya",
+        "native_place_district": "Ri Bhoi",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 103,
+      "profile_key": "Male|45-60|Odia|Odisha|Puri|Doctoral (PhD) or higher level|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "45-60",
+        "primary_language": "Odia",
+        "native_place_state": "Odisha",
+        "native_place_district": "Puri",
+        "highest_qualification": "Doctoral (PhD) or higher level",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 104,
+      "profile_key": "Male|45-60|Tamil|Tamil Nadu|Karur|Post Graduate|Full Time|Information and Media",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "45-60",
+        "primary_language": "Tamil",
+        "native_place_state": "Tamil Nadu",
+        "native_place_district": "Karur",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Information and Media"
+      }
+    },
+    {
+      "speaker_profile_id": 105,
+      "profile_key": "Male|45-60|Telugu|Telangana|Hyderabad|Doctoral (PhD) or higher level|Full Time|Education and Research",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "45-60",
+        "primary_language": "Telugu",
+        "native_place_state": "Telangana",
+        "native_place_district": "Hyderabad",
+        "highest_qualification": "Doctoral (PhD) or higher level",
+        "job_category": "Full Time",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 106,
+      "profile_key": "Male|45-60|Urdu|Gujarat|Ahmedabad|Diploma Holder|Other|Government",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "45-60",
+        "primary_language": "Urdu",
+        "native_place_state": "Gujarat",
+        "native_place_district": "Ahmedabad",
+        "highest_qualification": "Diploma Holder",
+        "job_category": "Other",
+        "occupation_domain": "Government"
+      }
+    },
+    {
+      "speaker_profile_id": 107,
+      "profile_key": "Male|60+|Assamese|Assam|Biswanath|Post Graduate|Other|Education and Research",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "60+",
+        "primary_language": "Assamese",
+        "native_place_state": "Assam",
+        "native_place_district": "Biswanath",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Other",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 108,
+      "profile_key": "Male|60+|Bengali|West Bengal|South 24 Parganas|Post Graduate|Other|Financial Services (Banking and Insurance)",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "60+",
+        "primary_language": "Bengali",
+        "native_place_state": "West Bengal",
+        "native_place_district": "South 24 Parganas",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Other",
+        "occupation_domain": "Financial Services (Banking and Insurance)"
+      }
+    },
+    {
+      "speaker_profile_id": 109,
+      "profile_key": "Male|60+|Kannada|Telangana|Hyderabad|Post Graduate|Full Time|Technology and Services",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "60+",
+        "primary_language": "Kannada",
+        "native_place_state": "Telangana",
+        "native_place_district": "Hyderabad",
+        "highest_qualification": "Post Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Technology and Services"
+      }
+    },
+    {
+      "speaker_profile_id": 110,
+      "profile_key": "Male|60+|Konkani|Goa|North Goa|Graduate|Full Time|Financial Services (Banking and Insurance)",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "60+",
+        "primary_language": "Konkani",
+        "native_place_state": "Goa",
+        "native_place_district": "North Goa",
+        "highest_qualification": "Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Financial Services (Banking and Insurance)"
+      }
+    },
+    {
+      "speaker_profile_id": 111,
+      "profile_key": "Male|60+|Maithili|Bihar|Madhubani|Doctoral (PhD) or higher level|Freelance|Government",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "60+",
+        "primary_language": "Maithili",
+        "native_place_state": "Bihar",
+        "native_place_district": "Madhubani",
+        "highest_qualification": "Doctoral (PhD) or higher level",
+        "job_category": "Freelance",
+        "occupation_domain": "Government"
+      }
+    },
+    {
+      "speaker_profile_id": 112,
+      "profile_key": "Male|60+|Marathi|Maharashtra|Solapur|Graduate|Full Time|Healthcare (Medical &amp; Pharma)",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "60+",
+        "primary_language": "Marathi",
+        "native_place_state": "Maharashtra",
+        "native_place_district": "Solapur",
+        "highest_qualification": "Graduate",
+        "job_category": "Full Time",
+        "occupation_domain": "Healthcare (Medical &amp; Pharma)"
+      }
+    },
+    {
+      "speaker_profile_id": 113,
+      "profile_key": "Male|60+|Odia|Odisha|Sundergarh|Graduate|Freelance|Education and Research",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "60+",
+        "primary_language": "Odia",
+        "native_place_state": "Odisha",
+        "native_place_district": "Sundergarh",
+        "highest_qualification": "Graduate",
+        "job_category": "Freelance",
+        "occupation_domain": "Education and Research"
+      }
+    },
+    {
+      "speaker_profile_id": 114,
+      "profile_key": "Male|60+|Punjabi|Punjab|Rupnagar|Graduate|Other|Government",
+      "demographics": {
+        "gender": "Male",
+        "age-group": "60+",
+        "primary_language": "Punjabi",
+        "native_place_state": "Punjab",
+        "native_place_district": "Rupnagar",
+        "highest_qualification": "Graduate",
+        "job_category": "Other",
+        "occupation_domain": "Government"
+      }
+    }
+  ]
+}

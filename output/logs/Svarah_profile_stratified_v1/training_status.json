@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-11-05T21:53:18Z",
+  "status": "COMPLETED",
+  "epoch": 100,
+  "global_step": 20000,
+  "total_step": 20000,
+  "progress_pct": 100.0,
+  "best_val_loss": 2.348900315273239,
+  "best_val_step": 19000,
+  "latest_checkpoint": "/content/drive/MyDrive/FastSpeech2_Training/checkpoints/Svarah_profile_stratified_v1/checkpoint_latest.pth.tar",
+  "best_checkpoint": "/content/drive/MyDrive/FastSpeech2_Training/checkpoints/Svarah_profile_stratified_v1/checkpoint_best.pth.tar",
+  "num_train_logs": 201,
+  "num_val_logs": 20,
+  "warnings_count": 0,
+  "recent_warnings": []
+}

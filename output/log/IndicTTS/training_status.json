@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-11-07T04:06:59Z",
+  "status": "COMPLETED",
+  "epoch": 140,
+  "global_step": 20000,
+  "total_step": 20000,
+  "progress_pct": 100.0,
+  "best_val_loss": 2.086876742347119,
+  "best_val_step": 13000,
+  "latest_checkpoint": "/content/drive/MyDrive/FastSpeech2_Telugu/output/ckpt/IndicTTS/checkpoint_latest.pth.tar",
+  "best_checkpoint": "/content/drive/MyDrive/FastSpeech2_Telugu/output/ckpt/IndicTTS/checkpoint_best.pth.tar",
+  "num_train_logs": 201,
+  "num_val_logs": 20,
+  "warnings_count": 0,
+  "recent_warnings": []
+}

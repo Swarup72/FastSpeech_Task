@@ -1,0 +1,322 @@
+================================================================================
+FASTSPEECH 2 PROJECT SOURCE CODE ARCHIVE MANIFEST
+================================================================================
+
+1. ARCHIVE SPECIFICATIONS
+-------------------------
+Archive Name             : FastSpeech2_Source_Code.zip
+Archive Absolute Path    : /Users/swaruppal/FastSpeech2_Project/FastSpeech2_Source_Code.zip
+Compressed Archive Size  : 3,588,558 bytes (3.42 MB)
+Uncompressed Size        : 18,529,139 bytes (17.67 MB)
+Total Files Archived     : 204
+Compression Algorithm    : ZIP_DEFLATED
+Integrity Verification   : PASSED (zipfile.testzip() returned 0 errors)
+
+2. INCLUDED DIRECTORIES & FILE COUNTS
+-------------------------------------
+* English/ (25 files)
+  Description: End-to-end inference engine (English/inference.py), Svarah training loop (English/train.py), live Colab monitoring, text normalizer, acoustic feature extraction (preprocess_features.py), duration extractor, manifests, and profile_stratified_v1 train/val split files.
+* English_FastSpeech2_Training.ipynb/ (1 files)
+  Description: Google Colab training, live monitoring, and checkpoint recovery notebook.
+* common/ (32 files)
+  Description: Modular FastSpeech 2 PyTorch architecture, config parser, transformer modules, length regulator, variance adaptor/predictors, postnet, multi-task loss, training engine, checkpoint manager, pad/mask utilities.
+* config/ (4 files)
+  Description: Svarah FastSpeech 2 YAML configurations (preprocess.yaml, model.yaml, train.yaml, train_profile_stratified_v1.yaml).
+* original_fastspeech2/ (56 files)
+  Description: Reference FastSpeech 2 implementation, dataset loader, HiFi-GAN vocoder architecture & config (original_fastspeech2/hifigan/models.py, config.json), audio STFT & tools, phoneme text cleaners, CMUDict, ARPAbet symbols, pronunciation lexicons (librispeech-lexicon.txt).
+* research/ (65 files)
+  Description: Comprehensive technical documentation, architecture specifications, diagnostic investigations (ENGLISH_VALIDATION_LOSS_DIAGNOSTIC.md, ENGLISH_CHECKPOINT_VERIFICATION_REPORT.md), loss function analysis, and dataset audits.
+* tests/ (21 files)
+  Description: Complete pytest regression test suite covering models, loss functions, variance components, config loading, text normalization, dataset manifests, duration extraction, and inference.
+
+3. EXCLUDED DIRECTORIES
+-----------------------
+* data/               : Raw audio corpus (~15,000+ audio files, multi-gigabyte audio corpus).
+* preprocessed_data/  : Extracted .npy feature arrays (mel, pitch, energy, duration: ~30,000+ files, ~500 MB+).
+* checkpoints/        : Model weights and optimizer checkpoints (~399 MB Colab trained checkpoint, ~134 MB mock checkpoints).
+* output/ & Results/  : Generated audio files and mel spectrogram outputs.
+* .venv/ & venv/      : Python virtual environments and site-packages.
+* __pycache__/        : Python bytecode caches (*.pyc).
+* .git/               : Git version control metadata (including original_fastspeech2/.git/).
+* original_fastspeech2/demo/ : Audio files (.wav) from LJSpeech, AISHELL3, LibriTTS.
+* original_fastspeech2/preprocessed_data/ : Reference preprocessed data.
+* research/scratch_audio/ : Temporary scratch audio files.
+* --output_path/      : Residual CLI artifact directory.
+* Telugu/             : Separate Indic language pipeline (out-of-scope for English model diagnosis).
+
+4. EXCLUDED FILE TYPES & PATTERNS
+---------------------------------
+* Model weights       : *.pth, *.pth.tar, *.pt, *.ckpt
+* Audio files         : *.wav, *.mp3, *.flac
+* Feature arrays      : *.npy, *.npz
+* Binary archives     : *.zip, *.tar, *.tar.gz
+* Bytecode & caches   : *.pyc, *.pyo, .pytest_cache/
+* System & hidden     : .DS_Store, .git*
+* Documentation images: *.png, *.jpg, *.jpeg
+* Sensitive files     : No .env, tokens, credentials, or API keys were present.
+
+5. MISSING OR UNAVAILABLE SOURCE FILES
+--------------------------------------
+None. All source code, configs, test suites, vocoder definitions, text normalizers,
+and pronunciation dictionaries required to inspect, debug, and understand the model
+architecture, training pipeline, and inference pipeline are present and complete.
+
+6. FILES NECESSARY FOR DEBUGGING BUT EXCLUDED (AND EXACT REFERENCE DETAILS)
+----------------------------------------------------------------------------
+The following dataset, checkpoint, and normalization assets were excluded to keep the
+source-code archive lightweight and portable, but are critical for acoustic debugging:
+
+A. Feature Normalization Statistics (preprocessed_data/Svarah/stats.json):
+   Pitch and energy normalization statistics computed strictly on the training partition.
+   Inference relies on these statistics to denormalize pitch and energy predictions.
+   Verbatim content of stats.json:
+   {
+     "pitch": [-2.9928221702575684, 10.125201225280762, 177.93157413802922, 59.4527742349165],
+     "energy": [-0.8997657299041748, 7.464303493499756, 27.314464756296125, 30.357307854024445],
+     "phoneme_level": {
+       "pitch": [179.8254725405027, 58.399375282872754],
+       "energy": [30.58348727790848, 28.531268854647962]
+     }
+   }
+   [Note: format is [min, max, mean, std] for frame-level, and [mean, std] for phoneme-level].
+
+B. Speaker Demographic ID Mapping (preprocessed_data/Svarah/speakers.json):
+   Maps demographic profile IDs (spk_000 to spk_114) to integer IDs (0 to 114).
+   The full demographic metadata table (gender, age group, native language) is
+   fully included in the archive at English/metadata/speaker_profiles.json.
+
+C. Trained Model Checkpoint:
+   * Path: /content/drive/MyDrive/FastSpeech2_Training/checkpoints/Svarah_profile_stratified_v1/checkpoint_best.pth.tar
+   * Size: ~399.08 MB (step=19000, epoch=100, val_loss=2.3489003153).
+   * Local diagnostic mock: checkpoints/Svarah_profile_stratified_v1/checkpoint_best_diagnostic_mock.pth.tar.bak
+
+D. HiFi-GAN Vocoder Pretrained Weights:
+   * Path: original_fastspeech2/hifigan/generator_universal.pth.tar (55.8 MB) / generator_universal.pth.tar.zip (51.9 MB)
+   * Vocoder model architecture (original_fastspeech2/hifigan/models.py) and config (config.json) are included.
+
+7. KEY ARCHITECTURAL & PREPROCESSING IMPLEMENTATION POINTERS
+------------------------------------------------------------
+* FastSpeech 2 Model Architecture    : common/model/fastspeech2.py & original_fastspeech2/model/fastspeech2.py
+* Variance Adaptor (Pitch/Energy/Dur): common/model/variance_adaptor.py & common/model/variance_predictor.py
+* Length Regulator                   : common/model/length_regulator.py
+* PostNet                            : common/model/postnet.py
+* Multi-Task Loss Computation        : common/model/loss.py
+* Svarah Audio & Feature Extraction  : English/alignment/preprocess_features.py (PyWorld DIO+Stonemask F0, STFT mel)
+* Svarah Alignment & Duration Engine : English/alignment/duration.py
+* English Text Normalization & G2P   : English/text/normalizer.py & original_fastspeech2/text/cleaners.py
+* English Inference Engine           : English/inference.py (FastSpeech 2 + HiFi-GAN pipeline)
+* English Training Engine            : English/train.py & common/training/engine.py
+* Svarah Training Configuration      : config/Svarah/train_profile_stratified_v1.yaml & model.yaml
+* Key Diagnostic Reports             : research/ENGLISH_VALIDATION_LOSS_DIAGNOSTIC.md
+                                       research/ENGLISH_CHECKPOINT_VERIFICATION_REPORT.md
+
+8. COMPLETE ARCHIVE FILE INVENTORY (204 FILES)
+----------------------------------------------
+  1. English/__init__.py
+  2. English/alignment/__init__.py
+  3. English/alignment/duration.py
+  4. English/alignment/prepare_full_data.py
+  5. English/alignment/prepare_pilot_data.py
+  6. English/alignment/preprocess_features.py
+  7. English/inference.py
+  8. English/metadata/full_manifest.json
+  9. English/metadata/generate_profile_stratified_v1_split.py
+ 10. English/metadata/pilot_train_100.csv
+ 11. English/metadata/pilot_train_100.json
+ 12. English/metadata/rejected_utterances.json
+ 13. English/metadata/speaker_profiles.json
+ 14. English/metadata/splits/profile_stratified_v1/split_audit.json
+ 15. English/metadata/splits/profile_stratified_v1/split_manifest.csv
+ 16. English/metadata/splits/profile_stratified_v1/split_summary.json
+ 17. English/metadata/splits/profile_stratified_v1/train.txt
+ 18. English/metadata/splits/profile_stratified_v1/val.txt
+ 19. English/metadata/test.txt
+ 20. English/metadata/train.txt
+ 21. English/metadata/val.txt
+ 22. English/monitoring.py
+ 23. English/prepare_colab_bundle.py
+ 24. English/text/normalizer.py
+ 25. English/train.py
+ 26. English_FastSpeech2_Training.ipynb
+ 27. common/__init__.py
+ 28. common/config/__init__.py
+ 29. common/config/base.py
+ 30. common/config/loader.py
+ 31. common/config/model.py
+ 32. common/config/preprocess.py
+ 33. common/config/training.py
+ 34. common/model/__init__.py
+ 35. common/model/conv.py
+ 36. common/model/fastspeech2.py
+ 37. common/model/length_regulator.py
+ 38. common/model/loss.py
+ 39. common/model/modules.py
+ 40. common/model/optimizer.py
+ 41. common/model/postnet.py
+ 42. common/model/variance_adaptor.py
+ 43. common/model/variance_predictor.py
+ 44. common/modules/__init__.py
+ 45. common/training/__init__.py
+ 46. common/training/checkpoint.py
+ 47. common/training/engine.py
+ 48. common/transformer/__init__.py
+ 49. common/transformer/constants.py
+ 50. common/transformer/layers.py
+ 51. common/transformer/models.py
+ 52. common/transformer/modules.py
+ 53. common/transformer/sublayers.py
+ 54. common/utils/__init__.py
+ 55. common/utils/device.py
+ 56. common/utils/mask.py
+ 57. common/utils/pad.py
+ 58. common/utils/tools.py
+ 59. config/Svarah/model.yaml
+ 60. config/Svarah/preprocess.yaml
+ 61. config/Svarah/train.yaml
+ 62. config/Svarah/train_profile_stratified_v1.yaml
+ 63. original_fastspeech2/LICENSE
+ 64. original_fastspeech2/README.md
+ 65. original_fastspeech2/audio/__init__.py
+ 66. original_fastspeech2/audio/audio_processing.py
+ 67. original_fastspeech2/audio/stft.py
+ 68. original_fastspeech2/audio/tools.py
+ 69. original_fastspeech2/config/AISHELL3/model.yaml
+ 70. original_fastspeech2/config/AISHELL3/preprocess.yaml
+ 71. original_fastspeech2/config/AISHELL3/train.yaml
+ 72. original_fastspeech2/config/LJSpeech/model.yaml
+ 73. original_fastspeech2/config/LJSpeech/preprocess.yaml
+ 74. original_fastspeech2/config/LJSpeech/train.yaml
+ 75. original_fastspeech2/config/LJSpeech_paper/model.yaml
+ 76. original_fastspeech2/config/LJSpeech_paper/preprocess.yaml
+ 77. original_fastspeech2/config/LJSpeech_paper/train.yaml
+ 78. original_fastspeech2/config/LibriTTS/model.yaml
+ 79. original_fastspeech2/config/LibriTTS/preprocess.yaml
+ 80. original_fastspeech2/config/LibriTTS/train.yaml
+ 81. original_fastspeech2/config/README.md
+ 82. original_fastspeech2/dataset.py
+ 83. original_fastspeech2/evaluate.py
+ 84. original_fastspeech2/hifigan/LICENSE
+ 85. original_fastspeech2/hifigan/__init__.py
+ 86. original_fastspeech2/hifigan/config.json
+ 87. original_fastspeech2/hifigan/models.py
+ 88. original_fastspeech2/index.html
+ 89. original_fastspeech2/lexicon/librispeech-lexicon.txt
+ 90. original_fastspeech2/lexicon/pinyin-lexicon-r.txt
+ 91. original_fastspeech2/model/__init__.py
+ 92. original_fastspeech2/model/fastspeech2.py
+ 93. original_fastspeech2/model/loss.py
+ 94. original_fastspeech2/model/modules.py
+ 95. original_fastspeech2/model/optimizer.py
+ 96. original_fastspeech2/prepare_align.py
+ 97. original_fastspeech2/preprocess.py
+ 98. original_fastspeech2/preprocessor/aishell3.py
+ 99. original_fastspeech2/preprocessor/libritts.py
+100. original_fastspeech2/preprocessor/ljspeech.py
+101. original_fastspeech2/preprocessor/preprocessor.py
+102. original_fastspeech2/requirements.txt
+103. original_fastspeech2/synthesize.py
+104. original_fastspeech2/text/__init__.py
+105. original_fastspeech2/text/cleaners.py
+106. original_fastspeech2/text/cmudict.py
+107. original_fastspeech2/text/numbers.py
+108. original_fastspeech2/text/pinyin.py
+109. original_fastspeech2/text/symbols.py
+110. original_fastspeech2/train.py
+111. original_fastspeech2/transformer/Constants.py
+112. original_fastspeech2/transformer/Layers.py
+113. original_fastspeech2/transformer/Models.py
+114. original_fastspeech2/transformer/Modules.py
+115. original_fastspeech2/transformer/SubLayers.py
+116. original_fastspeech2/transformer/__init__.py
+117. original_fastspeech2/utils/model.py
+118. original_fastspeech2/utils/tools.py
+119. research/ATTENTION_FFT_DEEP_ANALYSIS.md
+120. research/CODE_ORGANIZATION_AUDIT.md
+121. research/COMMON_ARCHITECTURE_SPECIFICATION.md
+122. research/DEPENDENCY_AUDIT.md
+123. research/ENGLISH_CHECKPOINT_VERIFICATION_REPORT.md
+124. research/ENGLISH_COLAB_TRAINING_GUIDE.md
+125. research/ENGLISH_PROFILE_STRATIFIED_SPLIT_REPORT.md
+126. research/ENGLISH_SVARAH_DATASET_AUDIT.md
+127. research/ENGLISH_TRAINING_READINESS_AUDIT.md
+128. research/ENGLISH_TRAINING_READINESS_REPORT.md
+129. research/ENGLISH_VALIDATION_FIX_IMPLEMENTATION_AUDIT.md
+130. research/ENGLISH_VALIDATION_LOSS_DIAGNOSTIC.md
+131. research/ENGLISH_VALIDATION_PERFORMANCE_REPORT.md
+132. research/ENVIRONMENT_SETUP.md
+133. research/FINAL_ARCHITECTURE_INTEGRATION_AUDIT.md
+134. research/IMPLEMENTATION_DECISIONS.md
+135. research/INDICTTS_TELUGU_DATASET_AUDIT.md
+136. research/LOSS_FUNCTION_ANALYSIS.md
+137. research/MAIN_MODEL_ANALYSIS.md
+138. research/POSTNET_ANALYSIS.md
+139. research/REFACTOR_PHASE_1_UTILITIES.md
+140. research/REFACTOR_PHASE_2_POSTNET.md
+141. research/REFACTOR_PHASE_3_VARIANCE_COMPONENTS.md
+142. research/REPOSITORY_INSPECTION.md
+143. research/SVARAH_AUTHENTICATED_METADATA_AND_COMPATIBILITY.md
+144. research/SVARAH_FULL_PREPROCESSING_REPORT.md
+145. research/SVARAH_INGESTION_SMOKE_TEST.md
+146. research/SVARAH_METADATA_MANIFEST_REPORT.md
+147. research/SVARAH_MFA_100_UTTERANCE_TEST.md
+148. research/SVARAH_MFA_ALIGNMENT_PILOT_REPORT.md
+149. research/SVARAH_PREPROCESSING_DECISION_REVIEW.md
+150. research/SVARAH_PROFILE_SPLIT_REPORT.md
+151. research/SVARAH_TEXT_NORMALIZATION_REPORT.md
+152. research/TELUGU_ADAPTATION_PLAN.md
+153. research/TELUGU_DATASET_SPLIT_REAUDIT.md
+154. research/TELUGU_DATA_PREPARATION_REPORT.md
+155. research/TELUGU_LATIN_O_CORRECTION_REPORT.md
+156. research/TELUGU_MFA_ALIGNMENT_PILOT_REPORT.md
+157. research/TELUGU_OPTION_1B_FEATURE_EXTRACTION_REPORT.md
+158. research/TELUGU_OPTION_1B_FULL_ALIGNMENT_REPORT.md
+159. research/TELUGU_OPTION_1B_SPLIT_IMPLEMENTATION_REPORT.md
+160. research/TELUGU_SPLIT_VOCABULARY_AUDIT.md
+161. research/TRANSFORMER_ANALYSIS.md
+162. research/Telugu_Dictionary_g2g.txt
+163. research/VARIANCE_ADAPTOR_ANALYSIS.md
+164. research/audit_audio.py
+165. research/audit_latin_o_corrections.py
+166. research/audit_training_and_resume.py
+167. research/build_colab_notebook.py
+168. research/build_mfa_pilot_selection.py
+169. research/compute_exact_dataset_durations.py
+170. research/download_telugu_parquet.py
+171. research/inspect_alignment_quality.py
+172. research/run_telugu_mfa_pilot.py
+173. research/telugu_audio_audit_30_samples.json
+174. research/telugu_duration_extraction_feasibility.json
+175. research/telugu_exact_duration_audit.json
+176. research/telugu_latin_o_audit_records.json
+177. research/telugu_mfa_pilot_manifest.json
+178. research/telugu_mfa_pilot_manual_reviews.json
+179. research/telugu_mfa_pilot_results.json
+180. research/telugu_sample_100_rows.json
+181. research/telugu_segmentation_pilot_results.json
+182. research/test_single_mfa_alignment.py
+183. research/test_telugu_duration_extraction.py
+184. tests/test_colab_monitoring_and_notebook.py
+185. tests/test_config.py
+186. tests/test_duration_extraction.py
+187. tests/test_english_inference.py
+188. tests/test_english_normalizer.py
+189. tests/test_english_training_audit.py
+190. tests/test_fastspeech2.py
+191. tests/test_fastspeech2_loss.py
+192. tests/test_models.py
+193. tests/test_postnet.py
+194. tests/test_svarah_manifests.py
+195. tests/test_svarah_preprocessing_qc.py
+196. tests/test_telugu_data_preparation.py
+197. tests/test_telugu_mfa_alignment_pilot.py
+198. tests/test_telugu_option1b_features.py
+199. tests/test_telugu_split_vocabulary_audit.py
+200. tests/test_training_engine.py
+201. tests/test_transformer.py
+202. tests/test_utils.py
+203. tests/test_variance_adaptor.py
+204. tests/test_variance_components.py
+
+================================================================================
+END OF MANIFEST
+================================================================================

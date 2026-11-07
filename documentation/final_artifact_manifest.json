@@ -1,0 +1,436 @@
+[
+  {
+    "category": "Checkpoints",
+    "description": "English Best Checkpoint (Step 19,000)",
+    "relative_path": "checkpoints/Svarah_profile_stratified_v1/checkpoint_best.pth.tar",
+    "size_bytes": 418465625,
+    "sha256": "794b5123a25f7052c2479ae6bde8f700f952d699e6148f66587e0eb8cf54245e"
+  },
+  {
+    "category": "Checkpoints",
+    "description": "English Latest Checkpoint (Step 20,000)",
+    "relative_path": "checkpoints/Svarah_profile_stratified_v1/checkpoint_latest.pth.tar",
+    "size_bytes": 418467535,
+    "sha256": "6063dd284e32d7ec72b01280fc1254c9a4fc65065e2baaddfe0c31241b81cde3"
+  },
+  {
+    "category": "Checkpoints",
+    "description": "Telugu Best Checkpoint (Step 13,000)",
+    "relative_path": "checkpoints/IndicTTS/checkpoint_best.pth.tar",
+    "size_bytes": 417319705,
+    "sha256": "0a6c443a7baea134f2c9c619d603ddcec8c4d1f86fdfd306680931f4a4cb55fd"
+  },
+  {
+    "category": "Checkpoints",
+    "description": "Telugu Latest Checkpoint (Step 20,000)",
+    "relative_path": "checkpoints/IndicTTS/checkpoint_latest.pth.tar",
+    "size_bytes": 417324751,
+    "sha256": "8e46b77bedb23c80703ae0309a9c7fa01806e13db3b515ba88e9bb6005f4556f"
+  },
+  {
+    "category": "Audio (English)",
+    "description": "E1 Audio Sample (WAV 22kHz)",
+    "relative_path": "Results/English/test_generated_audios/E1.wav",
+    "size_bytes": 267308,
+    "sha256": "1da8e3da5d680e39b690d0371e838e49c40a59342d1bcee6f57753fb267dfe86"
+  },
+  {
+    "category": "Audio (English)",
+    "description": "E2a Audio Sample (WAV 22kHz)",
+    "relative_path": "Results/English/test_generated_audios/E2a.wav",
+    "size_bytes": 170540,
+    "sha256": "60ad30d559416263e3c40bc2e1f73e268a19cc8faf00f1550e799c88bf603ea6"
+  },
+  {
+    "category": "Audio (English)",
+    "description": "E2b Audio Sample (WAV 22kHz)",
+    "relative_path": "Results/English/test_generated_audios/E2b.wav",
+    "size_bytes": 183340,
+    "sha256": "43c06a4f5b7fab9b4ce53b2ba233e91a2ae1a826fbb35b50546bd63b0eef6d01"
+  },
+  {
+    "category": "Audio (English)",
+    "description": "E3 Audio Sample (WAV 22kHz)",
+    "relative_path": "Results/English/test_generated_audios/E3.wav",
+    "size_bytes": 122924,
+    "sha256": "d5c291e6a2934fdba6e09a6837f9833b74199531b2e246e33e286af55c40617d"
+  },
+  {
+    "category": "Audio (English)",
+    "description": "E4 Audio Sample (WAV 22kHz)",
+    "relative_path": "Results/English/test_generated_audios/E4.wav",
+    "size_bytes": 290348,
+    "sha256": "b88768cfc3d20f84fd17008605f519a6dbec46c9c9506d799bd20f24db247fb0"
+  },
+  {
+    "category": "Audio (Telugu)",
+    "description": "T1 Audio Sample (WAV 22kHz)",
+    "relative_path": "Results/Telugu/test_generated_audios/T1.wav",
+    "size_bytes": 237612,
+    "sha256": "2dea00accb57283f605c6721b6b0560ef5be802d31f729cf91dc7c0bb48306e9"
+  },
+  {
+    "category": "Audio (Telugu)",
+    "description": "T2a Audio Sample (WAV 22kHz)",
+    "relative_path": "Results/Telugu/test_generated_audios/T2_a.wav",
+    "size_bytes": 144940,
+    "sha256": "bf6e84626ab90055598cccfcae3df67713040f969ac20fd7e37b5fed7019be38"
+  },
+  {
+    "category": "Audio (Telugu)",
+    "description": "T2b Audio Sample (WAV 22kHz)",
+    "relative_path": "Results/Telugu/test_generated_audios/T2_b.wav",
+    "size_bytes": 149036,
+    "sha256": "3bac2fb95ace973311ada306f3f5e58a607eafa2876f2f447f8993e0c20a1912"
+  },
+  {
+    "category": "Audio (Telugu)",
+    "description": "T3 Audio Sample (WAV 22kHz)",
+    "relative_path": "Results/Telugu/test_generated_audios/T3.wav",
+    "size_bytes": 106540,
+    "sha256": "d1a5b3b6db95b14f2d44f22d32b95fb7522295308c46c9876edfdda82870078b"
+  },
+  {
+    "category": "Audio (Telugu)",
+    "description": "T4 Audio Sample (WAV 22kHz)",
+    "relative_path": "Results/Telugu/test_generated_audios/T4.wav",
+    "size_bytes": 354348,
+    "sha256": "615655e408338007554a0ef0086e4c45cf8c01d5d4897894ab21b50705e2813d"
+  },
+  {
+    "category": "Plots (English Duration)",
+    "description": "E1 Duration Plot",
+    "relative_path": "Results/English/variance_adaptor_plots/duration/E1_duration.png",
+    "size_bytes": 63527,
+    "sha256": "fa64ce3de22ce0a1eb8a2584aeb0ee90240e1485ec27416b27eb830eebdbfa9e"
+  },
+  {
+    "category": "Plots (English Duration)",
+    "description": "E2a Duration Plot",
+    "relative_path": "Results/English/variance_adaptor_plots/duration/E2a_duration.png",
+    "size_bytes": 61818,
+    "sha256": "1d2866f728a4c82cf04963023e1b2939568320ddca9586ca0dae2693fc678056"
+  },
+  {
+    "category": "Plots (English Duration)",
+    "description": "E2b Duration Plot",
+    "relative_path": "Results/English/variance_adaptor_plots/duration/E2b_duration.png",
+    "size_bytes": 61512,
+    "sha256": "5c03388025b0fcbd1cf3b9f2717f2c2c512aacce2247c0967f6f82e2d4107d8e"
+  },
+  {
+    "category": "Plots (English Duration)",
+    "description": "E3 Duration Plot",
+    "relative_path": "Results/English/variance_adaptor_plots/duration/E3_duration.png",
+    "size_bytes": 59196,
+    "sha256": "ea1b0b748c8a946848cbe10c89f7fe7b0d4d1e231330050473e96a87d01389ad"
+  },
+  {
+    "category": "Plots (English Duration)",
+    "description": "E4 Duration Plot",
+    "relative_path": "Results/English/variance_adaptor_plots/duration/E4_duration.png",
+    "size_bytes": 68181,
+    "sha256": "d6cfeb6e5f48f23636b11af0b1549869adae19b4284b514c754021cb4f9c74fa"
+  },
+  {
+    "category": "Plots (English Pitch)",
+    "description": "E1 Pitch Plot",
+    "relative_path": "Results/English/variance_adaptor_plots/pitch/E1_pitch.png",
+    "size_bytes": 103970,
+    "sha256": "43e63e437e8dab1f2d1741df334da61fdf172dcdbe740c110102c3481f116db1"
+  },
+  {
+    "category": "Plots (English Pitch)",
+    "description": "E2a Pitch Plot",
+    "relative_path": "Results/English/variance_adaptor_plots/pitch/E2a_pitch.png",
+    "size_bytes": 86970,
+    "sha256": "3dfb175a99aef181f2c2a8042e07df460dbaae230a9c8d3bcc783b9cb5e8b063"
+  },
+  {
+    "category": "Plots (English Pitch)",
+    "description": "E2b Pitch Plot",
+    "relative_path": "Results/English/variance_adaptor_plots/pitch/E2b_pitch.png",
+    "size_bytes": 94989,
+    "sha256": "cdc4e03e6c0940678319e440e2355e291c11989735c4cca1829b5d0267a5ac6f"
+  },
+  {
+    "category": "Plots (English Pitch)",
+    "description": "E3 Pitch Plot",
+    "relative_path": "Results/English/variance_adaptor_plots/pitch/E3_pitch.png",
+    "size_bytes": 84151,
+    "sha256": "12437093f46bf3076626b4cfd0cbd2b7c23f17ec399822a6c7371036fb9fa8ff"
+  },
+  {
+    "category": "Plots (English Pitch)",
+    "description": "E4 Pitch Plot",
+    "relative_path": "Results/English/variance_adaptor_plots/pitch/E4_pitch.png",
+    "size_bytes": 97405,
+    "sha256": "392ba467414afdd9e623cfc67541e4a5a2a0dc4aebf78a789e73a1edb636db77"
+  },
+  {
+    "category": "Plots (English Energy)",
+    "description": "E1 Energy Plot",
+    "relative_path": "Results/English/variance_adaptor_plots/energy/E1_energy.png",
+    "size_bytes": 136959,
+    "sha256": "8ea4f418dff169d8f94f976845ecda8cc9b177d17670b7ad448f658ed086ae8a"
+  },
+  {
+    "category": "Plots (English Energy)",
+    "description": "E2a Energy Plot",
+    "relative_path": "Results/English/variance_adaptor_plots/energy/E2a_energy.png",
+    "size_bytes": 117481,
+    "sha256": "f4dfec3ae9c9012923fa3e0ed03e2c25363b0bc06ff1885bc1b82daee09a096b"
+  },
+  {
+    "category": "Plots (English Energy)",
+    "description": "E2b Energy Plot",
+    "relative_path": "Results/English/variance_adaptor_plots/energy/E2b_energy.png",
+    "size_bytes": 126374,
+    "sha256": "f5c48599cbff051a39c4e5b9a26efb44d73c5eb48824341c61651c3e31103947"
+  },
+  {
+    "category": "Plots (English Energy)",
+    "description": "E3 Energy Plot",
+    "relative_path": "Results/English/variance_adaptor_plots/energy/E3_energy.png",
+    "size_bytes": 106294,
+    "sha256": "2c4e1a3215eac1014e9938e81e4ab124e52e5dcaa21fe67c1107defe76101715"
+  },
+  {
+    "category": "Plots (English Energy)",
+    "description": "E4 Energy Plot",
+    "relative_path": "Results/English/variance_adaptor_plots/energy/E4_energy.png",
+    "size_bytes": 125263,
+    "sha256": "aa91b2220016481711088735c6d1d4272b51080ba95b3742836bd1a568b91ea9"
+  },
+  {
+    "category": "Plots (Telugu Duration)",
+    "description": "T1 Duration Plot",
+    "relative_path": "Results/Telugu/variance_adaptor_plots/duration/T1_duration.png",
+    "size_bytes": 46722,
+    "sha256": "48ac3452162e99db85606a1b957143268856953ba8d5b3f044c2e157db9dfee8"
+  },
+  {
+    "category": "Plots (Telugu Duration)",
+    "description": "T2a Duration Plot",
+    "relative_path": "Results/Telugu/variance_adaptor_plots/duration/T2_a_duration.png",
+    "size_bytes": 43850,
+    "sha256": "77178d29bdb96cb8c2ca1cbbed42cbde18e6764a5f9322efafd1ac5d5bf79a57"
+  },
+  {
+    "category": "Plots (Telugu Duration)",
+    "description": "T2b Duration Plot",
+    "relative_path": "Results/Telugu/variance_adaptor_plots/duration/T2_b_duration.png",
+    "size_bytes": 39524,
+    "sha256": "e9433b197a8a984cea3b493467b853119b9d0876d253a6c5bf3a654ddac49f0c"
+  },
+  {
+    "category": "Plots (Telugu Duration)",
+    "description": "T3 Duration Plot",
+    "relative_path": "Results/Telugu/variance_adaptor_plots/duration/T3_duration.png",
+    "size_bytes": 39483,
+    "sha256": "df5fe9938d9d45d6dfe09178b59a3ab8f390b0992f14fa8ac1f4fa1582c9d038"
+  },
+  {
+    "category": "Plots (Telugu Duration)",
+    "description": "T4 Duration Plot",
+    "relative_path": "Results/Telugu/variance_adaptor_plots/duration/T4_duration.png",
+    "size_bytes": 45317,
+    "sha256": "a85b0892f7228001233b5bc653d69c743161b76c82329d0173f33e97d3827156"
+  },
+  {
+    "category": "Plots (Telugu Pitch)",
+    "description": "T1 Pitch Plot",
+    "relative_path": "Results/Telugu/variance_adaptor_plots/pitch/T1_pitch.png",
+    "size_bytes": 100044,
+    "sha256": "61c0f79f8c61829953e3076bbe04b88e1d2416fd1c047086c5df1d8a19cf6454"
+  },
+  {
+    "category": "Plots (Telugu Pitch)",
+    "description": "T2a Pitch Plot",
+    "relative_path": "Results/Telugu/variance_adaptor_plots/pitch/T2_a_pitch.png",
+    "size_bytes": 85462,
+    "sha256": "dac6eb9ecbef84c78823e491e99fe9a94d19bedfec4dc85d9e3a800ff9b32d2f"
+  },
+  {
+    "category": "Plots (Telugu Pitch)",
+    "description": "T2b Pitch Plot",
+    "relative_path": "Results/Telugu/variance_adaptor_plots/pitch/T2_b_pitch.png",
+    "size_bytes": 86941,
+    "sha256": "3c0bb819a7dd88818edf24ea63f5c12c55f06d9a3d4c5cd52f494ab270cb118d"
+  },
+  {
+    "category": "Plots (Telugu Pitch)",
+    "description": "T3 Pitch Plot",
+    "relative_path": "Results/Telugu/variance_adaptor_plots/pitch/T3_pitch.png",
+    "size_bytes": 91382,
+    "sha256": "1c59318c965775a87d1843ae69bb6ea327193665950f17f074e77b6c9726644e"
+  },
+  {
+    "category": "Plots (Telugu Pitch)",
+    "description": "T4 Pitch Plot",
+    "relative_path": "Results/Telugu/variance_adaptor_plots/pitch/T4_pitch.png",
+    "size_bytes": 111932,
+    "sha256": "652910abb9ce7af3117bd3695635b6e7a523dfb1aa072fc1b085c97d1043a60d"
+  },
+  {
+    "category": "Plots (Telugu Energy)",
+    "description": "T1 Energy Plot",
+    "relative_path": "Results/Telugu/variance_adaptor_plots/energy/T1_energy.png",
+    "size_bytes": 133895,
+    "sha256": "99c8d3eae9a8f0d56a2d947a32f8cff3b415f2e29df983eb82f52bcc816f212a"
+  },
+  {
+    "category": "Plots (Telugu Energy)",
+    "description": "T2a Energy Plot",
+    "relative_path": "Results/Telugu/variance_adaptor_plots/energy/T2_a_energy.png",
+    "size_bytes": 114765,
+    "sha256": "0b93f92c3ad995ecc5712db74045ab5fc926af2df07720ee5876a2f34e533254"
+  },
+  {
+    "category": "Plots (Telugu Energy)",
+    "description": "T2b Energy Plot",
+    "relative_path": "Results/Telugu/variance_adaptor_plots/energy/T2_b_energy.png",
+    "size_bytes": 115342,
+    "sha256": "0b81ca23f7bcbf563744c0e49bb29f3e65d3eb6850c398a97309ea2e8548f826"
+  },
+  {
+    "category": "Plots (Telugu Energy)",
+    "description": "T3 Energy Plot",
+    "relative_path": "Results/Telugu/variance_adaptor_plots/energy/T3_energy.png",
+    "size_bytes": 101458,
+    "sha256": "f38251dd79488514da1e1c8fad6555ad626cc394ba40614f0b54f6ca1a57709e"
+  },
+  {
+    "category": "Plots (Telugu Energy)",
+    "description": "T4 Energy Plot",
+    "relative_path": "Results/Telugu/variance_adaptor_plots/energy/T4_energy.png",
+    "size_bytes": 150501,
+    "sha256": "aa0b28ab00ac9126f05d4a35f46cebd5841ee3f0fc625538b7398e8e5cadc1af"
+  },
+  {
+    "category": "Loss Curves",
+    "description": "English Training Total Loss",
+    "relative_path": "Results/English/training_loss.png",
+    "size_bytes": 48908,
+    "sha256": "d38ed7d0c00ff97d0f85c2cdb17da19c3a40668fa8d21af4252f61ab09862792"
+  },
+  {
+    "category": "Loss Curves",
+    "description": "English Validation Total Loss",
+    "relative_path": "Results/English/validation_loss.png",
+    "size_bytes": 46052,
+    "sha256": "f8e203c860e09e4a18c5a0d58a89fcf00cdcd47627409cc728ab11f19f932c4c"
+  },
+  {
+    "category": "Loss Curves",
+    "description": "Telugu Training Total Loss",
+    "relative_path": "Results/Telugu/training_loss.png",
+    "size_bytes": 47714,
+    "sha256": "caf8aca5bf48c2e6e8c68f0cd6b4c16ea1cff896a222b771c94b808291a39ea0"
+  },
+  {
+    "category": "Loss Curves",
+    "description": "Telugu Validation Total Loss",
+    "relative_path": "Results/Telugu/validation_loss.png",
+    "size_bytes": 42244,
+    "sha256": "4e46f09e97e8db61e00dc7bf7c6af8f97cf20db763b21099c75e1c43a1b32340"
+  },
+  {
+    "category": "Configurations",
+    "description": "English Preprocessing Config",
+    "relative_path": "config/Svarah/preprocess.yaml",
+    "size_bytes": 574,
+    "sha256": "b6db335b38b285ef40b68831eed19aedc1e511da6e9d6cb1f4acc0b23b6b35de"
+  },
+  {
+    "category": "Configurations",
+    "description": "English Model Hyperparameters",
+    "relative_path": "config/Svarah/model.yaml",
+    "size_bytes": 510,
+    "sha256": "bf5a5e60905419aa19c8c9305994d45a69ff69ca182f716b9a7ff54d5aca70c4"
+  },
+  {
+    "category": "Configurations",
+    "description": "English Training Config",
+    "relative_path": "config/Svarah/train.yaml",
+    "size_bytes": 447,
+    "sha256": "71bcea7b8e96f30e2f83865e4a6f8b72ccb6449cf1ef2015fb752d2cdd8d1657"
+  },
+  {
+    "category": "Configurations",
+    "description": "Telugu Preprocessing Config",
+    "relative_path": "config/IndicTTS/preprocess.yaml",
+    "size_bytes": 577,
+    "sha256": "1495781eb6ced17ef27b272b99ee4c54d5cb32ba5d58693428f3eea4b5b293d8"
+  },
+  {
+    "category": "Configurations",
+    "description": "Telugu Model Hyperparameters",
+    "relative_path": "config/IndicTTS/model.yaml",
+    "size_bytes": 524,
+    "sha256": "f2c6281cc3ba908904d09d1895fcdff4c736617d4be20b2d7ae9ecb00e36fc97"
+  },
+  {
+    "category": "Configurations",
+    "description": "Telugu Training Config",
+    "relative_path": "config/IndicTTS/train.yaml",
+    "size_bytes": 561,
+    "sha256": "31ae45a30230aefe059753d6445bb8291b387969751bee273cf272f2ffdbc698"
+  },
+  {
+    "category": "Summaries",
+    "description": "English Training Summary",
+    "relative_path": "output/logs/Svarah_profile_stratified_v1/training_summary.json",
+    "size_bytes": 2832,
+    "sha256": "5d35bea852a37255ee7346fa93164f090f640cd908c62ef375a5b6060d3d5e4f"
+  },
+  {
+    "category": "Summaries",
+    "description": "Telugu Training Summary",
+    "relative_path": "output/log/IndicTTS/training_summary.json",
+    "size_bytes": 2557,
+    "sha256": "894631dd74e987f865b3e6d33be59ae716dcd4015c394a6e39841e3723005aaa"
+  },
+  {
+    "category": "Summaries",
+    "description": "Telugu Official Sentences Manifest",
+    "relative_path": "Results/Telugu/official_samples.json",
+    "size_bytes": 780,
+    "sha256": "5802193eda47245990ba32cc27f30a2186695028df5e5d70755818f4c5a0f86e"
+  },
+  {
+    "category": "Reports & Docs",
+    "description": "Technical Report (Markdown Source)",
+    "relative_path": "Report/Technical_Report.md",
+    "size_bytes": 92828,
+    "sha256": "ac68aa9b5d4d56ceede790a684648ec337d54be2746bd2f770c7301f7c404023"
+  },
+  {
+    "category": "Reports & Docs",
+    "description": "Technical Report (PDF Publication)",
+    "relative_path": "Report/Technical_Report.pdf",
+    "size_bytes": 6476142,
+    "sha256": "896963604221555f7e2333174730c7b8d8baf54286cd2951bcde51ec8a2a6888"
+  },
+  {
+    "category": "Reports & Docs",
+    "description": "Project README",
+    "relative_path": "README.md",
+    "size_bytes": 26449,
+    "sha256": "8ea2b980f8d5310805991504c252cc845628e82e2a4d8a43e42b1ce76489f662"
+  },
+  {
+    "category": "Reports & Docs",
+    "description": "Project Dependencies",
+    "relative_path": "requirements.txt",
+    "size_bytes": 931,
+    "sha256": "14a3f0aed23acdc772d4d5a10a5140cd18bcc6ea043ee21c5e4218912393c2e4"
+  },
+  {
+    "category": "Reports & Docs",
+    "description": "Git Ignore Rules",
+    "relative_path": ".gitignore",
+    "size_bytes": 1563,
+    "sha256": "3436f5951cbf7a35910faee4b2929195d00d5c441363704cfe8f47f708ebf26d"
+  }
+]

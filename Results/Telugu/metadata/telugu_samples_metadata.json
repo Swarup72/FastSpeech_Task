@@ -1,0 +1,102 @@
+[
+  {
+    "sample_id": "T1",
+    "original_text": "న్యూరోఫార్మకోలాజికల్ పరిశోధనలో నూతన ఔషధాల ప్రభావాన్ని విశ్లేషించారు.",
+    "normalized_text": "న్యూరోఫార్మకోలాజికల్ పరిశోధనలో నూతన ఔషధాల ప్రభావాన్ని విశ్లేషించారు.",
+    "speaker_id": 1,
+    "speaker_code": "spk_001",
+    "speaker_gender": "male",
+    "checkpoint_step": 13000,
+    "audio_file": "T1.wav",
+    "sample_rate": 22050,
+    "duration_seconds": 5.387,
+    "num_tokens": 67,
+    "mel_frames": 464,
+    "unk_count": 0,
+    "plots": {
+      "duration": "T1_duration.png",
+      "pitch": "T1_pitch.png",
+      "energy": "T1_energy.png"
+    }
+  },
+  {
+    "sample_id": "T2_a",
+    "original_text": "తాడుపై అతని పట్టు చాలా బలంగా ఉంది.",
+    "normalized_text": "తాడుపై అతని పట్టు చాలా బలంగా ఉంది.",
+    "speaker_id": 1,
+    "speaker_code": "spk_001",
+    "speaker_gender": "male",
+    "checkpoint_step": 13000,
+    "audio_file": "T2_a.wav",
+    "sample_rate": 22050,
+    "duration_seconds": 3.2856,
+    "num_tokens": 33,
+    "mel_frames": 283,
+    "unk_count": 0,
+    "plots": {
+      "duration": "T2_a_duration.png",
+      "pitch": "T2_a_pitch.png",
+      "energy": "T2_a_energy.png"
+    }
+  },
+  {
+    "sample_id": "T2_b",
+    "original_text": "ఆమె పట్టు చీరను ధరించి వేడుకకు వచ్చింది.",
+    "normalized_text": "ఆమె పట్టు చీరను ధరించి వేడుకకు వచ్చింది.",
+    "speaker_id": 1,
+    "speaker_code": "spk_001",
+    "speaker_gender": "male",
+    "checkpoint_step": 13000,
+    "audio_file": "T2_b.wav",
+    "sample_rate": 22050,
+    "duration_seconds": 3.3785,
+    "num_tokens": 39,
+    "mel_frames": 291,
+    "unk_count": 0,
+    "plots": {
+      "duration": "T2_b_duration.png",
+      "pitch": "T2_b_pitch.png",
+      "energy": "T2_b_energy.png"
+    }
+  },
+  {
+    "sample_id": "T3",
+    "original_text": "పులి అడవిలో నిశ్శబ్దంగా నడిచింది.",
+    "normalized_text": "పులి అడవిలో నిశ్శబ్దంగా నడిచింది.",
+    "speaker_id": 1,
+    "speaker_code": "spk_001",
+    "speaker_gender": "male",
+    "checkpoint_step": 13000,
+    "audio_file": "T3.wav",
+    "sample_rate": 22050,
+    "duration_seconds": 2.4149,
+    "num_tokens": 32,
+    "mel_frames": 208,
+    "unk_count": 0,
+    "plots": {
+      "duration": "T3_duration.png",
+      "pitch": "T3_pitch.png",
+      "energy": "T3_energy.png"
+    }
+  },
+  {
+    "sample_id": "T4",
+    "original_text": "ఈ సమావేశం 2026 నవంబర్ 12వ తేదీ ఉదయం 10:45 గంటలకు ప్రారంభమవుతుంది, సమయానికి సిద్ధంగా ఉంచండి.",
+    "normalized_text": "ఈ సమావేశం 2026 నవంబర్ 12వ తేదీ ఉదయం 10:45 గంటలకు ప్రారంభమవుతుంది, సమయానికి సిద్ధంగా ఉంచండి.",
+    "speaker_id": 1,
+    "speaker_code": "spk_001",
+    "speaker_gender": "male",
+    "checkpoint_step": 13000,
+    "audio_file": "T4.wav",
+    "sample_rate": 22050,
+    "duration_seconds": 8.0341,
+    "num_tokens": 89,
+    "mel_frames": 692,
+    "unk_count": 0,
+    "plots": {
+      "duration": "T4_duration.png",
+      "pitch": "T4_pitch.png",
+      "energy": "T4_energy.png"
+    }
+  }
+]
