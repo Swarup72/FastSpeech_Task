@@ -215,7 +215,10 @@ def validate_svarah_dataset(
             raise ValueError(f"Non-finite values in stats.json['{key}']: {stats[key]}")
 
     # Check vocabulary size
-    from text.symbols import symbols
+    try:
+        from English.text.symbols import symbols
+    except ImportError:
+        from text.symbols import symbols
 
     actual_vocab_size = len(symbols)
     cfg_vocab_size = int(model_config.get("n_src_vocab", expected_vocab_size))

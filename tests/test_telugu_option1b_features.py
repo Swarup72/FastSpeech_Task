@@ -25,7 +25,10 @@ from pathlib import Path
 import numpy as np
 from torch.utils.data import DataLoader
 
-from original_fastspeech2.dataset import Dataset, TextDataset
+try:
+    from common.dataset import Dataset, TextDataset
+except ImportError:
+    from original_fastspeech2.dataset import Dataset, TextDataset
 from Telugu.alignment.preprocess_features import (
     DEFAULT_OUT_DIR,
     EXCLUDED_FAILED_IDS,

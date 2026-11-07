@@ -393,13 +393,16 @@ def validate_symbols_against_vocabulary(
     """
     if vocabulary is None:
         try:
-            import sys
+            try:
+                from English.text.symbols import symbols as fs2_symbols
+            except ImportError:
+                import sys
 
-            root = Path(__file__).resolve().parent.parent.parent
-            fs2_path = str(root / "original_fastspeech2")
-            if fs2_path not in sys.path:
-                sys.path.insert(0, fs2_path)
-            from text.symbols import symbols as fs2_symbols
+                root = Path(__file__).resolve().parent.parent.parent
+                fs2_path = str(root / "original_fastspeech2")
+                if fs2_path not in sys.path:
+                    sys.path.insert(0, fs2_path)
+                from text.symbols import symbols as fs2_symbols
 
             vocab_set = set(fs2_symbols)
         except Exception:

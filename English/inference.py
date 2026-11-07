@@ -53,9 +53,12 @@ setup_project_paths()
 _PROJECT_ROOT = PROJECT_ROOT
 _ORIGINAL_FS2_DIR = ORIGINAL_FS2_DIR
 
-from English.text.normalizer import normalize_text
-from original_fastspeech2 import hifigan
-from original_fastspeech2.text import text_to_sequence
+from English.text import normalize_text, text_to_sequence
+
+try:
+    from common import vocoder as hifigan
+except ImportError:
+    from original_fastspeech2 import hifigan
 # Canonical Assignment Test Sentences (Preserved exactly as specified in the assignment)
 ASSIGNMENT_SAMPLES: dict[str, str] = {
     "E1": (
@@ -219,14 +222,23 @@ def load_hifigan_vocoder(
     if not cfg_p.is_file():
         raise FileNotFoundError(f"HiFi-GAN config not found at: {cfg_p}")
     if not wt_p.is_file():
-        if zp_p.is_file():
-            print(f"[VOC] Unzipping HiFi-GAN weights from {zp_p.name}...")
-            with zipfile.ZipFile(zp_p, "r") as zf:
-                zf.extractall(wt_p.parent)
-        else:
-            raise FileNotFoundError(
-                f"HiFi-GAN weights not found at {wt_p} and zip archive {zp_p} is missing."
-            )
+        if str(weights_path) == str(DEFAULT_HIFIGAN_WEIGHTS) or weights_path is None:
+            candidate_weights = [
+                PROJECT_ROOT / "checkpoints" / "hifigan" / "generator_universal.pth.tar",
+                PROJECT_ROOT / "original_fastspeech2" / "hifigan" / "generator_universal.pth.tar",
+            ]
+            found_wt = next((p for p in candidate_weights if p.is_file()), None)
+            if found_wt is not None:
+                wt_p = found_wt
+        if not wt_p.is_file():
+            if zp_p.is_file():
+                print(f"[VOC] Unzipping HiFi-GAN weights from {zp_p.name}...")
+                with zipfile.ZipFile(zp_p, "r") as zf:
+                    zf.extractall(wt_p.parent)
+            else:
+                raise FileNotFoundError(
+                    f"HiFi-GAN weights not found at {wt_p} and zip archive {zp_p} is missing."
+                )
     with open(cfg_p, "r", encoding="utf-8") as f:
         cfg = json.load(f)
     h = hifigan.AttrDict(cfg)

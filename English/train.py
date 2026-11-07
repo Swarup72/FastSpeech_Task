@@ -47,7 +47,10 @@ setup_project_paths()
 
 from common.training.checkpoint import CheckpointManager
 from common.training.engine import Trainer, _resolve_device
-from dataset import Dataset
+try:
+    from common.dataset import Dataset
+except ImportError:
+    from dataset import Dataset
 from English.monitoring import (
     LiveDashboard,
     PersistentLogger,

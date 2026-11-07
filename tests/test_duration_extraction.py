@@ -224,11 +224,14 @@ class TestFastSpeech2Symbols(unittest.TestCase):
         self.assertEqual(phone_to_fastspeech2_symbol("@AA1"), "@AA1")
 
     def test_all_symbols_in_fastspeech2_vocabulary(self):
-        import sys
-        fs2_path = str(Path(__file__).resolve().parent.parent / "original_fastspeech2")
-        if fs2_path not in sys.path:
-            sys.path.insert(0, fs2_path)
-        from text.symbols import symbols as fs2_symbols
+        try:
+            from English.text.symbols import symbols as fs2_symbols
+        except ImportError:
+            import sys
+            fs2_path = str(Path(__file__).resolve().parent.parent / "original_fastspeech2")
+            if fs2_path not in sys.path:
+                sys.path.insert(0, fs2_path)
+            from text.symbols import symbols as fs2_symbols
 
         test_symbols = [
             "@HH", "@W", "@AH1", "@T", "@AY1", "@P", "@AH1", "@V",
@@ -251,11 +254,14 @@ class TestRealPilotTextGrids(unittest.TestCase):
         self.assertEqual(len(self.tg_files), 100)
 
     def test_extract_all_100_pilot_textgrids(self):
-        import sys
-        fs2_path = str(Path(__file__).resolve().parent.parent / "original_fastspeech2")
-        if fs2_path not in sys.path:
-            sys.path.insert(0, fs2_path)
-        from text.symbols import symbols as fs2_symbols
+        try:
+            from English.text.symbols import symbols as fs2_symbols
+        except ImportError:
+            import sys
+            fs2_path = str(Path(__file__).resolve().parent.parent / "original_fastspeech2")
+            if fs2_path not in sys.path:
+                sys.path.insert(0, fs2_path)
+            from text.symbols import symbols as fs2_symbols
 
         for tg_path in self.tg_files:
             result = extract_durations_from_textgrid(

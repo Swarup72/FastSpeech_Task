@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 540" width="980" height="540" font-family="-apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif">
+  <defs>
+    <linearGradient id="wfHdr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </linearGradient>
+    <marker id="wfArr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#334155"/>
+    </marker>
+  </defs>
+
+  <rect x="4" y="4" width="972" height="532" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="4" y="4" width="972" height="42" rx="10" fill="url(#wfHdr)"/>
+  <text x="490" y="30" text-anchor="middle" fill="#ffffff" font-size="14.5" font-weight="700">End-to-End Dual-Language Pipeline: Preprocessing, Training &amp; Evaluation Workflow</text>
+
+  <!-- STAGE 1 -->
+  <rect x="20" y="58" width="940" height="142" rx="8" fill="#f8fafc" stroke="#3b82f6" stroke-width="1.5"/>
+  <rect x="20" y="58" width="940" height="26" rx="8" fill="#dbeafe"/>
+  <text x="34" y="76" fill="#1e3a8a" font-size="12" font-weight="700">STAGE 1 — OFFLINE CORPUS CURATION, FORCED ALIGNMENT &amp; FEATURE EXTRACTION (English/preprocess.py, Telugu/preprocess.py)</text>
+
+  <rect x="34" y="94" width="215" height="94" rx="6" fill="#ffffff" stroke="#60a5fa" stroke-width="1.2"/>
+  <text x="141" y="112" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">Stratified ~5h / ~1h Splits</text>
+  <text x="141" y="128" text-anchor="middle" fill="#334155" font-size="9.5">English (Svarah profile_stratified_v1):</text>
+  <text x="141" y="141" text-anchor="middle" fill="#1d4ed8" font-size="9.5" font-weight="600">3,208 train (5.00h) | 664 val (1.00h)</text>
+  <text x="141" y="156" text-anchor="middle" fill="#334155" font-size="9.5">Telugu (IndicTTS option_1b, 2 spk):</text>
+  <text x="141" y="169" text-anchor="middle" fill="#1d4ed8" font-size="9.5" font-weight="600">2,300 train (5.00h) | 421 val (1.00h)</text>
+  <text x="141" y="182" text-anchor="middle" fill="#64748b" font-size="8.5">(Train: 1,053 F / 1,247 M | Val: 192 F / 229 M)</text>
+
+  <line x1="249" y1="141" x2="269" y2="141" stroke="#334155" stroke-width="1.6" marker-end="url(#wfArr)"/>
+
+  <rect x="271" y="94" width="215" height="94" rx="6" fill="#ffffff" stroke="#60a5fa" stroke-width="1.2"/>
+  <text x="378" y="112" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">Text &amp; Audio Standardization</text>
+  <text x="378" y="128" text-anchor="middle" fill="#334155" font-size="9.5">Audio: 22,050 Hz, 16-bit Mono PCM</text>
+  <text x="378" y="143" text-anchor="middle" fill="#334155" font-size="9.5">English: Number/date/time + CMUdict</text>
+  <text x="378" y="158" text-anchor="middle" fill="#334155" font-size="9.5">Telugu: Unicode NFC + Latin-o → ం</text>
+  <text x="378" y="173" text-anchor="middle" fill="#1d4ed8" font-size="9.5" font-weight="600">Word/Clause Pauses → @sp (ID 4)</text>
+
+  <line x1="486" y1="141" x2="506" y2="141" stroke="#334155" stroke-width="1.6" marker-end="url(#wfArr)"/>
+
+  <rect x="508" y="94" width="210" height="94" rx="6" fill="#ffffff" stroke="#60a5fa" stroke-width="1.2"/>
+  <text x="613" y="112" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">MFA &amp; Acoustic Extraction</text>
+  <text x="613" y="128" text-anchor="middle" fill="#334155" font-size="9.5">MFA TextGrids → Token Durations d_i</text>
+  <text x="613" y="143" text-anchor="middle" fill="#334155" font-size="9.5">STFT (N=1024, H=256) → 80-ch Mel</text>
+  <text x="613" y="158" text-anchor="middle" fill="#334155" font-size="9.5">PyWorld DIO+Stonemask → F0 (Hz)</text>
+  <text x="613" y="173" text-anchor="middle" fill="#334155" font-size="9.5">STFT Magnitude L2-Norm → Energy</text>
+
+  <line x1="718" y1="141" x2="738" y2="141" stroke="#334155" stroke-width="1.6" marker-end="url(#wfArr)"/>
+
+  <rect x="740" y="94" width="206" height="94" rx="6" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="843" y="112" text-anchor="middle" fill="#1e3a8a" font-size="11" font-weight="700">Preprocessed Cache &amp; Stats</text>
+  <text x="843" y="128" text-anchor="middle" fill="#334155" font-size="9.5">preprocessed_data/{Svarah,IndicTTS}/</text>
+  <text x="843" y="143" text-anchor="middle" fill="#334155" font-size="9.5">mel/, pitch/, energy/, duration/ (.npy)</text>
+  <text x="843" y="158" text-anchor="middle" fill="#1e3a8a" font-size="9.5" font-weight="700">Tracked Inference Metadata:</text>
+  <text x="843" y="173" text-anchor="middle" fill="#1d4ed8" font-size="9.5" font-weight="600">stats.json &amp; speakers.json (&lt; 3 KB)</text>
+
+  <!-- STAGE 2 -->
+  <rect x="20" y="214" width="940" height="142" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+  <rect x="20" y="214" width="940" height="26" rx="8" fill="#fef3c7"/>
+  <text x="34" y="232" fill="#92400e" font-size="12" font-weight="700">STAGE 2 — INDEPENDENT DUAL-MODEL TRAINING &amp; CHECKPOINT SELECTION (English/train.py, Telugu/train.py)</text>
+
+  <rect x="34" y="250" width="215" height="94" rx="6" fill="#ffffff" stroke="#f59e0b" stroke-width="1.2"/>
+  <text x="141" y="268" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">Optimization Regime</text>
+  <text x="141" y="284" text-anchor="middle" fill="#334155" font-size="9.5">20,000 Steps | Batch Size = 16</text>
+  <text x="141" y="299" text-anchor="middle" fill="#334155" font-size="9.5">Adam (β1=0.9, β2=0.98, ε=1e-9)</text>
+  <text x="141" y="314" text-anchor="middle" fill="#334155" font-size="9.5">Noam LR Schedule (4,000 warmup)</text>
+  <text x="141" y="329" text-anchor="middle" fill="#b45309" font-size="9.5" font-weight="600">Grad Norm Clip = 1.0 | Val @ 1,000 steps</text>
+
+  <line x1="249" y1="297" x2="269" y2="297" stroke="#334155" stroke-width="1.6" marker-end="url(#wfArr)"/>
+
+  <rect x="271" y="250" width="215" height="94" rx="6" fill="#ffffff" stroke="#f59e0b" stroke-width="1.2"/>
+  <text x="378" y="268" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">Composite Loss Function</text>
+  <text x="378" y="284" text-anchor="middle" fill="#334155" font-size="9.5">L_mel = MAE(Y_mel, Y_gt) (~mel_mask)</text>
+  <text x="378" y="299" text-anchor="middle" fill="#334155" font-size="9.5">L_post = MAE(Y_post, Y_gt) (~mel_mask)</text>
+  <text x="378" y="314" text-anchor="middle" fill="#334155" font-size="9.5">L_dur, L_pitch, L_energy = Masked MSE</text>
+  <text x="378" y="329" text-anchor="middle" fill="#b45309" font-size="9.5" font-weight="700">L_total = L_mel+L_post+L_dur+L_p+L_e</text>
+
+  <line x1="486" y1="297" x2="506" y2="297" stroke="#334155" stroke-width="1.6" marker-end="url(#wfArr)"/>
+
+  <rect x="508" y="250" width="210" height="94" rx="6" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
+  <text x="613" y="268" text-anchor="middle" fill="#92400e" font-size="11" font-weight="700">English Best Observed Ckpt</text>
+  <text x="613" y="284" text-anchor="middle" fill="#0f172a" font-size="10" font-weight="700">Step 19,000 (Epoch 95 / 100)</text>
+  <text x="613" y="299" text-anchor="middle" fill="#15803d" font-size="9.5" font-weight="700">Best Val Total Loss: 2.34890</text>
+  <text x="613" y="314" text-anchor="middle" fill="#334155" font-size="9">Mel: 0.6686 | Post: 0.6684 | Pitch: 0.4592</text>
+  <text x="613" y="329" text-anchor="middle" fill="#64748b" font-size="9">Energy: 0.2802 | Dur: 0.2725 (SHA Verified)</text>
+
+  <line x1="718" y1="297" x2="738" y2="297" stroke="#334155" stroke-width="1.6" marker-end="url(#wfArr)"/>
+
+  <rect x="740" y="250" width="206" height="94" rx="6" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
+  <text x="843" y="268" text-anchor="middle" fill="#92400e" font-size="11" font-weight="700">Telugu Best Observed Ckpt</text>
+  <text x="843" y="284" text-anchor="middle" fill="#0f172a" font-size="10" font-weight="700">Step 13,000 (Epoch 91 / 140)</text>
+  <text x="843" y="299" text-anchor="middle" fill="#15803d" font-size="9.5" font-weight="700">Best Val Total Loss: 2.08688</text>
+  <text x="843" y="314" text-anchor="middle" fill="#334155" font-size="9">Mel: 0.5039 | Post: 0.5039 | Pitch: 0.7481</text>
+  <text x="843" y="329" text-anchor="middle" fill="#b45309" font-size="9" font-weight="600">Avoids post-13k pitch drift (0.748→0.769)</text>
+
+  <!-- STAGE 3 -->
+  <rect x="20" y="370" width="940" height="150" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5"/>
+  <rect x="20" y="370" width="940" height="26" rx="8" fill="#dcfce7"/>
+  <text x="34" y="388" fill="#14532d" font-size="12" font-weight="700">STAGE 3 — INFERENCE, PROSODY INVERSE-NORMALIZATION &amp; EVALUATION (English/inference.py, Telugu/inference.py)</text>
+
+  <rect x="34" y="406" width="215" height="100" rx="6" fill="#ffffff" stroke="#22c55e" stroke-width="1.2"/>
+  <text x="141" y="424" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">10 Canonical Test Sentences</text>
+  <text x="141" y="440" text-anchor="middle" fill="#334155" font-size="9.5">English: E1, E2(a), E2(b), E3, E4</text>
+  <text x="141" y="454" text-anchor="middle" fill="#64748b" font-size="9">(Speaker Profile 0, Female Indian Eng)</text>
+  <text x="141" y="470" text-anchor="middle" fill="#334155" font-size="9.5">Telugu: T1, T2(a), T2(b), T3, T4</text>
+  <text x="141" y="484" text-anchor="middle" fill="#64748b" font-size="9">(Speaker spk_001, Male Native Telugu)</text>
+  <text x="141" y="497" text-anchor="middle" fill="#15803d" font-size="9" font-weight="600">0 UNK tokens | 0 untrained IDs (7..18)</text>
+
+  <line x1="249" y1="456" x2="269" y2="456" stroke="#334155" stroke-width="1.6" marker-end="url(#wfArr)"/>
+
+  <rect x="271" y="406" width="215" height="100" rx="6" fill="#ffffff" stroke="#22c55e" stroke-width="1.2"/>
+  <text x="378" y="424" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">Acoustic &amp; Prosody Synthesis</text>
+  <text x="378" y="440" text-anchor="middle" fill="#334155" font-size="9.5">FastSpeech 2 Forward (targets = None)</text>
+  <text x="378" y="455" text-anchor="middle" fill="#334155" font-size="9.5">Controls: α_d = 1.0, α_p = 1.0, α_e = 1.0</text>
+  <text x="378" y="470" text-anchor="middle" fill="#334155" font-size="9.5">Inverse Norm: F0 = z_p·σ_p + μ_p (Hz)</text>
+  <text x="378" y="485" text-anchor="middle" fill="#334155" font-size="9.5">Inverse Norm: E = z_e·σ_e + μ_e (L2)</text>
+  <text x="378" y="498" text-anchor="middle" fill="#6b21a8" font-size="9" font-weight="600">HiFi-GAN Vocoder → 22,050 Hz WAV</text>
+
+  <line x1="486" y1="456" x2="506" y2="456" stroke="#334155" stroke-width="1.6" marker-end="url(#wfArr)"/>
+
+  <rect x="508" y="406" width="210" height="100" rx="6" fill="#ffffff" stroke="#22c55e" stroke-width="1.2"/>
+  <text x="613" y="424" text-anchor="middle" fill="#0f172a" font-size="11" font-weight="700">Verified Assignment Outputs</text>
+  <text x="613" y="440" text-anchor="middle" fill="#15803d" font-size="9.5" font-weight="600">• 10 WAV Audios (5 En + 5 Te)</text>
+  <text x="613" y="455" text-anchor="middle" fill="#15803d" font-size="9.5" font-weight="600">• 30 Variance Plots (Dur, Pitch, Energy)</text>
+  <text x="613" y="470" text-anchor="middle" fill="#15803d" font-size="9.5" font-weight="600">• 4 Loss Curves + 10 Dashboards</text>
+  <text x="613" y="485" text-anchor="middle" fill="#334155" font-size="9.5">• Per-Utterance Prosody JSONs</text>
+  <text x="613" y="498" text-anchor="middle" fill="#64748b" font-size="9">62/62 SHA-256 Checksums Verified</text>
+
+  <line x1="718" y1="456" x2="738" y2="456" stroke="#334155" stroke-width="1.6" marker-end="url(#wfArr)"/>
+
+  <rect x="740" y="406" width="206" height="100" rx="6" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="843" y="424" text-anchor="middle" fill="#14532d" font-size="11" font-weight="700">Scientific &amp; Quality Audit</text>
+  <text x="843" y="440" text-anchor="middle" fill="#334155" font-size="9.5">• Homographs: "conduct" &amp; "పట్టు"</text>
+  <text x="843" y="455" text-anchor="middle" fill="#334155" font-size="9.5">  (No semantic disambiguation)</text>
+  <text x="843" y="470" text-anchor="middle" fill="#334155" font-size="9.5">• Voiced vs. All-Frame Pitch Audit</text>
+  <text x="843" y="485" text-anchor="middle" fill="#334155" font-size="9.5">• AI-Assisted Subjective Eval</text>
+  <text x="843" y="498" text-anchor="middle" fill="#15803d" font-size="9" font-weight="700">• 252/252 Regression Tests PASS</text>
+</svg>

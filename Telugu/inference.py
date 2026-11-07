@@ -69,7 +69,10 @@ setup_project_paths()
 _PROJECT_ROOT = PROJECT_ROOT
 _ORIGINAL_FS2_DIR = ORIGINAL_FS2_DIR
 
-from original_fastspeech2 import hifigan
+try:
+    from common import vocoder as hifigan
+except ImportError:
+    from original_fastspeech2 import hifigan
 from Telugu.text.normalizer import normalize_text, sequence_to_text, text_to_sequence
 from Telugu.text.symbols import (
     BOS_ID,
@@ -625,15 +628,17 @@ def load_hifigan_vocoder(
     if not cfg_p.is_file():
         raise FileNotFoundError(f"HiFi-GAN config not found at: {cfg_p}")
     if not wt_p.is_file():
-        candidate_weights = [
-            wt_p,
-            Path("/content/drive/MyDrive/FastSpeech2_Telugu/generator_universal.pth.tar"),
-            Path("/content/drive/MyDrive/FastSpeech2_Telugu/original_fastspeech2/hifigan/generator_universal.pth.tar"),
-        ]
-        found_wt = next((p for p in candidate_weights if p.is_file()), None)
-        if found_wt is not None:
-            wt_p = found_wt
-        else:
+        if str(weights_path) == str(DEFAULT_HIFIGAN_WEIGHTS) or weights_path is None:
+            candidate_weights = [
+                PROJECT_ROOT / "checkpoints" / "hifigan" / "generator_universal.pth.tar",
+                PROJECT_ROOT / "original_fastspeech2" / "hifigan" / "generator_universal.pth.tar",
+                Path("/content/drive/MyDrive/FastSpeech2_Telugu/generator_universal.pth.tar"),
+                Path("/content/drive/MyDrive/FastSpeech2_Telugu/original_fastspeech2/hifigan/generator_universal.pth.tar"),
+            ]
+            found_wt = next((p for p in candidate_weights if p.is_file()), None)
+            if found_wt is not None:
+                wt_p = found_wt
+        if not wt_p.is_file():
             candidate_zips = [
                 zp_p,
                 Path("/content/drive/MyDrive/FastSpeech2_Telugu/generator_universal.pth.tar.zip"),

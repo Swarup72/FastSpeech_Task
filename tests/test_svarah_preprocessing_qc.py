@@ -53,10 +53,13 @@ class TestSvarahPreprocessingQC(unittest.TestCase):
             cls.stats = json.load(f)
 
         # Load vocabulary
-        import sys
-        if str(FS2_ROOT) not in sys.path:
-            sys.path.insert(0, str(FS2_ROOT))
-        from text.symbols import symbols
+        try:
+            from English.text.symbols import symbols
+        except ImportError:
+            import sys
+            if str(FS2_ROOT) not in sys.path:
+                sys.path.insert(0, str(FS2_ROOT))
+            from text.symbols import symbols
         cls.valid_symbols = set(symbols)
 
     def test_sample_counts_and_disjoint_splits(self):
@@ -95,7 +98,10 @@ class TestSvarahPreprocessingQC(unittest.TestCase):
 
     def test_feature_integrity_on_representative_train_samples(self):
         """Verify feature dimensions, finite values, and exact frame equality on train samples."""
-        from text import text_to_sequence
+        try:
+            from English.text import text_to_sequence
+        except ImportError:
+            from text import text_to_sequence
 
         # Test first 100 train samples
         for line in self.train_lines[:100]:
@@ -138,7 +144,10 @@ class TestSvarahPreprocessingQC(unittest.TestCase):
 
     def test_feature_integrity_on_representative_val_samples(self):
         """Verify feature dimensions, finite values, and exact frame equality on val samples."""
-        from text import text_to_sequence
+        try:
+            from English.text import text_to_sequence
+        except ImportError:
+            from text import text_to_sequence
 
         # Test first 50 val samples
         for line in self.val_lines[:50]:
@@ -176,7 +185,10 @@ class TestSvarahPreprocessingQC(unittest.TestCase):
 
     def test_fastspeech2_dataset_loader(self):
         """Verify FastSpeech 2 Dataset class can load and collate batches."""
-        from dataset import Dataset
+        try:
+            from common.dataset import Dataset
+        except ImportError:
+            from dataset import Dataset
 
         preprocess_config = {
             "dataset": "Svarah",

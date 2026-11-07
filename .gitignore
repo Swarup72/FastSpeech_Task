@@ -36,9 +36,10 @@ Thumbs.db
 credentials.json
 token.json
 
-# Checkpoints and Large Model Weights (Exclude from Git; host via Git LFS or external cloud links)
+# Large Model Weights and Checkpoints (Excluded from Git; hosted on Google Drive)
 checkpoints/
-output/ckpt/
+output/
+original_fastspeech2/
 *.pth
 *.pth.tar
 *.pt
@@ -60,7 +61,6 @@ preprocessed_data/IndicTTS/*
 !preprocessed_data/IndicTTS/speakers.json
 *.npy
 *.npz
-/Report/
 
 # Large Archives and Bundles
 *.zip

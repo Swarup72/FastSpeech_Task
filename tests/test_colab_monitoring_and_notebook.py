@@ -308,9 +308,12 @@ class ColabMonitoringAndNotebookTest(unittest.TestCase):
         from unittest.mock import patch
         from torch.utils.data import DataLoader
 
-        if str(PROJECT_ROOT / "original_fastspeech2") not in sys.path:
-            sys.path.insert(0, str(PROJECT_ROOT / "original_fastspeech2"))
-        from dataset import Dataset
+        try:
+            from common.dataset import Dataset
+        except ImportError:
+            if str(PROJECT_ROOT / "original_fastspeech2") not in sys.path:
+                sys.path.insert(0, str(PROJECT_ROOT / "original_fastspeech2"))
+            from dataset import Dataset
         from English.train import parse_args, run_training
 
         with open(PROJECT_ROOT / "config" / "Svarah" / "preprocess.yaml", encoding="utf-8") as f:
@@ -435,9 +438,12 @@ class ColabMonitoringAndNotebookTest(unittest.TestCase):
         import numpy as np
         from torch.utils.data import DataLoader
 
-        if str(PROJECT_ROOT / "original_fastspeech2") not in sys.path:
-            sys.path.insert(0, str(PROJECT_ROOT / "original_fastspeech2"))
-        from dataset import Dataset
+        try:
+            from common.dataset import Dataset
+        except ImportError:
+            if str(PROJECT_ROOT / "original_fastspeech2") not in sys.path:
+                sys.path.insert(0, str(PROJECT_ROOT / "original_fastspeech2"))
+            from dataset import Dataset
 
         with open(PROJECT_ROOT / "config" / "Svarah" / "preprocess.yaml", encoding="utf-8") as f:
             prep_dict = yaml.safe_load(f)
@@ -540,9 +546,12 @@ class ColabMonitoringAndNotebookTest(unittest.TestCase):
             sha256_file,
         )
 
-        if str(PROJECT_ROOT / "original_fastspeech2") not in sys.path:
-            sys.path.insert(0, str(PROJECT_ROOT / "original_fastspeech2"))
-        from dataset import Dataset
+        try:
+            from common.dataset import Dataset
+        except ImportError:
+            if str(PROJECT_ROOT / "original_fastspeech2") not in sys.path:
+                sys.path.insert(0, str(PROJECT_ROOT / "original_fastspeech2"))
+            from dataset import Dataset
 
         # 1. Verify all 5 required files exist in English/metadata/splits/profile_stratified_v1/
         for fname in (

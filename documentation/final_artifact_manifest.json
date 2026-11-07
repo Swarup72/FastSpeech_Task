@@ -416,8 +416,8 @@
     "category": "Reports & Docs",
     "description": "Project README",
     "relative_path": "README.md",
-    "size_bytes": 26449,
-    "sha256": "8ea2b980f8d5310805991504c252cc845628e82e2a4d8a43e42b1ce76489f662"
+    "size_bytes": 13823,
+    "sha256": "16d8ffaecd9eaa395528ecab70f0b081b3299e50c461f91f729cf0c3766f2d1f"
   },
   {
     "category": "Reports & Docs",
@@ -430,7 +430,7 @@
     "category": "Reports & Docs",
     "description": "Git Ignore Rules",
     "relative_path": ".gitignore",
-    "size_bytes": 1563,
-    "sha256": "3436f5951cbf7a35910faee4b2929195d00d5c441363704cfe8f47f708ebf26d"
+    "size_bytes": 1554,
+    "sha256": "18cd1b3553a0ffde0d3b8d7815445ddfc954068a41d4200c4cf2e8ee9a08a1fb"
   }
 ]

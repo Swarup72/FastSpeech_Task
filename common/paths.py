@@ -89,11 +89,36 @@ DATA_DIR: Path = PROJECT_ROOT / "data"
 PREPROCESSED_DIR: Path = PROJECT_ROOT / "preprocessed_data"
 CHECKPOINTS_DIR: Path = PROJECT_ROOT / "checkpoints"
 
-HIFIGAN_DIR: Path = ORIGINAL_FS2_DIR / "hifigan"
-HIFIGAN_CONFIG_PATH: Path = HIFIGAN_DIR / "config.json"
-HIFIGAN_WEIGHTS_PATH: Path = HIFIGAN_DIR / "generator_universal.pth.tar"
-HIFIGAN_WEIGHTS_ZIP_PATH: Path = HIFIGAN_DIR / "generator_universal.pth.tar.zip"
-LEXICON_PATH: Path = ORIGINAL_FS2_DIR / "lexicon" / "librispeech-lexicon.txt"
+VOCODER_DIR: Path = COMMON_DIR / "vocoder"
+HIFIGAN_DIR: Path = (
+    CHECKPOINTS_DIR / "hifigan"
+    if (CHECKPOINTS_DIR / "hifigan").is_dir()
+    else ORIGINAL_FS2_DIR / "hifigan"
+)
+HIFIGAN_CONFIG_PATH: Path = (
+    CONFIG_DIR / "hifigan.json"
+    if (CONFIG_DIR / "hifigan.json").is_file()
+    else (
+        VOCODER_DIR / "config.json"
+        if (VOCODER_DIR / "config.json").is_file()
+        else ORIGINAL_FS2_DIR / "hifigan" / "config.json"
+    )
+)
+HIFIGAN_WEIGHTS_PATH: Path = (
+    CHECKPOINTS_DIR / "hifigan" / "generator_universal.pth.tar"
+    if (CHECKPOINTS_DIR / "hifigan" / "generator_universal.pth.tar").is_file()
+    else ORIGINAL_FS2_DIR / "hifigan" / "generator_universal.pth.tar"
+)
+HIFIGAN_WEIGHTS_ZIP_PATH: Path = (
+    CHECKPOINTS_DIR / "hifigan" / "generator_universal.pth.tar.zip"
+    if (CHECKPOINTS_DIR / "hifigan" / "generator_universal.pth.tar.zip").is_file()
+    else ORIGINAL_FS2_DIR / "hifigan" / "generator_universal.pth.tar.zip"
+)
+LEXICON_PATH: Path = (
+    ENGLISH_DIR / "lexicon" / "librispeech-lexicon.txt"
+    if (ENGLISH_DIR / "lexicon" / "librispeech-lexicon.txt").is_file()
+    else ORIGINAL_FS2_DIR / "lexicon" / "librispeech-lexicon.txt"
+)
 
 RESULTS_DIR: Path = PROJECT_ROOT / "Results"
 ENGLISH_RESULTS_DIR: Path = RESULTS_DIR / "English"
@@ -467,6 +492,7 @@ __all__ = [
     "DATA_DIR",
     "PREPROCESSED_DIR",
     "CHECKPOINTS_DIR",
+    "VOCODER_DIR",
     "HIFIGAN_DIR",
     "HIFIGAN_CONFIG_PATH",
     "HIFIGAN_WEIGHTS_PATH",

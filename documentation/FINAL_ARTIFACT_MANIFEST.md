@@ -70,9 +70,17 @@
 | **Summaries** | `Results/Telugu/official_samples.json` | 780 | `5802193eda47245990ba32cc27f30a2186695028df5e5d70755818f4c5a0f86e` |
 | **Reports & Docs** | `Report/Technical_Report.md` | 92,828 | `ac68aa9b5d4d56ceede790a684648ec337d54be2746bd2f770c7301f7c404023` |
 | **Reports & Docs** | `Report/Technical_Report.pdf` | 6,476,142 | `896963604221555f7e2333174730c7b8d8baf54286cd2951bcde51ec8a2a6888` |
-| **Reports & Docs** | `README.md` | 26,449 | `8ea2b980f8d5310805991504c252cc845628e82e2a4d8a43e42b1ce76489f662` |
+| **Reports & Docs** | `README.md` | 13,823 | `16d8ffaecd9eaa395528ecab70f0b081b3299e50c461f91f729cf0c3766f2d1f` |
 | **Reports & Docs** | `requirements.txt` | 931 | `14a3f0aed23acdc772d4d5a10a5140cd18bcc6ea043ee21c5e4218912393c2e4` |
-| **Reports & Docs** | `.gitignore` | 1,598 | `10f23500527998541016c1a4e5f65af9faf021ae36f92d4de6a74f70bd85028e` |
+| **Reports & Docs** | `.gitignore` | 1,554 | `18cd1b3553a0ffde0d3b8d7815445ddfc954068a41d4200c4cf2e8ee9a08a1fb` |
+
+---
+
+## Model Weights & Checkpoints Hosting
+
+Due to GitHub's 100 MB individual file limit, all `.pth.tar` weights are hosted on Google Drive:
+- **Google Drive Folder**: [FastSpeech 2 Model Weights & Checkpoints](https://drive.google.com/drive/folders/1TH6ywWdo3rTZyhHNDSlQQhLoEgS2-ubL?usp=sharing)
+- **HiFi-GAN Universal Vocoder**: `generator_universal.pth.tar` (53.20 MiB, SHA-256 `771eaf48adb7bcbeab2fa4ecfb1abff3eb6fae99efde5dc1ffba3fb3ec6aa2e6`)
 
 ---
 
